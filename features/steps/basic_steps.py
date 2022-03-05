@@ -97,10 +97,10 @@ def step_impl(context, query, text, seconds):
     query = replace_with_context_values(context, query)
     text = replace_with_context_values(context, text)
     sleep(5)
-    for i in range(10):
+    for i in range(100):
         messages = gmail.search_message(query)
         if len(messages) < 1:
-            sleep(int(seconds) / 10)
+            sleep(int(seconds) / 100)
         elif len(messages) == 1:
             message = messages[0].replace('\r\n', ' ').replace('\xa0', ' ')
             break
