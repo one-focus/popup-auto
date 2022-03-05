@@ -7,44 +7,34 @@ Feature: Проверка сайта emkworld.com
     When click on <button>
     When wait 2 sec
     When enter "generated_test_automation_email_call_order" in name field in "callback dialog section"
-    When enter "test_automation_company_name" in company name field in "callback dialog section"
-    When enter "+70000000000" in phone field in "callback dialog section"
-    When click on call me button in "callback dialog section"
-#    Then text "Thank you for your message" is displayed
-    Then email with "generated_test_automation_email_call_order" contains "+70000000000;Тема: Request from test_automation_company_name;Please, call me back +70000000000" in 900 sec
+    When enter "test_automation_company_name" in company field in "callback dialog section"
+    When click on country flag button in "callback dialog section"
+    When click on russia button in "callback dialog section"
+    When enter "1231231212" in phone field in "callback dialog section"
+    When click on submit button in "callback dialog section"
+    Then text "Thank you for your message" is displayed
+    Then email with "generated_test_automation_email_call_order" contains "Заявка на обратный звонок с сайта https://emkworld.com/;Название компании : test_automation_company_name;Телефон : +7 (123) 123-12-12" in 900 sec
 
     Examples:
-      | button                           |
-      | top request a callback button    |
-      | bottom request a callback button |
+      | button                         |
+      | top request callback button    |
+      | top request callback button    |
+      | bottom request callback button |
 
   Scenario Outline: emkworld.com оставить заявку
     Given open emkworld.com page
-    When click on <button>
     When wait 2 sec
-    When enter "generated_test_automation_email_leave_order_emk" in name field in "<section>"
-    When enter "test_automation_company_name" in company name field in "<section>"
+    When enter "generated_test_automation_company_name" in company field in "<section>"
+    When enter "test_automation_good_name" in goods field in "<section>"
     When enter "automation.emk@gmail.com" in email field in "<section>"
-    When enter "+70000000000" in phone field in "<section>"
-    When enter "test_autoamtion_message" in message field in "<section>"
-    When click on send button in "<section>"
-#    Then text "Thank you for your message" is displayed
-    Then email with "generated_test_automation_email_leave_order_emk" contains "+70000000000;Тема: Request from test_automation_company_name" in 900 sec
+    When click on country flag button in "<section>"
+    When click on russia button in "<section>"
+    When enter "1231231212" in phone field in "<section>"
+    When click on submit button in "<section>"
+#    Then text "<thank_you_message>" is displayed
+    Then email with "generated_test_automation_company_name" contains "<email_text>" in 900 sec
 
     Examples:
-      | button                           | section                      |
-      | leave request button             | request dialog section       |
-      | middle request a callback button | request dialog section       |
-      | price button                     | request price dialog section |
-      | order calculation button         | request dialog section       |
-      | send a message button            | request dialog section       |
-
-  Scenario: emkworld.com contacts
-    Given open emkworld.com page
-    When enter "generated_test_automation_email_cont" in name field in "contact section"
-    When enter "test_automation_company_name" in company name field in "contact section"
-    When enter "+70000000000" in phone field in "contact section"
-    When click on call me button in "contact section"
-#    Then text "Thank you for your message" is displayed
-    Then email with "generated_test_automation_email_cont" contains "+70000000000;Тема: Request from test_automation_company_name;Please, call me back +70000000000" in 900 sec
-
+      | section        | thank_you_message          | email_text                                                                                                                                                                       |
+      | top section    | Thank you for your message | Заявка из главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12         |
+      | bottom section | Спасибо!                   | Заявка из повтора главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12 |

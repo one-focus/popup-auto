@@ -1,6 +1,3 @@
-from time import sleep
-
-from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.common.by import By
 
 from features.pages.base_page import BasePage
@@ -8,25 +5,26 @@ from features.pages.base_page import BasePage
 
 # Inherits from BasePage
 class EmkworldCom(BasePage):
-    BUTTON_TOP_REQUEST_A_CALLBACK = By.XPATH, '(//span[text()="REQUEST A CALLBACK"]/..)[1]'
-    SECTION_CALLBACK_DIALOG = By.XPATH, '//h4[text()=" Request a callback "]/..'
-    SECTION_REQUEST_DIALOG = By.XPATH, '//h4[text()=" Leave a request to receive a quote "]/..'
-    SECTION_REQUEST_PRICE_DIALOG = By.XPATH, '//h4[text()=" Request a price list "]/..'
-    SECTION_CONTACT = By.XPATH, '//h2[@id="contacts"]/ancestor::section'
+    BUTTON_TOP_REQUEST_CALLBACK = By.XPATH, '(//a[@class="t-btn "])[1]'
+    BUTTON_GET_AN_OFFER = By.XPATH, '//a[@href="#popup:offer"]'
+    BUTTON_BOTTOM_REQUEST_CALLBACK = By.XPATH, '(//a[@class="t-btn "])[2]'
 
-    FIELD_NAME = By.XPATH, '//*[@name="your-name"]'
-    FIELD_PHONE = By.XPATH, '//*[@name="your-telephone"]'
-    FIELD_COMPANY_NAME = By.XPATH, '//*[@name="your-company"]'
-    FIELD_EMAIL = By.XPATH, '//*[@name="your-email"]'
-    FIELD_MESSAGE = By.XPATH, '//*[@name="your-message"]'
+    # popup
+    FIELD_NAME = By.XPATH, '//input[@name="Enter your name:"]'
+    FIELD_COMPANY = By.XPATH, '//input[@name="company_name"]'
+    FIELD_GOODS = By.XPATH, '//textarea[@name="order_desc"]'
+    FIELD_EMAIL = By.XPATH, '//input[@name="company_email"]'
+    FIELD_PHONE = By.XPATH, '//input[@class="t-input t-input-phonemask"]'
 
-    BUTTON_LEAVE_REQUEST = By.XPATH, '//span[text()="LEAVE REQUEST"]/..'
-    BUTTON_PRICE = By.XPATH, '//span[text()="PRICE"]/..'
-    BUTTON_ORDER_CALCULATION = By.XPATH, '//span[text()="ORDER CALCULATION"]/..'
-    BUTTON_MIDDLE_REQUEST_A_CALLBACK = By.XPATH, '(//span[text()="REQUEST A CALLBACK"]/..)[2]'
-    BUTTON_CALL_ME = BUTTON_SEND = By.XPATH, '//input[@type="submit"]'
-    BUTTON_SEND_A_MESSAGE = By.XPATH, '//span[text()="SEND A MESSAGE"]/..'
-    BUTTON_BOTTOM_REQUEST_A_CALLBACK = By.XPATH, '(//span[text()="REQUEST A CALLBACK"]/..)[3]'
+    BUTTON_COUNTRY_FLAG = By.XPATH, '//span[@class="t-input-phonemask__select-flag"]'
+    BUTTON_RUSSIA = By.XPATH, '//div[@id="t-phonemask_ru"]'
+    BUTTON_SUBMIT = By.XPATH, '//button[@class="t-submit"]'
 
-    def _verify_page(self):
-        self.on_this_page(self.BUTTON_TOP_REQUEST_A_CALLBACK)
+    SECTION_CALLBACK_DIALOG = By.XPATH, '//div[@class="t-popup t-popup_show"]'
+    SECTION_TOP = By.XPATH, '(//div[contains(@class, "r t-rec t-rec_pt_0")])[2]'
+    SECTION_MIDDLE = By.XPATH, '(//div[contains(@class, "r t-rec")])[8]'
+    SECTION_BOTTOM = By.XPATH, '(//div[contains(@class, "r t-rec t-rec_pt_0")])[7]'
+
+
+def _verify_page(self):
+    self.on_this_page(self.BUTTON_TOP_REQUEST_CALLBACK)
