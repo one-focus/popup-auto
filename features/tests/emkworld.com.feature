@@ -1,5 +1,5 @@
 # Created by Alex Kardash at 24/07/2021
-@regression
+@regression @emkworld
 Feature: Проверка сайта emkworld.com
 
   Scenario Outline: emkworld.com заказать звонок
