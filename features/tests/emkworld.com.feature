@@ -1,5 +1,5 @@
 # Created by Alex Kardash at 24/07/2021
-@regression @emkworld
+@regression
 Feature: Проверка сайта emkworld.com
 
   Scenario Outline: emkworld.com заказать звонок
@@ -21,6 +21,7 @@ Feature: Проверка сайта emkworld.com
       | top request callback button    |
       | bottom request callback button |
 
+  @emkworld
   Scenario Outline: emkworld.com оставить заявку
     Given open emkworld.com page
     When wait 2 sec
