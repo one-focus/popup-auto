@@ -31,7 +31,7 @@ Feature: Проверка сайта emkworld.com
     When click on russia button in "<section>"
     When enter "1231231212" in phone field in "<section>"
     When click on submit button in "<section>"
-#    Then text "<thank_you_message>" is displayed
+    Then text "<thank_you_message>" is displayed
     Then email with "generated_test_automation_company_name" contains "<email_text>" in 900 sec
 
     Examples:
