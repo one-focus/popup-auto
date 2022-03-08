@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        tag: ["regression"]
+        tag: ["emkworld"]
     steps:
     - uses: actions/checkout@v2
     - name: Cache requirements
