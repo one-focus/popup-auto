@@ -64,9 +64,7 @@ def before_all(context):
     parser.read('behave.ini')
     context.config = parser
     context.values = {}
-    print(f'remove email')
     gmail.delete_all_emails()
-    print('removed')
 
 
 def before_feature(context, feature):
