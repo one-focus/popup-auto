@@ -77,5 +77,5 @@ jobs:
         token: ${{ secrets.TELEGRAM_TOKEN }}
         message: |
           ${{ env.DATE }} Результат проверки форм на сайтах EMK24
-          - https://one-focus.github.io/popup-automation/${{ env.RUN_NUMBER }}/
+          - https://one-focus.github.io/popup-auto/${{ env.RUN_NUMBER }}/
           - 🟢 ${{ env.PASS_TC }} | 🔴 ${{ env.BROKEN_TC }}
