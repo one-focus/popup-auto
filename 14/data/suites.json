@@ -1,0 +1,31 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "emkworld.com оставить заявку -- @1.1 ",
+    "uid" : "1fc1c91007132adf",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646729869447,
+      "stop" : 1646729894879,
+      "duration" : 25432
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Заявка из главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12", "top section", "Thank you for your message" ]
+  }, {
+    "name" : "emkworld.com оставить заявку -- @1.2 ",
+    "uid" : "b926ab71dfe96f81",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646729894881,
+      "stop" : 1646729916938,
+      "duration" : 22057
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Заявка из повтора главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12", "bottom section", "Спасибо!" ]
+  } ],
+  "name" : "suites"
+}

@@ -1,0 +1,300 @@
+{
+  "uid" : "b926ab71dfe96f81",
+  "name" : "emkworld.com оставить заявку -- @1.2 ",
+  "fullName" : "Проверка сайта emkworld.com: emkworld.com оставить заявку",
+  "historyId" : "3f57ab1a1fa83ae2a2994ac5aea0f650",
+  "time" : {
+    "start" : 1646729894881,
+    "stop" : 1646729916938,
+    "duration" : 22057
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emkworld.com page",
+      "time" : {
+        "start" : 1646729894902,
+        "stop" : 1646729896974,
+        "duration" : 2072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7e5ab548320163c1",
+        "name" : "screenshot",
+        "source" : "7e5ab548320163c1.png",
+        "type" : "image/png",
+        "size" : 1577661
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When wait 2 sec",
+      "time" : {
+        "start" : 1646729896975,
+        "stop" : 1646729900214,
+        "duration" : 3239
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c7780581fe3c582c",
+        "name" : "screenshot",
+        "source" : "c7780581fe3c582c.png",
+        "type" : "image/png",
+        "size" : 1031116
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_company_name\" in company field in \"bottom section\"",
+      "time" : {
+        "start" : 1646729900215,
+        "stop" : 1646729901716,
+        "duration" : 1501
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb94e24a2f4818cb",
+        "name" : "screenshot",
+        "source" : "eb94e24a2f4818cb.png",
+        "type" : "image/png",
+        "size" : 252019
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_good_name\" in goods field in \"bottom section\"",
+      "time" : {
+        "start" : 1646729901716,
+        "stop" : 1646729903277,
+        "duration" : 1561
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dda7e33b923db03f",
+        "name" : "screenshot",
+        "source" : "dda7e33b923db03f.png",
+        "type" : "image/png",
+        "size" : 973299
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field in \"bottom section\"",
+      "time" : {
+        "start" : 1646729903277,
+        "stop" : 1646729904620,
+        "duration" : 1343
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b3f2abd486b5c79",
+        "name" : "screenshot",
+        "source" : "b3f2abd486b5c79.png",
+        "type" : "image/png",
+        "size" : 966512
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on country flag button in \"bottom section\"",
+      "time" : {
+        "start" : 1646729904620,
+        "stop" : 1646729905968,
+        "duration" : 1348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "907980833d7c0756",
+        "name" : "screenshot",
+        "source" : "907980833d7c0756.png",
+        "type" : "image/png",
+        "size" : 891022
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on russia button in \"bottom section\"",
+      "time" : {
+        "start" : 1646729905968,
+        "stop" : 1646729907258,
+        "duration" : 1290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b5ba973597404f41",
+        "name" : "screenshot",
+        "source" : "b5ba973597404f41.png",
+        "type" : "image/png",
+        "size" : 961395
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"1231231212\" in phone field in \"bottom section\"",
+      "time" : {
+        "start" : 1646729907258,
+        "stop" : 1646729908556,
+        "duration" : 1298
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef8362eda53c0c5a",
+        "name" : "screenshot",
+        "source" : "ef8362eda53c0c5a.png",
+        "type" : "image/png",
+        "size" : 962194
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on submit button in \"bottom section\"",
+      "time" : {
+        "start" : 1646729908556,
+        "stop" : 1646729909850,
+        "duration" : 1294
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fb2817aba84b67a6",
+        "name" : "screenshot",
+        "source" : "fb2817aba84b67a6.png",
+        "type" : "image/png",
+        "size" : 961362
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"Спасибо!\" is displayed",
+      "time" : {
+        "start" : 1646729909850,
+        "stop" : 1646729911274,
+        "duration" : 1424
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c0d23ef8041435d",
+        "name" : "screenshot",
+        "source" : "7c0d23ef8041435d.png",
+        "type" : "image/png",
+        "size" : 493888
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_company_name\" contains \"Заявка из повтора главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12\" in 900 sec",
+      "time" : {
+        "start" : 1646729911274,
+        "stop" : 1646729916937,
+        "duration" : 5663
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "79c82003aaab192b",
+        "name" : "screenshot",
+        "source" : "79c82003aaab192b.png",
+        "type" : "image/png",
+        "size" : 493888
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "emkworld"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта emkworld.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email_text",
+    "value" : "Заявка из повтора главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12"
+  }, {
+    "name" : "section",
+    "value" : "bottom section"
+  }, {
+    "name" : "thank_you_message",
+    "value" : "Спасибо!"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression", "emkworld" ]
+  },
+  "source" : "b926ab71dfe96f81.json",
+  "parameterValues" : [ "Заявка из повтора главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12", "bottom section", "Спасибо!" ]
+}
