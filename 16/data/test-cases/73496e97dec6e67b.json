@@ -1,0 +1,249 @@
+{
+  "uid" : "73496e97dec6e67b",
+  "name" : "Заказ сплава emk24 -- @1.4 ",
+  "fullName" : "Проверка Заказ сплава emk24: Заказ сплава emk24",
+  "historyId" : "b691dbb05d862cdaa71b0b7e4644a284",
+  "time" : {
+    "start" : 1646733456310,
+    "stop" : 1646733472182,
+    "duration" : 15872
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emk24.com.ua page",
+      "time" : {
+        "start" : 1646733456428,
+        "stop" : 1646733458411,
+        "duration" : 1983
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ca62959d94006b2",
+        "name" : "screenshot",
+        "source" : "ca62959d94006b2.png",
+        "type" : "image/png",
+        "size" : 1036907
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When open url: \"emk24.com.ua/wiki/tsvetnye_metally_i_splavy/\"",
+      "time" : {
+        "start" : 1646733458411,
+        "stop" : 1646733459553,
+        "duration" : 1142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9172ce6bc060ae9e",
+        "name" : "screenshot",
+        "source" : "9172ce6bc060ae9e.png",
+        "type" : "image/png",
+        "size" : 249012
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When click on first splav button",
+      "time" : {
+        "start" : 1646733459554,
+        "stop" : 1646733461782,
+        "duration" : 2228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5cc761ad24dde890",
+        "name" : "screenshot",
+        "source" : "5cc761ad24dde890.png",
+        "type" : "image/png",
+        "size" : 295682
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When enter \"generated_test_automation_email_order_splav\" in name field",
+      "time" : {
+        "start" : 1646733461782,
+        "stop" : 1646733463128,
+        "duration" : 1346
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e6e8e1c4aa2fef9e",
+        "name" : "screenshot",
+        "source" : "e6e8e1c4aa2fef9e.png",
+        "type" : "image/png",
+        "size" : 298369
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field",
+      "time" : {
+        "start" : 1646733463128,
+        "stop" : 1646733464037,
+        "duration" : 909
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d57df914b67beb7b",
+        "name" : "screenshot",
+        "source" : "d57df914b67beb7b.png",
+        "type" : "image/png",
+        "size" : 298048
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field",
+      "time" : {
+        "start" : 1646733464037,
+        "stop" : 1646733465029,
+        "duration" : 992
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1e6820bc2e0bed04",
+        "name" : "screenshot",
+        "source" : "1e6820bc2e0bed04.png",
+        "type" : "image/png",
+        "size" : 300587
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When click on Send button",
+      "time" : {
+        "start" : 1646733465029,
+        "stop" : 1646733466193,
+        "duration" : 1164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2931fed1b3006eb7",
+        "name" : "screenshot",
+        "source" : "2931fed1b3006eb7.png",
+        "type" : "image/png",
+        "size" : 301946
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then text \"Ваше сообщение отравлено\" is displayed",
+      "time" : {
+        "start" : 1646733466193,
+        "stop" : 1646733466789,
+        "duration" : 596
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "caf1fce26e8fe4eb",
+        "name" : "screenshot",
+        "source" : "caf1fce26e8fe4eb.png",
+        "type" : "image/png",
+        "size" : 240353
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_order_splav\" contains \"emk24.com.ua;Обратный звонок (заявка) wiki;[PHONE]: +70000000000;[EMAIL]: automation.emk@gmail.com\" in 900 sec",
+      "time" : {
+        "start" : 1646733466789,
+        "stop" : 1646733472182,
+        "duration" : 5393
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1781814dda60ee4",
+        "name" : "screenshot",
+        "source" : "1781814dda60ee4.png",
+        "type" : "image/png",
+        "size" : 239042
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка Заказ сплава emk24"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "url",
+    "value" : "emk24.com.ua"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression" ]
+  },
+  "source" : "73496e97dec6e67b.json",
+  "parameterValues" : [ "emk24.com.ua" ]
+}
