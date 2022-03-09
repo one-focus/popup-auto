@@ -1,0 +1,273 @@
+{
+  "uid" : "58fcbfa74c4b62af",
+  "name" : "Скачать стандарт emk24 -- @1.4 ",
+  "fullName" : "Проверка кнопки скачать снандарт emk24: Скачать стандарт emk24",
+  "historyId" : "93844706c81e1e70d6bdde791d966554",
+  "time" : {
+    "start" : 1646816234205,
+    "stop" : 1646816342416,
+    "duration" : 108211
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emk24.com.ua page",
+      "time" : {
+        "start" : 1646816234276,
+        "stop" : 1646816236809,
+        "duration" : 2533
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b929a063f00221d6",
+        "name" : "screenshot",
+        "source" : "b929a063f00221d6.png",
+        "type" : "image/png",
+        "size" : 1037002
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When open url: \"emk24.com.ua/wiki/ansi_standarty/\"",
+      "time" : {
+        "start" : 1646816236809,
+        "stop" : 1646816238004,
+        "duration" : 1195
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c76999c0188f599",
+        "name" : "screenshot",
+        "source" : "7c76999c0188f599.png",
+        "type" : "image/png",
+        "size" : 275233
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on first standard button",
+      "time" : {
+        "start" : 1646816238004,
+        "stop" : 1646816240147,
+        "duration" : 2143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e7c3450845a03819",
+        "name" : "screenshot",
+        "source" : "e7c3450845a03819.png",
+        "type" : "image/png",
+        "size" : 288353
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on download pdf button",
+      "time" : {
+        "start" : 1646816240147,
+        "stop" : 1646816241373,
+        "duration" : 1226
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "772d57db8573b76e",
+        "name" : "screenshot",
+        "source" : "772d57db8573b76e.png",
+        "type" : "image/png",
+        "size" : 290218
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"043456789\" in inn field",
+      "time" : {
+        "start" : 1646816241373,
+        "stop" : 1646816242333,
+        "duration" : 960
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "86670a9a4a74bd48",
+        "name" : "screenshot",
+        "source" : "86670a9a4a74bd48.png",
+        "type" : "image/png",
+        "size" : 265015
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field",
+      "time" : {
+        "start" : 1646816242333,
+        "stop" : 1646816243436,
+        "duration" : 1103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "516eb563f1c8484",
+        "name" : "screenshot",
+        "source" : "516eb563f1c8484.png",
+        "type" : "image/png",
+        "size" : 267500
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field",
+      "time" : {
+        "start" : 1646816243437,
+        "stop" : 1646816244572,
+        "duration" : 1135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d9938ec59d3f4332",
+        "name" : "screenshot",
+        "source" : "d9938ec59d3f4332.png",
+        "type" : "image/png",
+        "size" : 270757
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on Send button",
+      "time" : {
+        "start" : 1646816244572,
+        "stop" : 1646816245823,
+        "duration" : 1251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "df9d68b1a5a63680",
+        "name" : "screenshot",
+        "source" : "df9d68b1a5a63680.png",
+        "type" : "image/png",
+        "size" : 267286
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"Проверьте, пожалуйста\" is displayed",
+      "time" : {
+        "start" : 1646816245823,
+        "stop" : 1646816246714,
+        "duration" : 891
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db2295e4960c5726",
+        "name" : "screenshot",
+        "source" : "db2295e4960c5726.png",
+        "type" : "image/png",
+        "size" : 278062
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"043456789\" contains \"emk24.com.ua;Запрос на скачивание стандарта;[PHONE]: +70000000000;[EMAIL]: automation.emk@gmail.com\" in 900 sec",
+      "time" : {
+        "start" : 1646816246714,
+        "stop" : 1646816342415,
+        "duration" : 95701
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "95b3d39cb06acd32",
+        "name" : "screenshot",
+        "source" : "95b3d39cb06acd32.png",
+        "type" : "image/png",
+        "size" : 276431
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка кнопки скачать снандарт emk24"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "inn",
+    "value" : "043456789"
+  }, {
+    "name" : "url",
+    "value" : "emk24.com.ua"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression" ]
+  },
+  "source" : "58fcbfa74c4b62af.json",
+  "parameterValues" : [ "043456789", "emk24.com.ua" ]
+}

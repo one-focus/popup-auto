@@ -1,0 +1,225 @@
+{
+  "uid" : "9f1b5cd2fed99d22",
+  "name" : "emkmet_ru секция 3",
+  "fullName" : "Проверка сайта emkmet.ru: emkmet_ru секция 3",
+  "historyId" : "63e2ab44077a9764eabb41335bbfc394",
+  "time" : {
+    "start" : 1646811857386,
+    "stop" : 1646812235457,
+    "duration" : 378071
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emkmet.ru page",
+      "time" : {
+        "start" : 1646811857469,
+        "stop" : 1646811860064,
+        "duration" : 2595
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5703bccddb79dc74",
+        "name" : "screenshot",
+        "source" : "5703bccddb79dc74.png",
+        "type" : "image/png",
+        "size" : 1194407
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on Услуги по металлообработке in \"3 section\"",
+      "time" : {
+        "start" : 1646811860065,
+        "stop" : 1646811861343,
+        "duration" : 1278
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc3cfb8b3e6aa7d0",
+        "name" : "screenshot",
+        "source" : "fc3cfb8b3e6aa7d0.png",
+        "type" : "image/png",
+        "size" : 907516
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on Услуги по испытанию продукции in \"3 section\"",
+      "time" : {
+        "start" : 1646811861343,
+        "stop" : 1646811862545,
+        "duration" : 1202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "71c6589c1a4b9989",
+        "name" : "screenshot",
+        "source" : "71c6589c1a4b9989.png",
+        "type" : "image/png",
+        "size" : 886241
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on Услуги испытания продукции in \"3 section\"",
+      "time" : {
+        "start" : 1646811862545,
+        "stop" : 1646811863799,
+        "duration" : 1254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dc7b9c8e074dede1",
+        "name" : "screenshot",
+        "source" : "dc7b9c8e074dede1.png",
+        "type" : "image/png",
+        "size" : 929757
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field in \"3 section\"",
+      "time" : {
+        "start" : 1646811863799,
+        "stop" : 1646811865082,
+        "duration" : 1283
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "678435138dd78164",
+        "name" : "screenshot",
+        "source" : "678435138dd78164.png",
+        "type" : "image/png",
+        "size" : 824232
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"70000000000\" in phone field in \"3 section\"",
+      "time" : {
+        "start" : 1646811865082,
+        "stop" : 1646811866451,
+        "duration" : 1369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce127b7047fecc3e",
+        "name" : "screenshot",
+        "source" : "ce127b7047fecc3e.png",
+        "type" : "image/png",
+        "size" : 834998
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on get price button in \"3 section\"",
+      "time" : {
+        "start" : 1646811866451,
+        "stop" : 1646811868523,
+        "duration" : 2072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "924a3d6c68f26f83",
+        "name" : "screenshot",
+        "source" : "924a3d6c68f26f83.png",
+        "type" : "image/png",
+        "size" : 841163
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"Услуги по металлообработке, Услуги по испытанию продукции, Услуги испытания продукции\" contains \"Email : automation.emk@gmail.com;Телефон : +7000000000\" in 900 sec",
+      "time" : {
+        "start" : 1646811868523,
+        "stop" : 1646812235457,
+        "duration" : 366934
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef059e2330a398ac",
+        "name" : "screenshot",
+        "source" : "ef059e2330a398ac.png",
+        "type" : "image/png",
+        "size" : 1064328
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта emkmet.ru"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression" ]
+  },
+  "source" : "9f1b5cd2fed99d22.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,291 @@
+{
+  "uid" : "658aaffd2fbb53a4",
+  "name" : "emkworld.com заказать звонок -- @1.1 ",
+  "fullName" : "Проверка сайта emkworld.com: emkworld.com заказать звонок",
+  "historyId" : "bc50cef4bc5083d50e9af3498971bcb2",
+  "time" : {
+    "start" : 1646812700875,
+    "stop" : 1646812723915,
+    "duration" : 23040
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emkworld.com page",
+      "time" : {
+        "start" : 1646812700903,
+        "stop" : 1646812703051,
+        "duration" : 2148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d755c3b8734a1e2a",
+        "name" : "screenshot",
+        "source" : "d755c3b8734a1e2a.png",
+        "type" : "image/png",
+        "size" : 106281
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on top request callback button",
+      "time" : {
+        "start" : 1646812703051,
+        "stop" : 1646812705152,
+        "duration" : 2101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f236882c607feb36",
+        "name" : "screenshot",
+        "source" : "f236882c607feb36.png",
+        "type" : "image/png",
+        "size" : 1088067
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When wait 2 sec",
+      "time" : {
+        "start" : 1646812705152,
+        "stop" : 1646812707816,
+        "duration" : 2664
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "12839f4c7c76fa6e",
+        "name" : "screenshot",
+        "source" : "12839f4c7c76fa6e.png",
+        "type" : "image/png",
+        "size" : 677713
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_email_call_order\" in name field in \"callback dialog section\"",
+      "time" : {
+        "start" : 1646812707817,
+        "stop" : 1646812709264,
+        "duration" : 1447
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c5c4e3fced285bd2",
+        "name" : "screenshot",
+        "source" : "c5c4e3fced285bd2.png",
+        "type" : "image/png",
+        "size" : 642242
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_company_name\" in company field in \"callback dialog section\"",
+      "time" : {
+        "start" : 1646812709264,
+        "stop" : 1646812710765,
+        "duration" : 1501
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "93c252167c14ddc8",
+        "name" : "screenshot",
+        "source" : "93c252167c14ddc8.png",
+        "type" : "image/png",
+        "size" : 671170
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on country flag button in \"callback dialog section\"",
+      "time" : {
+        "start" : 1646812710765,
+        "stop" : 1646812712315,
+        "duration" : 1550
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5a8e07e7d8f88ef7",
+        "name" : "screenshot",
+        "source" : "5a8e07e7d8f88ef7.png",
+        "type" : "image/png",
+        "size" : 842253
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on russia button in \"callback dialog section\"",
+      "time" : {
+        "start" : 1646812712316,
+        "stop" : 1646812713778,
+        "duration" : 1462
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7833036dc2c74c4",
+        "name" : "screenshot",
+        "source" : "7833036dc2c74c4.png",
+        "type" : "image/png",
+        "size" : 830562
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"1231231212\" in phone field in \"callback dialog section\"",
+      "time" : {
+        "start" : 1646812713778,
+        "stop" : 1646812715177,
+        "duration" : 1399
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1a4b759e0effcaff",
+        "name" : "screenshot",
+        "source" : "1a4b759e0effcaff.png",
+        "type" : "image/png",
+        "size" : 812560
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on submit button in \"callback dialog section\"",
+      "time" : {
+        "start" : 1646812715177,
+        "stop" : 1646812716629,
+        "duration" : 1452
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "58b9043ada57d90c",
+        "name" : "screenshot",
+        "source" : "58b9043ada57d90c.png",
+        "type" : "image/png",
+        "size" : 826713
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"Thank you for your message\" is displayed",
+      "time" : {
+        "start" : 1646812716629,
+        "stop" : 1646812717996,
+        "duration" : 1367
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "136959893632e350",
+        "name" : "screenshot",
+        "source" : "136959893632e350.png",
+        "type" : "image/png",
+        "size" : 789980
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_call_order\" contains \"Заявка на обратный звонок с сайта https://emkworld.com/;Название компании : test_automation_company_name;Телефон : +7 (123) 123-12-12\" in 900 sec",
+      "time" : {
+        "start" : 1646812717996,
+        "stop" : 1646812723915,
+        "duration" : 5919
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e940b3536909998c",
+        "name" : "screenshot",
+        "source" : "e940b3536909998c.png",
+        "type" : "image/png",
+        "size" : 650884
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта emkworld.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "button",
+    "value" : "top request callback button"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression" ]
+  },
+  "source" : "658aaffd2fbb53a4.json",
+  "parameterValues" : [ "top request callback button" ]
+}

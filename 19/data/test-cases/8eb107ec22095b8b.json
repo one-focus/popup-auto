@@ -1,0 +1,417 @@
+{
+  "uid" : "8eb107ec22095b8b",
+  "name" : "корзина emk24 -- @1.4 ",
+  "fullName" : "Проверка корзины emk24: корзина emk24",
+  "historyId" : "1e30babfd37e0240ae7d36686b5acc9d",
+  "time" : {
+    "start" : 1646814082165,
+    "stop" : 1646814206320,
+    "duration" : 124155
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emk24.com.ua page",
+      "time" : {
+        "start" : 1646814082248,
+        "stop" : 1646814085685,
+        "duration" : 3437
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2980757799bf2f11",
+        "name" : "screenshot",
+        "source" : "2980757799bf2f11.png",
+        "type" : "image/png",
+        "size" : 1037005
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on first left menuitem",
+      "time" : {
+        "start" : 1646814085685,
+        "stop" : 1646814089703,
+        "duration" : 4018
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "170488cd26cd7a89",
+        "name" : "screenshot",
+        "source" : "170488cd26cd7a89.png",
+        "type" : "image/png",
+        "size" : 236072
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"1\" in first count field",
+      "time" : {
+        "start" : 1646814089704,
+        "stop" : 1646814090644,
+        "duration" : 940
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "535d3e91c0b4d513",
+        "name" : "screenshot",
+        "source" : "535d3e91c0b4d513.png",
+        "type" : "image/png",
+        "size" : 236624
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on first basket button",
+      "time" : {
+        "start" : 1646814090644,
+        "stop" : 1646814091982,
+        "duration" : 1338
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7ffcde725efbf660",
+        "name" : "screenshot",
+        "source" : "7ffcde725efbf660.png",
+        "type" : "image/png",
+        "size" : 228602
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When wait 5 sec",
+      "time" : {
+        "start" : 1646814091982,
+        "stop" : 1646814097223,
+        "duration" : 5241
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be5cbb0df33f6427",
+        "name" : "screenshot",
+        "source" : "be5cbb0df33f6427.png",
+        "type" : "image/png",
+        "size" : 228434
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Given open url: \"emk24.com.ua/order/\"",
+      "time" : {
+        "start" : 1646814097224,
+        "stop" : 1646814098848,
+        "duration" : 1624
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a8c8c6a34c5f9fdd",
+        "name" : "screenshot",
+        "source" : "a8c8c6a34c5f9fdd.png",
+        "type" : "image/png",
+        "size" : 181306
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_comment\" in comment field",
+      "time" : {
+        "start" : 1646814098849,
+        "stop" : 1646814099811,
+        "duration" : 962
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e2a38fed35a0250",
+        "name" : "screenshot",
+        "source" : "e2a38fed35a0250.png",
+        "type" : "image/png",
+        "size" : 184825
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on checkout button",
+      "time" : {
+        "start" : 1646814099811,
+        "stop" : 1646814101087,
+        "duration" : 1276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b8caa3a4391fa2f2",
+        "name" : "screenshot",
+        "source" : "b8caa3a4391fa2f2.png",
+        "type" : "image/png",
+        "size" : 177713
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"123456789\" in INN field",
+      "time" : {
+        "start" : 1646814101087,
+        "stop" : 1646814102143,
+        "duration" : 1056
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fab4165627731d52",
+        "name" : "screenshot",
+        "source" : "fab4165627731d52.png",
+        "type" : "image/png",
+        "size" : 122151
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_company_name\" in company field",
+      "time" : {
+        "start" : 1646814102144,
+        "stop" : 1646814103343,
+        "duration" : 1199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "714fb5ae7a20ed1d",
+        "name" : "screenshot",
+        "source" : "714fb5ae7a20ed1d.png",
+        "type" : "image/png",
+        "size" : 125680
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_contact_name\" in contact name field",
+      "time" : {
+        "start" : 1646814103343,
+        "stop" : 1646814104472,
+        "duration" : 1129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f4288ddd23e7ebf3",
+        "name" : "screenshot",
+        "source" : "f4288ddd23e7ebf3.png",
+        "type" : "image/png",
+        "size" : 128861
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field",
+      "time" : {
+        "start" : 1646814104472,
+        "stop" : 1646814105472,
+        "duration" : 1000
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8dc5813b5b1d4bc4",
+        "name" : "screenshot",
+        "source" : "8dc5813b5b1d4bc4.png",
+        "type" : "image/png",
+        "size" : 129972
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field",
+      "time" : {
+        "start" : 1646814105472,
+        "stop" : 1646814106544,
+        "duration" : 1072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a1c4f1ecdb4b9165",
+        "name" : "screenshot",
+        "source" : "a1c4f1ecdb4b9165.png",
+        "type" : "image/png",
+        "size" : 132950
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on checkout button",
+      "time" : {
+        "start" : 1646814106544,
+        "stop" : 1646814107745,
+        "duration" : 1201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ec5984f3325077b3",
+        "name" : "screenshot",
+        "source" : "ec5984f3325077b3.png",
+        "type" : "image/png",
+        "size" : 128842
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"Спасибо за заказ!\" is displayed",
+      "time" : {
+        "start" : 1646814107745,
+        "stop" : 1646814110426,
+        "duration" : 2681
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96e2569e5a41706c",
+        "name" : "screenshot",
+        "source" : "96e2569e5a41706c.png",
+        "type" : "image/png",
+        "size" : 187425
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When remember order number label as \"order_number\"",
+      "time" : {
+        "start" : 1646814110427,
+        "stop" : 1646814110694,
+        "duration" : 267
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c96186fa762f8db6",
+        "name" : "screenshot",
+        "source" : "c96186fa762f8db6.png",
+        "type" : "image/png",
+        "size" : 187425
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"order_number\" contains \"Ваша заявка номер order_number\" in 900 sec",
+      "time" : {
+        "start" : 1646814110694,
+        "stop" : 1646814206320,
+        "duration" : 95626
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c081917d173d6d5",
+        "name" : "screenshot",
+        "source" : "7c081917d173d6d5.png",
+        "type" : "image/png",
+        "size" : 187425
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 17,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка корзины emk24"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "url",
+    "value" : "emk24.com.ua"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression" ]
+  },
+  "source" : "8eb107ec22095b8b.json",
+  "parameterValues" : [ "emk24.com.ua" ]
+}

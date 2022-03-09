@@ -1,0 +1,393 @@
+{
+  "uid" : "4f930d8af0a55f5e",
+  "name" : "emkmet_ru секция 2",
+  "fullName" : "Проверка сайта emkmet.ru: emkmet_ru секция 2",
+  "historyId" : "f1758a50954e2cda7e546c137fa6eb98",
+  "time" : {
+    "start" : 1646811742373,
+    "stop" : 1646811857384,
+    "duration" : 115011
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emkmet.ru page",
+      "time" : {
+        "start" : 1646811742453,
+        "stop" : 1646811745104,
+        "duration" : 2651
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "65918acadfafae8f",
+        "name" : "screenshot",
+        "source" : "65918acadfafae8f.png",
+        "type" : "image/png",
+        "size" : 1258048
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on first metal button in \"2 section\"",
+      "time" : {
+        "start" : 1646811745104,
+        "stop" : 1646811746366,
+        "duration" : 1262
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "69fcb16ad1b4b72a",
+        "name" : "screenshot",
+        "source" : "69fcb16ad1b4b72a.png",
+        "type" : "image/png",
+        "size" : 661050
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on third metal button in \"2 section\"",
+      "time" : {
+        "start" : 1646811746367,
+        "stop" : 1646811747648,
+        "duration" : 1281
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c9df6d20a0543f7",
+        "name" : "screenshot",
+        "source" : "3c9df6d20a0543f7.png",
+        "type" : "image/png",
+        "size" : 637270
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on fourth metal button in \"2 section\"",
+      "time" : {
+        "start" : 1646811747648,
+        "stop" : 1646811748865,
+        "duration" : 1217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "139162ddfe87f45c",
+        "name" : "screenshot",
+        "source" : "139162ddfe87f45c.png",
+        "type" : "image/png",
+        "size" : 629885
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on fifths metal button in \"2 section\"",
+      "time" : {
+        "start" : 1646811748865,
+        "stop" : 1646811750097,
+        "duration" : 1232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4e8b66affb1c7548",
+        "name" : "screenshot",
+        "source" : "4e8b66affb1c7548.png",
+        "type" : "image/png",
+        "size" : 615970
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on Черный: Балка двутавровая in \"2 section\"",
+      "time" : {
+        "start" : 1646811750097,
+        "stop" : 1646811751124,
+        "duration" : 1027
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "170754d11868439c",
+        "name" : "screenshot",
+        "source" : "170754d11868439c.png",
+        "type" : "image/png",
+        "size" : 442050
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on Нержавейка: Балка двутавровая in \"2 section\"",
+      "time" : {
+        "start" : 1646811751125,
+        "stop" : 1646811752150,
+        "duration" : 1025
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d0d134cc2ef1e765",
+        "name" : "screenshot",
+        "source" : "d0d134cc2ef1e765.png",
+        "type" : "image/png",
+        "size" : 478989
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on Пищевая нержавейка: Фланцы пищевые in \"2 section\"",
+      "time" : {
+        "start" : 1646811752151,
+        "stop" : 1646811753212,
+        "duration" : 1061
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33852d39f89df2d1",
+        "name" : "screenshot",
+        "source" : "33852d39f89df2d1.png",
+        "type" : "image/png",
+        "size" : 543749
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on Никель: Фитинги in \"2 section\"",
+      "time" : {
+        "start" : 1646811753212,
+        "stop" : 1646811754208,
+        "duration" : 996
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4db63bd8811c686f",
+        "name" : "screenshot",
+        "source" : "4db63bd8811c686f.png",
+        "type" : "image/png",
+        "size" : 478990
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on Алюминий: Рифленые листы in \"2 section\"",
+      "time" : {
+        "start" : 1646811754208,
+        "stop" : 1646811755197,
+        "duration" : 989
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d74c2ed82be189e9",
+        "name" : "screenshot",
+        "source" : "d74c2ed82be189e9.png",
+        "type" : "image/png",
+        "size" : 442275
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_comment\" in comment field in \"2 section\"",
+      "time" : {
+        "start" : 1646811755198,
+        "stop" : 1646811756231,
+        "duration" : 1033
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "184a9a3826dbb141",
+        "name" : "screenshot",
+        "source" : "184a9a3826dbb141.png",
+        "type" : "image/png",
+        "size" : 366356
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field in \"2 section\"",
+      "time" : {
+        "start" : 1646811756231,
+        "stop" : 1646811757286,
+        "duration" : 1055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "629da9b79ea310ca",
+        "name" : "screenshot",
+        "source" : "629da9b79ea310ca.png",
+        "type" : "image/png",
+        "size" : 367067
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"70000000000\" in phone field in \"2 section\"",
+      "time" : {
+        "start" : 1646811757286,
+        "stop" : 1646811758298,
+        "duration" : 1012
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bef1ac020037e6c1",
+        "name" : "screenshot",
+        "source" : "bef1ac020037e6c1.png",
+        "type" : "image/png",
+        "size" : 367619
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on get price button in \"2 section\"",
+      "time" : {
+        "start" : 1646811758298,
+        "stop" : 1646811759262,
+        "duration" : 964
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d329d1c283fc14e",
+        "name" : "screenshot",
+        "source" : "9d329d1c283fc14e.png",
+        "type" : "image/png",
+        "size" : 372950
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"СПАСИБО ЗА ЗАЯВКУ!\" is displayed",
+      "time" : {
+        "start" : 1646811759262,
+        "stop" : 1646811761225,
+        "duration" : 1963
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e06d693e7865902",
+        "name" : "screenshot",
+        "source" : "e06d693e7865902.png",
+        "type" : "image/png",
+        "size" : 45507
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_comment\" contains \"Email : automation.emk@gmail.com;Телефон : +7000000000;Черный: Балка двутавровая;Нержавейка: Балка двутавровая;Пищевая нержавейка: Фланцы пищевые;Никель: Фитинги;Алюминий: Рифленые листы\" in 900 sec",
+      "time" : {
+        "start" : 1646811761225,
+        "stop" : 1646811857383,
+        "duration" : 96158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "98bd4f61073704d",
+        "name" : "screenshot",
+        "source" : "98bd4f61073704d.png",
+        "type" : "image/png",
+        "size" : 1042942
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "attachmentsCount" : 16,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта emkmet.ru"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression" ]
+  },
+  "source" : "4f930d8af0a55f5e.json",
+  "parameterValues" : [ ]
+}
