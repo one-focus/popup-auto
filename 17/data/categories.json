@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Thank you for your message\n\n",
+      "children" : [ {
+        "name" : "emkworld.com заказать звонок -- @1.3 ",
+        "uid" : "a3172c83cc87f5d6",
+        "parentUid" : "21210eb8faaf3db54253ab640c3b24f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646796662139,
+          "stop" : 1646796685683,
+          "duration" : 23544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "bottom request callback button" ]
+      }, {
+        "name" : "emkworld.com оставить заявку -- @1.1 ",
+        "uid" : "25cdcf06713312b0",
+        "parentUid" : "21210eb8faaf3db54253ab640c3b24f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646796685684,
+          "stop" : 1646796710395,
+          "duration" : 24711
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Заявка из главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12", "top section", "Thank you for your message" ]
+      } ],
+      "uid" : "21210eb8faaf3db54253ab640c3b24f5"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Спасибо!\n\n",
+      "children" : [ {
+        "name" : "emkworld.com оставить заявку -- @1.2 ",
+        "uid" : "f15c979ea28f5752",
+        "parentUid" : "b8a272390760960339bbeb704ec4e2e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646796710396,
+          "stop" : 1646796735717,
+          "duration" : 25321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Заявка из повтора главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12", "bottom section", "Спасибо!" ]
+      } ],
+      "uid" : "b8a272390760960339bbeb704ec4e2e9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
