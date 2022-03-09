@@ -19,7 +19,7 @@ Feature: Проверка сайта emkworld.com
       | button                         |
       | top request callback button    |
       | top request callback button    |
-      | bottom request callback button |
+      | bottom request callback button  |
 
   @emkworld
   Scenario Outline: emkworld.com оставить заявку
