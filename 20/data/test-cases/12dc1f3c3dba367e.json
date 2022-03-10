@@ -1,0 +1,311 @@
+{
+  "uid" : "12dc1f3c3dba367e",
+  "name" : "emk24 -- @1.3 ",
+  "fullName" : "Проверка вакансии emk24: emk24",
+  "historyId" : "1404b120eb45c8ac9322398c7618a306",
+  "time" : {
+    "start" : 1646895604144,
+    "stop" : 1646895717181,
+    "duration" : 113037
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emk24.kz page",
+      "time" : {
+        "start" : 1646895604199,
+        "stop" : 1646895608161,
+        "duration" : 3962
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24112ab30b7a7200",
+        "name" : "screenshot",
+        "source" : "24112ab30b7a7200.png",
+        "type" : "image/png",
+        "size" : 1038369
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When open url: \"emk24.kz/about/vacancies/\"",
+      "time" : {
+        "start" : 1646895608161,
+        "stop" : 1646895611637,
+        "duration" : 3476
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "221e3e374ee09bc6",
+        "name" : "screenshot",
+        "source" : "221e3e374ee09bc6.png",
+        "type" : "image/png",
+        "size" : 729221
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on first vacancy button",
+      "time" : {
+        "start" : 1646895611637,
+        "stop" : 1646895614829,
+        "duration" : 3192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "48153660f262aee3",
+        "name" : "screenshot",
+        "source" : "48153660f262aee3.png",
+        "type" : "image/png",
+        "size" : 707045
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on respond vacancy button",
+      "time" : {
+        "start" : 1646895614829,
+        "stop" : 1646895615886,
+        "duration" : 1057
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3cc0e320f777749c",
+        "name" : "screenshot",
+        "source" : "3cc0e320f777749c.png",
+        "type" : "image/png",
+        "size" : 190323
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"name\" in name field",
+      "time" : {
+        "start" : 1646895615886,
+        "stop" : 1646895616754,
+        "duration" : 868
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d69968e087da72d8",
+        "name" : "screenshot",
+        "source" : "d69968e087da72d8.png",
+        "type" : "image/png",
+        "size" : 203038
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field",
+      "time" : {
+        "start" : 1646895616754,
+        "stop" : 1646895617568,
+        "duration" : 814
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9e0941a591b2557e",
+        "name" : "screenshot",
+        "source" : "9e0941a591b2557e.png",
+        "type" : "image/png",
+        "size" : 123055
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field",
+      "time" : {
+        "start" : 1646895617568,
+        "stop" : 1646895618368,
+        "duration" : 800
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "70a870864eed5a75",
+        "name" : "screenshot",
+        "source" : "70a870864eed5a75.png",
+        "type" : "image/png",
+        "size" : 126331
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_email_emk24_vacancy\" in message field",
+      "time" : {
+        "start" : 1646895618369,
+        "stop" : 1646895619221,
+        "duration" : 852
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "899f4676029733d5",
+        "name" : "screenshot",
+        "source" : "899f4676029733d5.png",
+        "type" : "image/png",
+        "size" : 134655
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on Send button",
+      "time" : {
+        "start" : 1646895619221,
+        "stop" : 1646895620303,
+        "duration" : 1082
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "862f57f97a70d88f",
+        "name" : "screenshot",
+        "source" : "862f57f97a70d88f.png",
+        "type" : "image/png",
+        "size" : 127140
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"Ваше сообщение отравлено\" is displayed",
+      "time" : {
+        "start" : 1646895620303,
+        "stop" : 1646895621709,
+        "duration" : 1406
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f51f7d7a035a7a42",
+        "name" : "screenshot",
+        "source" : "f51f7d7a035a7a42.png",
+        "type" : "image/png",
+        "size" : 182165
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_emk24_vacancy\" contains \"emk24.kz;Отклик на вакансию;[NAME]: name;[PHONE]: +70000000000;[EMAIL]: automation.emk@gmail.com\" in 900 sec",
+      "time" : {
+        "start" : 1646895621709,
+        "stop" : 1646895717181,
+        "duration" : 95472
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "47c78a23b18a8134",
+        "name" : "screenshot",
+        "source" : "47c78a23b18a8134.png",
+        "type" : "image/png",
+        "size" : 213639
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка вакансии emk24"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "url",
+    "value" : "emk24.kz"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b89c41017e7a0c9a",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/b89c41017e7a0c9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646817626149,
+          "stop" : 1646817921434,
+          "duration" : 295285
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "12dc1f3c3dba367e.json",
+  "parameterValues" : [ "emk24.kz" ]
+}

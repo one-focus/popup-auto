@@ -1,0 +1,227 @@
+{
+  "uid" : "5c8fa6008aef0e4d",
+  "name" : "Заказать звонок emk24 -- @1.2 ",
+  "fullName" : "Проверка кнопки заказать звонок emk24: Заказать звонок emk24",
+  "historyId" : "f87c1f49e431be55aca5934d26554856",
+  "time" : {
+    "start" : 1646892980984,
+    "stop" : 1646893086193,
+    "duration" : 105209
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emk24.by page",
+      "time" : {
+        "start" : 1646892981025,
+        "stop" : 1646892983797,
+        "duration" : 2772
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8ac02934ebe4aa7b",
+        "name" : "screenshot",
+        "source" : "8ac02934ebe4aa7b.png",
+        "type" : "image/png",
+        "size" : 1038672
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on call request button",
+      "time" : {
+        "start" : 1646892983797,
+        "stop" : 1646892985263,
+        "duration" : 1466
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7d5d896d983fdf64",
+        "name" : "screenshot",
+        "source" : "7d5d896d983fdf64.png",
+        "type" : "image/png",
+        "size" : 1048381
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field",
+      "time" : {
+        "start" : 1646892985264,
+        "stop" : 1646892986489,
+        "duration" : 1225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bbe61542ffb14ca3",
+        "name" : "screenshot",
+        "source" : "bbe61542ffb14ca3.png",
+        "type" : "image/png",
+        "size" : 785883
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When wait 1 sec",
+      "time" : {
+        "start" : 1646892986489,
+        "stop" : 1646892987979,
+        "duration" : 1490
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e6088f9b95454256",
+        "name" : "screenshot",
+        "source" : "e6088f9b95454256.png",
+        "type" : "image/png",
+        "size" : 785848
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on Send button",
+      "time" : {
+        "start" : 1646892987979,
+        "stop" : 1646892989369,
+        "duration" : 1390
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4b1c9d61d5950eac",
+        "name" : "screenshot",
+        "source" : "4b1c9d61d5950eac.png",
+        "type" : "image/png",
+        "size" : 784243
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"Ваше сообщение отравлено\" is displayed",
+      "time" : {
+        "start" : 1646892989369,
+        "stop" : 1646892990320,
+        "duration" : 951
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be79421b04a9c6a6",
+        "name" : "screenshot",
+        "source" : "be79421b04a9c6a6.png",
+        "type" : "image/png",
+        "size" : 827581
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"[BODY]: Обратный звонок (заявка) emk24.by\" contains \"[PHONE]: +70000000000\" in 900 sec",
+      "time" : {
+        "start" : 1646892990320,
+        "stop" : 1646893086193,
+        "duration" : 95873
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c1ca56a9220a2dac",
+        "name" : "screenshot",
+        "source" : "c1ca56a9220a2dac.png",
+        "type" : "image/png",
+        "size" : 849189
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка кнопки заказать звонок emk24"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "url",
+    "value" : "emk24.by"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1599f21328f2574",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/1599f21328f2574",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646814610905,
+          "stop" : 1646814897850,
+          "duration" : 286945
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "5c8fa6008aef0e4d.json",
+  "parameterValues" : [ "emk24.by" ]
+}

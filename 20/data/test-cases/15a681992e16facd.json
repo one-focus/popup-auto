@@ -1,0 +1,207 @@
+{
+  "uid" : "15a681992e16facd",
+  "name" : "a1-valves.com заказать звонок -- @1.2 ",
+  "fullName" : "Проверка сайта a1-valves.com: a1-valves.com заказать звонок",
+  "historyId" : "e59eeba2f66fd1eb52ee7bdf06351099",
+  "time" : {
+    "start" : 1646882443719,
+    "stop" : 1646882454305,
+    "duration" : 10586
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open a1-valves.com page",
+      "time" : {
+        "start" : 1646882443741,
+        "stop" : 1646882445742,
+        "duration" : 2001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5140499a28d24709",
+        "name" : "screenshot",
+        "source" : "5140499a28d24709.png",
+        "type" : "image/png",
+        "size" : 774440
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on order call button in \"catalog section\"",
+      "time" : {
+        "start" : 1646882445742,
+        "stop" : 1646882446558,
+        "duration" : 816
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "43c653dbdc282f65",
+        "name" : "screenshot",
+        "source" : "43c653dbdc282f65.png",
+        "type" : "image/png",
+        "size" : 182416
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_email_call_a1\" in name field in \"request call section\"",
+      "time" : {
+        "start" : 1646882446558,
+        "stop" : 1646882447378,
+        "duration" : 820
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e2fb7b7de2e31630",
+        "name" : "screenshot",
+        "source" : "e2fb7b7de2e31630.png",
+        "type" : "image/png",
+        "size" : 164527
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field in \"request call section\"",
+      "time" : {
+        "start" : 1646882447378,
+        "stop" : 1646882448162,
+        "duration" : 784
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a60f7fb2dbe8b2b",
+        "name" : "screenshot",
+        "source" : "a60f7fb2dbe8b2b.png",
+        "type" : "image/png",
+        "size" : 164521
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on send button in \"request call section\"",
+      "time" : {
+        "start" : 1646882448162,
+        "stop" : 1646882448916,
+        "duration" : 754
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5058115c08fc4358",
+        "name" : "screenshot",
+        "source" : "5058115c08fc4358.png",
+        "type" : "image/png",
+        "size" : 166188
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_call_a1\" contains \"Телефон : +70000000000\" in 900 sec",
+      "time" : {
+        "start" : 1646882448916,
+        "stop" : 1646882454304,
+        "duration" : 5388
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2d2c1d94c32a26a1",
+        "name" : "screenshot",
+        "source" : "2d2c1d94c32a26a1.png",
+        "type" : "image/png",
+        "size" : 186196
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта a1-valves.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "section",
+    "value" : "catalog section"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8a335d401d94f693",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/8a335d401d94f693",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"09.03.2022 10:19:57_test_automation_email_call_a1\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1646810393779,
+          "stop" : 1646811308477,
+          "duration" : 914698
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "15a681992e16facd.json",
+  "parameterValues" : [ "catalog section" ]
+}
