@@ -1,0 +1,257 @@
+{
+  "uid" : "c4d718631f5c4e9f",
+  "name" : "emksteel.ru заказать звонок -- @1.2 ",
+  "fullName" : "Проверка сайта emksteel.ru: emksteel.ru заказать звонок",
+  "historyId" : "c217afe2857ecd6bf71d59856a411fca",
+  "time" : {
+    "start" : 1646974533113,
+    "stop" : 1646974728861,
+    "duration" : 195748
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emksteel.ru page",
+      "time" : {
+        "start" : 1646974533134,
+        "stop" : 1646974536203,
+        "duration" : 3069
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "900fc6118fb8fd63",
+        "name" : "screenshot",
+        "source" : "900fc6118fb8fd63.png",
+        "type" : "image/png",
+        "size" : 510160
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on bottom request call button",
+      "time" : {
+        "start" : 1646974536203,
+        "stop" : 1646974537288,
+        "duration" : 1085
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4873ad88db75cf71",
+        "name" : "screenshot",
+        "source" : "4873ad88db75cf71.png",
+        "type" : "image/png",
+        "size" : 75590
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_email_order_call\" in name field in \"request call section\"",
+      "time" : {
+        "start" : 1646974537288,
+        "stop" : 1646974538280,
+        "duration" : 992
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a294be29d3713c34",
+        "name" : "screenshot",
+        "source" : "a294be29d3713c34.png",
+        "type" : "image/png",
+        "size" : 305186
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_company\" in company name field in \"request call section\"",
+      "time" : {
+        "start" : 1646974538280,
+        "stop" : 1646974539163,
+        "duration" : 883
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ae68fe282d55db9",
+        "name" : "screenshot",
+        "source" : "ae68fe282d55db9.png",
+        "type" : "image/png",
+        "size" : 306329
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field in \"request call section\"",
+      "time" : {
+        "start" : 1646974539164,
+        "stop" : 1646974540045,
+        "duration" : 881
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "66ac2807eece2921",
+        "name" : "screenshot",
+        "source" : "66ac2807eece2921.png",
+        "type" : "image/png",
+        "size" : 306396
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on send button in \"request call section\"",
+      "time" : {
+        "start" : 1646974540045,
+        "stop" : 1646974540909,
+        "duration" : 864
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b44078c34a159c5",
+        "name" : "screenshot",
+        "source" : "9b44078c34a159c5.png",
+        "type" : "image/png",
+        "size" : 306639
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"Спасибо за Ваше сообщение\" is displayed",
+      "time" : {
+        "start" : 1646974540909,
+        "stop" : 1646974542941,
+        "duration" : 2032
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96b4d5613900c99f",
+        "name" : "screenshot",
+        "source" : "96b4d5613900c99f.png",
+        "type" : "image/png",
+        "size" : 290387
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_order_call\" contains \"Запрос звонка emksteel.ru test_automation_company;Пожалуйста, перезвоните мне;[PHONE]: +7 (000) 000-00-00\" in 900 sec",
+      "time" : {
+        "start" : 1646974542941,
+        "stop" : 1646974728861,
+        "duration" : 185920
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d57cee01743b10a",
+        "name" : "screenshot",
+        "source" : "9d57cee01743b10a.png",
+        "type" : "image/png",
+        "size" : 290671
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта emksteel.ru"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "button",
+    "value" : "bottom request call button"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "79d0a52851017cfc",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/79d0a52851017cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646886734621,
+          "stop" : 1646887290443,
+          "duration" : 555822
+        }
+      }, {
+        "uid" : "cc939a7239d4c5d1",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/cc939a7239d4c5d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646812254105,
+          "stop" : 1646812270374,
+          "duration" : 16269
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "c4d718631f5c4e9f.json",
+  "parameterValues" : [ "bottom request call button" ]
+}

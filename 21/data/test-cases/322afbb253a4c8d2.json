@@ -1,0 +1,313 @@
+{
+  "uid" : "322afbb253a4c8d2",
+  "name" : "forging.emk24.su секция 1 и 2 -- @1.1 ",
+  "fullName" : "Проверка сайта forging.emk24.su: forging.emk24.su секция 1 и 2",
+  "historyId" : "b8a1dbb4e998163a5d6008e71a52831d",
+  "time" : {
+    "start" : 1646975367341,
+    "stop" : 1646976292252,
+    "duration" : 924911
+  },
+  "status" : "broken",
+  "statusMessage" : "RuntimeError: Сообщение с текстом \"11.03.2022 08:09:34_test_automation_email_1_2\" не пришло на почту в течение 900 секунд\n",
+  "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 110, in step_impl\n    raise RuntimeError(f'Сообщение с текстом \"{query}\" не пришло на почту в течение {seconds} секунд')\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "RuntimeError: Сообщение с текстом \"11.03.2022 08:09:34_test_automation_email_1_2\" не пришло на почту в течение 900 секунд\n",
+    "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 110, in step_impl\n    raise RuntimeError(f'Сообщение с текстом \"{query}\" не пришло на почту в течение {seconds} секунд')\n",
+    "steps" : [ {
+      "name" : "Given open forging.emk24.su page",
+      "time" : {
+        "start" : 1646975367362,
+        "stop" : 1646975372685,
+        "duration" : 5323
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "514be42ac8ca876f",
+        "name" : "screenshot",
+        "source" : "514be42ac8ca876f.png",
+        "type" : "image/png",
+        "size" : 535382
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on leave order button in \"1 section\"",
+      "time" : {
+        "start" : 1646975372686,
+        "stop" : 1646975373841,
+        "duration" : 1155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "80ba6a8404197d2e",
+        "name" : "screenshot",
+        "source" : "80ba6a8404197d2e.png",
+        "type" : "image/png",
+        "size" : 541145
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_email_1_2\" in name field in \"modal section\"",
+      "time" : {
+        "start" : 1646975373842,
+        "stop" : 1646975374829,
+        "duration" : 987
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "51585f6a4f31c92a",
+        "name" : "screenshot",
+        "source" : "51585f6a4f31c92a.png",
+        "type" : "image/png",
+        "size" : 344735
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field in \"modal section\"",
+      "time" : {
+        "start" : 1646975374829,
+        "stop" : 1646975375736,
+        "duration" : 907
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d5911fe5cc81b5cc",
+        "name" : "screenshot",
+        "source" : "d5911fe5cc81b5cc.png",
+        "type" : "image/png",
+        "size" : 344313
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_company_name\" in company name field in \"modal section\"",
+      "time" : {
+        "start" : 1646975375736,
+        "stop" : 1646975376668,
+        "duration" : 932
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "61fb993e4f33296e",
+        "name" : "screenshot",
+        "source" : "61fb993e4f33296e.png",
+        "type" : "image/png",
+        "size" : 345356
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field in \"modal section\"",
+      "time" : {
+        "start" : 1646975376668,
+        "stop" : 1646975377627,
+        "duration" : 959
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f301bee070e1531",
+        "name" : "screenshot",
+        "source" : "7f301bee070e1531.png",
+        "type" : "image/png",
+        "size" : 346886
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_comment\" in message field in \"modal section\"",
+      "time" : {
+        "start" : 1646975377627,
+        "stop" : 1646975378554,
+        "duration" : 927
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6dbeef89376aa917",
+        "name" : "screenshot",
+        "source" : "6dbeef89376aa917.png",
+        "type" : "image/png",
+        "size" : 346260
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on leave order button in \"modal section\"",
+      "time" : {
+        "start" : 1646975378554,
+        "stop" : 1646975381029,
+        "duration" : 2475
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1b1341201f231dba",
+        "name" : "screenshot",
+        "source" : "1b1341201f231dba.png",
+        "type" : "image/png",
+        "size" : 346051
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"СПАСИБО ЗА ЗАЯВКУ!\" is displayed",
+      "time" : {
+        "start" : 1646975381029,
+        "stop" : 1646975381202,
+        "duration" : 173
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb810faf8ea59590",
+        "name" : "screenshot",
+        "source" : "bb810faf8ea59590.png",
+        "type" : "image/png",
+        "size" : 53882
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_1_2\" contains \"[FORM]: Оставить заявку.;[PHONE]: +70000000000;[EMAIL]: automation.emk@gmail.com;[BODY]: Компания: test_automation_company\" in 900 sec",
+      "time" : {
+        "start" : 1646975381202,
+        "stop" : 1646976292252,
+        "duration" : 911050
+      },
+      "status" : "broken",
+      "statusMessage" : "RuntimeError: Сообщение с текстом \"11.03.2022 08:09:34_test_automation_email_1_2\" не пришло на почту в течение 900 секунд\n",
+      "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 110, in step_impl\n    raise RuntimeError(f'Сообщение с текстом \"{query}\" не пришло на почту в течение {seconds} секунд')\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d1fad7eeb46f9b14",
+        "name" : "screenshot",
+        "source" : "d1fad7eeb46f9b14.png",
+        "type" : "image/png",
+        "size" : 1063949
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта forging.emk24.su"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "button",
+    "value" : "leave order button"
+  }, {
+    "name" : "section",
+    "value" : "1 section"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "660c8c3d8b5bc084",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/660c8c3d8b5bc084",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"10.03.2022 07:59:38_test_automation_email_1_2\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1646888370521,
+          "stop" : 1646889294859,
+          "duration" : 924338
+        }
+      }, {
+        "uid" : "1a50eb930f1fc977",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/1a50eb930f1fc977",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646812830726,
+          "stop" : 1646813120444,
+          "duration" : 289718
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "322afbb253a4c8d2.json",
+  "parameterValues" : [ "leave order button", "1 section" ]
+}

@@ -1,0 +1,299 @@
+{
+  "uid" : "a114066fe0658ad6",
+  "name" : "a1-valves.com оставить заявку -- @1.2 ",
+  "fullName" : "Проверка сайта a1-valves.com: a1-valves.com оставить заявку",
+  "historyId" : "86286939ec93b0845f28d24aa5184692",
+  "time" : {
+    "start" : 1646970530246,
+    "stop" : 1646970546951,
+    "duration" : 16705
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open a1-valves.com page",
+      "time" : {
+        "start" : 1646970530265,
+        "stop" : 1646970532379,
+        "duration" : 2114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2af283a2f877c05f",
+        "name" : "screenshot",
+        "source" : "2af283a2f877c05f.png",
+        "type" : "image/png",
+        "size" : 401435
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When wait 2 sec",
+      "time" : {
+        "start" : 1646970532379,
+        "stop" : 1646970534782,
+        "duration" : 2403
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ab14b6150d4acd43",
+        "name" : "screenshot",
+        "source" : "ab14b6150d4acd43.png",
+        "type" : "image/png",
+        "size" : 746581
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on send request button in \"product section\"",
+      "time" : {
+        "start" : 1646970534782,
+        "stop" : 1646970535604,
+        "duration" : 822
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7321211e4cb95c5b",
+        "name" : "screenshot",
+        "source" : "7321211e4cb95c5b.png",
+        "type" : "image/png",
+        "size" : 137083
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_email_a1\" in name field in \"send request section\"",
+      "time" : {
+        "start" : 1646970535604,
+        "stop" : 1646970536579,
+        "duration" : 975
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e76aefe9c875c961",
+        "name" : "screenshot",
+        "source" : "e76aefe9c875c961.png",
+        "type" : "image/png",
+        "size" : 354901
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field in \"send request section\"",
+      "time" : {
+        "start" : 1646970536579,
+        "stop" : 1646970537511,
+        "duration" : 932
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cbc154f61a1e918c",
+        "name" : "screenshot",
+        "source" : "cbc154f61a1e918c.png",
+        "type" : "image/png",
+        "size" : 354790
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_company_name\" in company name field in \"send request section\"",
+      "time" : {
+        "start" : 1646970537511,
+        "stop" : 1646970538478,
+        "duration" : 967
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "522946c2f5f6bdee",
+        "name" : "screenshot",
+        "source" : "522946c2f5f6bdee.png",
+        "type" : "image/png",
+        "size" : 355843
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_comment\" in message field in \"send request section\"",
+      "time" : {
+        "start" : 1646970538478,
+        "stop" : 1646970539427,
+        "duration" : 949
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ad87dee4267da054",
+        "name" : "screenshot",
+        "source" : "ad87dee4267da054.png",
+        "type" : "image/png",
+        "size" : 356206
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field in \"send request section\"",
+      "time" : {
+        "start" : 1646970539427,
+        "stop" : 1646970540365,
+        "duration" : 938
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e8fc981707fb0a44",
+        "name" : "screenshot",
+        "source" : "e8fc981707fb0a44.png",
+        "type" : "image/png",
+        "size" : 358103
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on send button in \"send request section\"",
+      "time" : {
+        "start" : 1646970540365,
+        "stop" : 1646970541271,
+        "duration" : 906
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d886429fbb08c",
+        "name" : "screenshot",
+        "source" : "d886429fbb08c.png",
+        "type" : "image/png",
+        "size" : 360362
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_a1\" contains \"Email : automation.emk@gmail.com;Телефон : +70000000000;Комментарий : test_automation_commen\" in 900 sec",
+      "time" : {
+        "start" : 1646970541271,
+        "stop" : 1646970546951,
+        "duration" : 5680
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b39df8d128a521d",
+        "name" : "screenshot",
+        "source" : "b39df8d128a521d.png",
+        "type" : "image/png",
+        "size" : 541066
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта a1-valves.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "section",
+    "value" : "product section"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "6a987e00a40aaaf6",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/6a987e00a40aaaf6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646882560809,
+          "stop" : 1646882757555,
+          "duration" : 196746
+        }
+      }, {
+        "uid" : "5a3a777b1e9a8c7",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/5a3a777b1e9a8c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646811597477,
+          "stop" : 1646811615289,
+          "duration" : 17812
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "a114066fe0658ad6.json",
+  "parameterValues" : [ "product section" ]
+}
