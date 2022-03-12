@@ -1,0 +1,275 @@
+{
+  "uid" : "2816af3b8150c60e",
+  "name" : "emkmet_ru секция 3",
+  "fullName" : "Проверка сайта emkmet.ru: emkmet_ru секция 3",
+  "historyId" : "63e2ab44077a9764eabb41335bbfc394",
+  "time" : {
+    "start" : 1647058505122,
+    "stop" : 1647059424863,
+    "duration" : 919741
+  },
+  "status" : "broken",
+  "statusMessage" : "RuntimeError: Сообщение с текстом \"Услуги по металлообработке, Услуги по испытанию продукции, Услуги испытания продукции\" не пришло на почту в течение 900 секунд\n",
+  "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 110, in step_impl\n    raise RuntimeError(f'Сообщение с текстом \"{query}\" не пришло на почту в течение {seconds} секунд')\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "RuntimeError: Сообщение с текстом \"Услуги по металлообработке, Услуги по испытанию продукции, Услуги испытания продукции\" не пришло на почту в течение 900 секунд\n",
+    "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 110, in step_impl\n    raise RuntimeError(f'Сообщение с текстом \"{query}\" не пришло на почту в течение {seconds} секунд')\n",
+    "steps" : [ {
+      "name" : "Given open emkmet.ru page",
+      "time" : {
+        "start" : 1647058505168,
+        "stop" : 1647058507625,
+        "duration" : 2457
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a781d019e40e1cbb",
+        "name" : "screenshot",
+        "source" : "a781d019e40e1cbb.png",
+        "type" : "image/png",
+        "size" : 1068335
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on Услуги по металлообработке in \"3 section\"",
+      "time" : {
+        "start" : 1647058507625,
+        "stop" : 1647058508663,
+        "duration" : 1038
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dde901cd24fb59e0",
+        "name" : "screenshot",
+        "source" : "dde901cd24fb59e0.png",
+        "type" : "image/png",
+        "size" : 908229
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on Услуги по испытанию продукции in \"3 section\"",
+      "time" : {
+        "start" : 1647058508663,
+        "stop" : 1647058509635,
+        "duration" : 972
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ad981ce24d1b356e",
+        "name" : "screenshot",
+        "source" : "ad981ce24d1b356e.png",
+        "type" : "image/png",
+        "size" : 891863
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on Услуги испытания продукции in \"3 section\"",
+      "time" : {
+        "start" : 1647058509635,
+        "stop" : 1647058510681,
+        "duration" : 1046
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b70868708d156ea3",
+        "name" : "screenshot",
+        "source" : "b70868708d156ea3.png",
+        "type" : "image/png",
+        "size" : 933651
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field in \"3 section\"",
+      "time" : {
+        "start" : 1647058510681,
+        "stop" : 1647058511738,
+        "duration" : 1057
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e57ce9e00a4f9e7",
+        "name" : "screenshot",
+        "source" : "e57ce9e00a4f9e7.png",
+        "type" : "image/png",
+        "size" : 825494
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"70000000000\" in phone field in \"3 section\"",
+      "time" : {
+        "start" : 1647058511738,
+        "stop" : 1647058512803,
+        "duration" : 1065
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "459b8924fd853fe3",
+        "name" : "screenshot",
+        "source" : "459b8924fd853fe3.png",
+        "type" : "image/png",
+        "size" : 837785
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on get price button in \"3 section\"",
+      "time" : {
+        "start" : 1647058512803,
+        "stop" : 1647058513854,
+        "duration" : 1051
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ab8699076341cb",
+        "name" : "screenshot",
+        "source" : "ab8699076341cb.png",
+        "type" : "image/png",
+        "size" : 846501
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"Услуги по металлообработке, Услуги по испытанию продукции, Услуги испытания продукции\" contains \"Email : automation.emk@gmail.com;Телефон : +7000000000\" in 900 sec",
+      "time" : {
+        "start" : 1647058513854,
+        "stop" : 1647059424863,
+        "duration" : 911009
+      },
+      "status" : "broken",
+      "statusMessage" : "RuntimeError: Сообщение с текстом \"Услуги по металлообработке, Услуги по испытанию продукции, Услуги испытания продукции\" не пришло на почту в течение 900 секунд\n",
+      "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 110, in step_impl\n    raise RuntimeError(f'Сообщение с текстом \"{query}\" не пришло на почту в течение {seconds} секунд')\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "64c587e09a001749",
+        "name" : "screenshot",
+        "source" : "64c587e09a001749.png",
+        "type" : "image/png",
+        "size" : 1064749
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта emkmet.ru"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "b1d0a4304e478b31",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/21//#testresult/b1d0a4304e478b31",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"Услуги по металлообработке, Услуги по испытанию продукции, Услуги испытания продукции\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1646973322488,
+          "stop" : 1646974243925,
+          "duration" : 921437
+        }
+      }, {
+        "uid" : "3779e1e65f284432",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/3779e1e65f284432",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"Услуги по металлообработке, Услуги по испытанию продукции, Услуги испытания продукции\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1646885527464,
+          "stop" : 1646886446052,
+          "duration" : 918588
+        }
+      }, {
+        "uid" : "9f1b5cd2fed99d22",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/9f1b5cd2fed99d22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646811857386,
+          "stop" : 1646812235457,
+          "duration" : 378071
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "2816af3b8150c60e.json",
+  "parameterValues" : [ ]
+}

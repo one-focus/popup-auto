@@ -1,0 +1,245 @@
+{
+  "uid" : "7d1684c740aea483",
+  "name" : "Заказать звонок emk24 -- @1.1 ",
+  "fullName" : "Проверка кнопки заказать звонок emk24: Заказать звонок emk24",
+  "historyId" : "d4250aa1a2d3abebfe51d1a8d0419e38",
+  "time" : {
+    "start" : 1647064136543,
+    "stop" : 1647064150538,
+    "duration" : 13995
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emk24.ru page",
+      "time" : {
+        "start" : 1647064136579,
+        "stop" : 1647064137992,
+        "duration" : 1413
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a811ae50a69589b3",
+        "name" : "screenshot",
+        "source" : "a811ae50a69589b3.png",
+        "type" : "image/png",
+        "size" : 1033623
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on call request button",
+      "time" : {
+        "start" : 1647064137992,
+        "stop" : 1647064139629,
+        "duration" : 1637
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b1cfd7de5d77734e",
+        "name" : "screenshot",
+        "source" : "b1cfd7de5d77734e.png",
+        "type" : "image/png",
+        "size" : 1046041
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field",
+      "time" : {
+        "start" : 1647064139629,
+        "stop" : 1647064140829,
+        "duration" : 1200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b9b74b655ce830e9",
+        "name" : "screenshot",
+        "source" : "b9b74b655ce830e9.png",
+        "type" : "image/png",
+        "size" : 786204
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When wait 1 sec",
+      "time" : {
+        "start" : 1647064140829,
+        "stop" : 1647064142307,
+        "duration" : 1478
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "17bd6a607940a9d9",
+        "name" : "screenshot",
+        "source" : "17bd6a607940a9d9.png",
+        "type" : "image/png",
+        "size" : 786175
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on Send button",
+      "time" : {
+        "start" : 1647064142307,
+        "stop" : 1647064143840,
+        "duration" : 1533
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5c10ec36ccf53d84",
+        "name" : "screenshot",
+        "source" : "5c10ec36ccf53d84.png",
+        "type" : "image/png",
+        "size" : 784373
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"Ваше сообщение отравлено\" is displayed",
+      "time" : {
+        "start" : 1647064143840,
+        "stop" : 1647064144830,
+        "duration" : 990
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "211857528dca5a94",
+        "name" : "screenshot",
+        "source" : "211857528dca5a94.png",
+        "type" : "image/png",
+        "size" : 827962
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"[BODY]: Обратный звонок (заявка) emk24.ru\" contains \"[PHONE]: +70000000000\" in 900 sec",
+      "time" : {
+        "start" : 1647064144830,
+        "stop" : 1647064150538,
+        "duration" : 5708
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d152d072da3b992b",
+        "name" : "screenshot",
+        "source" : "d152d072da3b992b.png",
+        "type" : "image/png",
+        "size" : 826255
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка кнопки заказать звонок emk24"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "url",
+    "value" : "emk24.ru"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "d687b6e151b08ec5",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/21//#testresult/d687b6e151b08ec5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646980254587,
+          "stop" : 1646980269280,
+          "duration" : 14693
+        }
+      }, {
+        "uid" : "ac039767643afd37",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/ac039767643afd37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646892876588,
+          "stop" : 1646892980984,
+          "duration" : 104396
+        }
+      }, {
+        "uid" : "eda6bb0aba0b483a",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/eda6bb0aba0b483a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646814594208,
+          "stop" : 1646814610904,
+          "duration" : 16696
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "7d1684c740aea483.json",
+  "parameterValues" : [ "emk24.ru" ]
+}

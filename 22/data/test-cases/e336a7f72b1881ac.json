@@ -1,0 +1,455 @@
+{
+  "uid" : "e336a7f72b1881ac",
+  "name" : "корзина emk24 -- @1.2 ",
+  "fullName" : "Проверка корзины emk24: корзина emk24",
+  "historyId" : "e304870e4ba69e57585cff60c26d276d",
+  "time" : {
+    "start" : 1647063914163,
+    "stop" : 1647063946226,
+    "duration" : 32063
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emk24.by page",
+      "time" : {
+        "start" : 1647063914206,
+        "stop" : 1647063916990,
+        "duration" : 2784
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aba66748b5c9acba",
+        "name" : "screenshot",
+        "source" : "aba66748b5c9acba.png",
+        "type" : "image/png",
+        "size" : 1038543
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on first left menuitem",
+      "time" : {
+        "start" : 1647063916990,
+        "stop" : 1647063921321,
+        "duration" : 4331
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "67dff9644b13bd09",
+        "name" : "screenshot",
+        "source" : "67dff9644b13bd09.png",
+        "type" : "image/png",
+        "size" : 237542
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"1\" in first count field",
+      "time" : {
+        "start" : 1647063921321,
+        "stop" : 1647063922104,
+        "duration" : 783
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7749076cc1f221f5",
+        "name" : "screenshot",
+        "source" : "7749076cc1f221f5.png",
+        "type" : "image/png",
+        "size" : 242389
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on first basket button",
+      "time" : {
+        "start" : 1647063922104,
+        "stop" : 1647063923329,
+        "duration" : 1225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24f755baa1f4314c",
+        "name" : "screenshot",
+        "source" : "24f755baa1f4314c.png",
+        "type" : "image/png",
+        "size" : 235062
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When wait 5 sec",
+      "time" : {
+        "start" : 1647063923329,
+        "stop" : 1647063928501,
+        "duration" : 5172
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e655afd1a2386e3c",
+        "name" : "screenshot",
+        "source" : "e655afd1a2386e3c.png",
+        "type" : "image/png",
+        "size" : 233755
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Given open url: \"emk24.by/order/\"",
+      "time" : {
+        "start" : 1647063928502,
+        "stop" : 1647063930394,
+        "duration" : 1892
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "830ddc34c7f8bd42",
+        "name" : "screenshot",
+        "source" : "830ddc34c7f8bd42.png",
+        "type" : "image/png",
+        "size" : 190636
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_comment\" in comment field",
+      "time" : {
+        "start" : 1647063930394,
+        "stop" : 1647063931214,
+        "duration" : 820
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "870a45054b1d9947",
+        "name" : "screenshot",
+        "source" : "870a45054b1d9947.png",
+        "type" : "image/png",
+        "size" : 198079
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on checkout button",
+      "time" : {
+        "start" : 1647063931214,
+        "stop" : 1647063932370,
+        "duration" : 1156
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "675eac7d526df40e",
+        "name" : "screenshot",
+        "source" : "675eac7d526df40e.png",
+        "type" : "image/png",
+        "size" : 199184
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"123456789\" in INN field",
+      "time" : {
+        "start" : 1647063932370,
+        "stop" : 1647063933240,
+        "duration" : 870
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "907b8023891aa3d3",
+        "name" : "screenshot",
+        "source" : "907b8023891aa3d3.png",
+        "type" : "image/png",
+        "size" : 129439
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_company_name\" in company field",
+      "time" : {
+        "start" : 1647063933240,
+        "stop" : 1647063934206,
+        "duration" : 966
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6dac9229b0ae4d88",
+        "name" : "screenshot",
+        "source" : "6dac9229b0ae4d88.png",
+        "type" : "image/png",
+        "size" : 131670
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_contact_name\" in contact name field",
+      "time" : {
+        "start" : 1647063934206,
+        "stop" : 1647063935137,
+        "duration" : 931
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "215dea5048d82e6",
+        "name" : "screenshot",
+        "source" : "215dea5048d82e6.png",
+        "type" : "image/png",
+        "size" : 134591
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field",
+      "time" : {
+        "start" : 1647063935137,
+        "stop" : 1647063936005,
+        "duration" : 868
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4db9ad6b16acee52",
+        "name" : "screenshot",
+        "source" : "4db9ad6b16acee52.png",
+        "type" : "image/png",
+        "size" : 135455
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field",
+      "time" : {
+        "start" : 1647063936005,
+        "stop" : 1647063936902,
+        "duration" : 897
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9054923fafb742fc",
+        "name" : "screenshot",
+        "source" : "9054923fafb742fc.png",
+        "type" : "image/png",
+        "size" : 138891
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on checkout button",
+      "time" : {
+        "start" : 1647063936902,
+        "stop" : 1647063938009,
+        "duration" : 1107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "200278b965ad5ac2",
+        "name" : "screenshot",
+        "source" : "200278b965ad5ac2.png",
+        "type" : "image/png",
+        "size" : 134561
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"Спасибо за заказ!\" is displayed",
+      "time" : {
+        "start" : 1647063938010,
+        "stop" : 1647063940632,
+        "duration" : 2622
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "76dfbf58d79f2599",
+        "name" : "screenshot",
+        "source" : "76dfbf58d79f2599.png",
+        "type" : "image/png",
+        "size" : 188908
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When remember order number label as \"order_number\"",
+      "time" : {
+        "start" : 1647063940632,
+        "stop" : 1647063940848,
+        "duration" : 216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8fa832e4fc37ba44",
+        "name" : "screenshot",
+        "source" : "8fa832e4fc37ba44.png",
+        "type" : "image/png",
+        "size" : 193551
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"order_number\" contains \"Ваша заявка номер order_number\" in 900 sec",
+      "time" : {
+        "start" : 1647063940848,
+        "stop" : 1647063946226,
+        "duration" : 5378
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a1e1124982495d09",
+        "name" : "screenshot",
+        "source" : "a1e1124982495d09.png",
+        "type" : "image/png",
+        "size" : 193551
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 17,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка корзины emk24"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "url",
+    "value" : "emk24.by"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "c5068a12bcaf933c",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/21//#testresult/c5068a12bcaf933c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646979929302,
+          "stop" : 1646979963951,
+          "duration" : 34649
+        }
+      }, {
+        "uid" : "4a2761c92bbce8e6",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/4a2761c92bbce8e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646891840639,
+          "stop" : 1646891872688,
+          "duration" : 32049
+        }
+      }, {
+        "uid" : "dc867ee71cf4d5a",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/dc867ee71cf4d5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646814001451,
+          "stop" : 1646814035167,
+          "duration" : 33716
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "e336a7f72b1881ac.json",
+  "parameterValues" : [ "emk24.by" ]
+}
