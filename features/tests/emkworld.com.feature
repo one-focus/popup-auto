@@ -1,7 +1,7 @@
 # Created by Alex Kardash at 24/07/2021
-@regression
 Feature: Проверка сайта emkworld.com
 
+  @emkworld1
   Scenario Outline: emkworld.com заказать звонок
     Given open emkworld.com page
     When click on <button>
@@ -21,7 +21,7 @@ Feature: Проверка сайта emkworld.com
       | top request callback button    |
       | bottom request callback button |
 
-  @emkworld
+  @emkworld2
   Scenario Outline: emkworld.com оставить заявку
     Given open emkworld.com page
     When wait 2 sec
