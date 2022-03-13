@@ -1,0 +1,226 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "RuntimeError: Сообщение с текстом \"13.03.2022 06:17:12_test_automation_email_call_a1\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "a1-valves.com заказать звонок -- @1.1 ",
+        "uid" : "4c88f2cbe9b26bc0",
+        "parentUid" : "bde3b9ae37affed33b3f96661678c9c1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647141426678,
+          "stop" : 1647142346937,
+          "duration" : 920259
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "top menu section" ]
+      } ],
+      "uid" : "bde3b9ae37affed33b3f96661678c9c1"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"13.03.2022 06:32:30_test_automation_email_call_a1\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "a1-valves.com заказать звонок -- @1.2 ",
+        "uid" : "9f81eded5ad7ebb6",
+        "parentUid" : "3e2a5f30d57e9ef7fbf7ba79095c5606",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647142346938,
+          "stop" : 1647143260937,
+          "duration" : 913999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "catalog section" ]
+      } ],
+      "uid" : "3e2a5f30d57e9ef7fbf7ba79095c5606"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"13.03.2022 06:48:19_company_name\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "emkmet_ru секция 1 и 4 -- @1.1 ",
+        "uid" : "cdfc90593093b8cd",
+        "parentUid" : "101adc677ce782347ca1207dd8aa5ca6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647143293587,
+          "stop" : 1647144215464,
+          "duration" : 921877
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1 section" ]
+      } ],
+      "uid" : "101adc677ce782347ca1207dd8aa5ca6"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"13.03.2022 07:03:38_company_name\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "emkmet_ru секция 1 и 4 -- @1.2 ",
+        "uid" : "9f7e58d93081e774",
+        "parentUid" : "60cb00c0af4f8fb95c8dbf3b50070f7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647144215465,
+          "stop" : 1647145134246,
+          "duration" : 918781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4 section" ]
+      } ],
+      "uid" : "60cb00c0af4f8fb95c8dbf3b50070f7f"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"13.03.2022 07:19:05_comment\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "emkmet_ru секция 2",
+        "uid" : "e6646abfc966b7c9",
+        "parentUid" : "368b2abb652bb6da0cf6b1e70b77bb79",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647145134247,
+          "stop" : 1647146060008,
+          "duration" : 925761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "368b2abb652bb6da0cf6b1e70b77bb79"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"Услуги по металлообработке, Услуги по испытанию продукции, Услуги испытания продукции\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "emkmet_ru секция 3",
+        "uid" : "a6091855feccbe0c",
+        "parentUid" : "52ab0d12f1894076361525c19069f5d3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647146060010,
+          "stop" : 1647146978194,
+          "duration" : 918184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "52ab0d12f1894076361525c19069f5d3"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Thank you for your message\n\n",
+      "children" : [ {
+        "name" : "emkworld.com заказать звонок -- @1.3 ",
+        "uid" : "87c4d9f05aa73057",
+        "parentUid" : "21210eb8faaf3db54253ab640c3b24f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647147562686,
+          "stop" : 1647147586409,
+          "duration" : 23723
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "bottom request callback button" ]
+      }, {
+        "name" : "emkworld.com оставить заявку -- @1.1 ",
+        "uid" : "d29d5c03c2f6e459",
+        "parentUid" : "21210eb8faaf3db54253ab640c3b24f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647147586417,
+          "stop" : 1647147611215,
+          "duration" : 24798
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Заявка из главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12", "top section", "Thank you for your message" ]
+      } ],
+      "uid" : "21210eb8faaf3db54253ab640c3b24f5"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Спасибо!\n\n",
+      "children" : [ {
+        "name" : "emkworld.com оставить заявку -- @1.2 ",
+        "uid" : "834436107a1cbc9",
+        "parentUid" : "b8a272390760960339bbeb704ec4e2e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647147611216,
+          "stop" : 1647147635944,
+          "duration" : 24728
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Заявка из повтора главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12", "bottom section", "Спасибо!" ]
+      } ],
+      "uid" : "b8a272390760960339bbeb704ec4e2e9"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"13.03.2022 08:00:42_test_automation_email_1_2\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "forging.emk24.su секция 1 и 2 -- @1.1 ",
+        "uid" : "76ce6b22dcdcaa41",
+        "parentUid" : "7931e7020f9b622492593aae9d533f02",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647147635947,
+          "stop" : 1647148558144,
+          "duration" : 922197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "leave order button", "1 section" ]
+      } ],
+      "uid" : "7931e7020f9b622492593aae9d533f02"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"13.03.2022 08:16:01_test_automation_email_1_2\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "forging.emk24.su секция 1 и 2 -- @1.2 ",
+        "uid" : "5e844e957938225f",
+        "parentUid" : "6089ed1da005f2405c13ec0e77b30a90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647148558145,
+          "stop" : 1647149477766,
+          "duration" : 919621
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "basket button", "2 section" ]
+      } ],
+      "uid" : "6089ed1da005f2405c13ec0e77b30a90"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"13.03.2022 08:31:21_test_automation_email_3\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "forging.emk24.su секция 3",
+        "uid" : "1141c688ee3b2fc5",
+        "parentUid" : "856bc7b87f2b2cd3435476129fcbde26",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647149477767,
+          "stop" : 1647150397631,
+          "duration" : 919864
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "856bc7b87f2b2cd3435476129fcbde26"
+    }, {
+      "name" : "requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)\n",
+      "children" : [ {
+        "name" : "forging.emk24.su заказать звонок",
+        "uid" : "ab413f5102b19913",
+        "parentUid" : "8e578198524c9682611b854748331f16",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647150397632,
+          "stop" : 1647150923660,
+          "duration" : 526028
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e578198524c9682611b854748331f16"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

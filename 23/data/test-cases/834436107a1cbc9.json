@@ -1,0 +1,355 @@
+{
+  "uid" : "834436107a1cbc9",
+  "name" : "emkworld.com оставить заявку -- @1.2 ",
+  "fullName" : "Проверка сайта emkworld.com: emkworld.com оставить заявку",
+  "historyId" : "3f57ab1a1fa83ae2a2994ac5aea0f650",
+  "time" : {
+    "start" : 1647147611216,
+    "stop" : 1647147635944,
+    "duration" : 24728
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Спасибо!\n\n",
+  "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 66, in text_is_state\n    WebDriverWait(context.driver, 10).until(\n  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Спасибо!\n\n",
+    "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 66, in text_is_state\n    WebDriverWait(context.driver, 10).until(\n  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given open emkworld.com page",
+      "time" : {
+        "start" : 1647147611233,
+        "stop" : 1647147613056,
+        "duration" : 1823
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ab9ecfb44171af2b",
+        "name" : "screenshot",
+        "source" : "ab9ecfb44171af2b.png",
+        "type" : "image/png",
+        "size" : 1576887
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When wait 2 sec",
+      "time" : {
+        "start" : 1647147613057,
+        "stop" : 1647147615721,
+        "duration" : 2664
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4c43ada5aa5e0a26",
+        "name" : "screenshot",
+        "source" : "4c43ada5aa5e0a26.png",
+        "type" : "image/png",
+        "size" : 1023207
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_company_name\" in company field in \"bottom section\"",
+      "time" : {
+        "start" : 1647147615721,
+        "stop" : 1647147617740,
+        "duration" : 2019
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce355a7f6cc7e6f8",
+        "name" : "screenshot",
+        "source" : "ce355a7f6cc7e6f8.png",
+        "type" : "image/png",
+        "size" : 1442497
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_good_name\" in goods field in \"bottom section\"",
+      "time" : {
+        "start" : 1647147617740,
+        "stop" : 1647147618956,
+        "duration" : 1216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "240592c2ca3deecf",
+        "name" : "screenshot",
+        "source" : "240592c2ca3deecf.png",
+        "type" : "image/png",
+        "size" : 966252
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field in \"bottom section\"",
+      "time" : {
+        "start" : 1647147618956,
+        "stop" : 1647147620183,
+        "duration" : 1227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d199cc8028a5a7ba",
+        "name" : "screenshot",
+        "source" : "d199cc8028a5a7ba.png",
+        "type" : "image/png",
+        "size" : 966466
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on country flag button in \"bottom section\"",
+      "time" : {
+        "start" : 1647147620184,
+        "stop" : 1647147621318,
+        "duration" : 1134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cd0e96114440db26",
+        "name" : "screenshot",
+        "source" : "cd0e96114440db26.png",
+        "type" : "image/png",
+        "size" : 890968
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on russia button in \"bottom section\"",
+      "time" : {
+        "start" : 1647147621318,
+        "stop" : 1647147622468,
+        "duration" : 1150
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b4127ced2c948f7",
+        "name" : "screenshot",
+        "source" : "2b4127ced2c948f7.png",
+        "type" : "image/png",
+        "size" : 961472
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"1231231212\" in phone field in \"bottom section\"",
+      "time" : {
+        "start" : 1647147622468,
+        "stop" : 1647147623621,
+        "duration" : 1153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "788e28985959b7f0",
+        "name" : "screenshot",
+        "source" : "788e28985959b7f0.png",
+        "type" : "image/png",
+        "size" : 962261
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on submit button in \"bottom section\"",
+      "time" : {
+        "start" : 1647147623621,
+        "stop" : 1647147624758,
+        "duration" : 1137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d44cd460663788d3",
+        "name" : "screenshot",
+        "source" : "d44cd460663788d3.png",
+        "type" : "image/png",
+        "size" : 961440
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"Спасибо!\" is displayed",
+      "time" : {
+        "start" : 1647147624758,
+        "stop" : 1647147635944,
+        "duration" : 11186
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Спасибо!\n\n",
+      "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 66, in text_is_state\n    WebDriverWait(context.driver, 10).until(\n  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ff038ec45e262aa2",
+        "name" : "screenshot",
+        "source" : "ff038ec45e262aa2.png",
+        "type" : "image/png",
+        "size" : 201182
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_company_name\" contains \"Заявка из повтора главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12\" in 900 sec",
+      "time" : {
+        "start" : 1647147635944,
+        "stop" : 1647147635944,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "emkworld"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта emkworld.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email_text",
+    "value" : "Заявка из повтора главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12"
+  }, {
+    "name" : "section",
+    "value" : "bottom section"
+  }, {
+    "name" : "thank_you_message",
+    "value" : "Спасибо!"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "d73c26326aff4755",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/22//#testresult/d73c26326aff4755",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Спасибо!\n\n",
+        "time" : {
+          "start" : 1647060511755,
+          "stop" : 1647060536866,
+          "duration" : 25111
+        }
+      }, {
+        "uid" : "5703b0a1c20bf617",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/21//#testresult/5703b0a1c20bf617",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Спасибо!\n\n",
+        "time" : {
+          "start" : 1646975341291,
+          "stop" : 1646975367339,
+          "duration" : 26048
+        }
+      }, {
+        "uid" : "ec3d3136484d3778",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/ec3d3136484d3778",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Спасибо!\n\n",
+        "time" : {
+          "start" : 1646888345672,
+          "stop" : 1646888370519,
+          "duration" : 24847
+        }
+      }, {
+        "uid" : "9d800a05bab6075d",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/9d800a05bab6075d",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Спасибо!\n\n",
+        "time" : {
+          "start" : 1646812801289,
+          "stop" : 1646812830723,
+          "duration" : 29434
+        }
+      } ]
+    },
+    "tags" : [ "regression", "emkworld" ]
+  },
+  "source" : "834436107a1cbc9.json",
+  "parameterValues" : [ "Заявка из повтора главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12", "bottom section", "Спасибо!" ]
+}
