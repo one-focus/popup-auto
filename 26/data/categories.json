@@ -1,0 +1,175 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "RuntimeError: Сообщение с текстом \"14.03.2022 12:16:24_company_name\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "emkmet_ru секция 1 и 4 -- @1.1 ",
+        "uid" : "e6cf9707a4fbbd38",
+        "parentUid" : "833b4063b45f5be19401bf2d885fa9b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647249378171,
+          "stop" : 1647250301494,
+          "duration" : 923323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1 section" ]
+      } ],
+      "uid" : "833b4063b45f5be19401bf2d885fa9b3"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"14.03.2022 12:31:44_company_name\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "emkmet_ru секция 1 и 4 -- @1.2 ",
+        "uid" : "44a7f50c5ebd1f0e",
+        "parentUid" : "f1b85c3d6765de7ee7797464064ecc08",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647250301494,
+          "stop" : 1647251221540,
+          "duration" : 920046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4 section" ]
+      } ],
+      "uid" : "f1b85c3d6765de7ee7797464064ecc08"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"14.03.2022 12:47:13_comment\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "emkmet_ru секция 2",
+        "uid" : "1316d94bf1308f1d",
+        "parentUid" : "75473d17116639d7efbfc45411192401",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647251221541,
+          "stop" : 1647252148581,
+          "duration" : 927040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "75473d17116639d7efbfc45411192401"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"Услуги по металлообработке, Услуги по испытанию продукции, Услуги испытания продукции\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "emkmet_ru секция 3",
+        "uid" : "65eddc773ea82aa5",
+        "parentUid" : "52ab0d12f1894076361525c19069f5d3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647252148582,
+          "stop" : 1647253068392,
+          "duration" : 919810
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "52ab0d12f1894076361525c19069f5d3"
+    }, {
+      "name" : "requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)\n",
+      "children" : [ {
+        "name" : "emksteel.ru заказать звонок -- @1.1 ",
+        "uid" : "902faf97de6f5a",
+        "parentUid" : "8e578198524c9682611b854748331f16",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647253068396,
+          "stop" : 1647253387328,
+          "duration" : 318932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "top request call button" ]
+      }, {
+        "name" : "forging.emk24.su заказать звонок",
+        "uid" : "74f324754d4280e0",
+        "parentUid" : "8e578198524c9682611b854748331f16",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647256904034,
+          "stop" : 1647257430480,
+          "duration" : 526446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e578198524c9682611b854748331f16"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"14.03.2022 13:35:44_test_automation_email_1_2\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "forging.emk24.su секция 1 и 2 -- @1.1 ",
+        "uid" : "cd9881f31c11b1c",
+        "parentUid" : "8e5f9ac70c279ec137eca0188782e9c7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647254137999,
+          "stop" : 1647255060482,
+          "duration" : 922483
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "leave order button", "1 section" ]
+      } ],
+      "uid" : "8e5f9ac70c279ec137eca0188782e9c7"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"14.03.2022 13:51:04_test_automation_email_1_2\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "forging.emk24.su секция 1 и 2 -- @1.2 ",
+        "uid" : "35fb6d5c8cfa499d",
+        "parentUid" : "8642a90fb42bad19a112a844502f554d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647255060483,
+          "stop" : 1647255983239,
+          "duration" : 922756
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "basket button", "2 section" ]
+      } ],
+      "uid" : "8642a90fb42bad19a112a844502f554d"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"14.03.2022 14:06:26_test_automation_email_3\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "forging.emk24.su секция 3",
+        "uid" : "6da367e7e147a2d6",
+        "parentUid" : "3b4c051a745b578354a750807cb2a918",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647255983240,
+          "stop" : 1647256904033,
+          "duration" : 920793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b4c051a745b578354a750807cb2a918"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: Не могу найти comment field в течение 5 сек\n\n",
+      "children" : [ {
+        "name" : "корзина emk24 -- @1.3 ",
+        "uid" : "422aee473ce289fc",
+        "parentUid" : "ab22a127fefbcc334b5abcf458ddb88a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647258001407,
+          "stop" : 1647258104643,
+          "duration" : 103236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.kz" ]
+      } ],
+      "uid" : "ab22a127fefbcc334b5abcf458ddb88a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
