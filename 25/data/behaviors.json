@@ -1,0 +1,48 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Проверка сайта emkworld.com",
+    "children" : [ {
+      "name" : "emkworld.com заказать звонок -- @1.1 ",
+      "uid" : "5ac698cac8b20f23",
+      "parentUid" : "0087c330317d996690f94d3af60279d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647227919592,
+        "stop" : 1647227942949,
+        "duration" : 23357
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "top request callback button" ]
+    }, {
+      "name" : "emkworld.com заказать звонок -- @1.2 ",
+      "uid" : "5c53506213857355",
+      "parentUid" : "0087c330317d996690f94d3af60279d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647227942950,
+        "stop" : 1647227962754,
+        "duration" : 19804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "top request callback button" ]
+    }, {
+      "name" : "emkworld.com заказать звонок -- @1.3 ",
+      "uid" : "2e98c4bdfaa5cb54",
+      "parentUid" : "0087c330317d996690f94d3af60279d4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647227962755,
+        "stop" : 1647227987036,
+        "duration" : 24281
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "bottom request callback button" ]
+    } ],
+    "uid" : "0087c330317d996690f94d3af60279d4"
+  } ],
+  "name" : "behaviors"
+}
