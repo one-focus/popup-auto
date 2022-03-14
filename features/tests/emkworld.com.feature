@@ -1,4 +1,5 @@
 # Created by Alex Kardash at 24/07/2021
+@regression
 Feature: Проверка сайта emkworld.com
 
   @emkworld1
@@ -18,8 +19,7 @@ Feature: Проверка сайта emkworld.com
     Examples:
       | button                         |
       | top request callback button    |
-      | top request callback button    |
-      | bottom request callback button |
+#      | bottom request callback button |
 
   @emkworld2
   Scenario Outline: emkworld.com оставить заявку
@@ -38,4 +38,4 @@ Feature: Проверка сайта emkworld.com
     Examples:
       | section        | thank_you_message          | email_text                                                                                                                                                                       |
       | top section    | Thank you for your message | Заявка из главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12         |
-      | bottom section | Спасибо!                   | Заявка из повтора главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12 |
+#      | bottom section | Спасибо!                   | Заявка из повтора главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12 |
