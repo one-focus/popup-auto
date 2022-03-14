@@ -1,0 +1,370 @@
+{
+  "uid" : "eb93fa780bca1a32",
+  "name" : "emkworld.com оставить заявку -- @1.1 ",
+  "fullName" : "Проверка сайта emkworld.com: emkworld.com оставить заявку",
+  "historyId" : "2a2599b0ef598380fce21dc511e0899c",
+  "time" : {
+    "start" : 1647271069679,
+    "stop" : 1647271090896,
+    "duration" : 21217
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emkworld.com page",
+      "time" : {
+        "start" : 1647271069695,
+        "stop" : 1647271071613,
+        "duration" : 1918
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d9efbc74582934c1",
+        "name" : "screenshot",
+        "source" : "d9efbc74582934c1.png",
+        "type" : "image/png",
+        "size" : 1577638
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When wait 2 sec",
+      "time" : {
+        "start" : 1647271071613,
+        "stop" : 1647271074288,
+        "duration" : 2675
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a5446d8d6e5e060",
+        "name" : "screenshot",
+        "source" : "4a5446d8d6e5e060.png",
+        "type" : "image/png",
+        "size" : 1022817
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_company_name\" in company field in \"top section\"",
+      "time" : {
+        "start" : 1647271074288,
+        "stop" : 1647271075562,
+        "duration" : 1274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1abe8b22d4fc0ccd",
+        "name" : "screenshot",
+        "source" : "1abe8b22d4fc0ccd.png",
+        "type" : "image/png",
+        "size" : 971323
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_good_name\" in goods field in \"top section\"",
+      "time" : {
+        "start" : 1647271075563,
+        "stop" : 1647271076713,
+        "duration" : 1150
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6dcb6b773661309c",
+        "name" : "screenshot",
+        "source" : "6dcb6b773661309c.png",
+        "type" : "image/png",
+        "size" : 893178
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field in \"top section\"",
+      "time" : {
+        "start" : 1647271076713,
+        "stop" : 1647271077852,
+        "duration" : 1139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "132161108576a634",
+        "name" : "screenshot",
+        "source" : "132161108576a634.png",
+        "type" : "image/png",
+        "size" : 919145
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on country flag button in \"top section\"",
+      "time" : {
+        "start" : 1647271077852,
+        "stop" : 1647271079181,
+        "duration" : 1329
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "60664fffdbd2cf3e",
+        "name" : "screenshot",
+        "source" : "60664fffdbd2cf3e.png",
+        "type" : "image/png",
+        "size" : 1091133
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on russia button in \"top section\"",
+      "time" : {
+        "start" : 1647271079182,
+        "stop" : 1647271080531,
+        "duration" : 1349
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f7b7394d0ad73442",
+        "name" : "screenshot",
+        "source" : "f7b7394d0ad73442.png",
+        "type" : "image/png",
+        "size" : 1202716
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"1231231212\" in phone field in \"top section\"",
+      "time" : {
+        "start" : 1647271080531,
+        "stop" : 1647271081850,
+        "duration" : 1319
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42301518e6d9a743",
+        "name" : "screenshot",
+        "source" : "42301518e6d9a743.png",
+        "type" : "image/png",
+        "size" : 1145959
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on submit button in \"top section\"",
+      "time" : {
+        "start" : 1647271081850,
+        "stop" : 1647271083103,
+        "duration" : 1253
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1a963a9ec07667c4",
+        "name" : "screenshot",
+        "source" : "1a963a9ec07667c4.png",
+        "type" : "image/png",
+        "size" : 1125524
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"Thank you for your message\" is displayed",
+      "time" : {
+        "start" : 1647271083103,
+        "stop" : 1647271085227,
+        "duration" : 2124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5a2649c7f035885e",
+        "name" : "screenshot",
+        "source" : "5a2649c7f035885e.png",
+        "type" : "image/png",
+        "size" : 579692
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_company_name\" contains \"Заявка из главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12\" in 900 sec",
+      "time" : {
+        "start" : 1647271085227,
+        "stop" : 1647271090896,
+        "duration" : 5669
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1338178e2a4911d4",
+        "name" : "screenshot",
+        "source" : "1338178e2a4911d4.png",
+        "type" : "image/png",
+        "size" : 497644
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "emkworld2"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта emkworld.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email_text",
+    "value" : "Заявка из главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12"
+  }, {
+    "name" : "section",
+    "value" : "top section"
+  }, {
+    "name" : "thank_you_message",
+    "value" : "Thank you for your message"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "fa30322f0bd166be",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/fa30322f0bd166be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647254118336,
+          "stop" : 1647254137996,
+          "duration" : 19660
+        }
+      }, {
+        "uid" : "d29d5c03c2f6e459",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/23//#testresult/d29d5c03c2f6e459",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Thank you for your message\n\n",
+        "time" : {
+          "start" : 1647147586417,
+          "stop" : 1647147611215,
+          "duration" : 24798
+        }
+      }, {
+        "uid" : "149b4c125ce3a328",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/22//#testresult/149b4c125ce3a328",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Thank you for your message\n\n",
+        "time" : {
+          "start" : 1647060486598,
+          "stop" : 1647060511754,
+          "duration" : 25156
+        }
+      }, {
+        "uid" : "c4e11c3d8281b6d4",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/21//#testresult/c4e11c3d8281b6d4",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Thank you for your message\n\n",
+        "time" : {
+          "start" : 1646975315012,
+          "stop" : 1646975341289,
+          "duration" : 26277
+        }
+      }, {
+        "uid" : "7a9dcce3af3c3ac8",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/7a9dcce3af3c3ac8",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Thank you for your message\n\n",
+        "time" : {
+          "start" : 1646888320352,
+          "stop" : 1646888345671,
+          "duration" : 25319
+        }
+      }, {
+        "uid" : "e5674f79010edeec",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/e5674f79010edeec",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Thank you for your message\n\n",
+        "time" : {
+          "start" : 1646812772459,
+          "stop" : 1646812801288,
+          "duration" : 28829
+        }
+      } ]
+    },
+    "tags" : [ "regression", "emkworld2" ]
+  },
+  "source" : "eb93fa780bca1a32.json",
+  "parameterValues" : [ "Заявка из главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12", "top section", "Thank you for your message" ]
+}

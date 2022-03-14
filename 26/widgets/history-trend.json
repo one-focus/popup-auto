@@ -4,6 +4,18 @@
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 56,
+    "unknown" : 0,
+    "total" : 56
+  }
+}, {
+  "buildOrder" : 26,
+  "reportUrl" : "https://one-focus.github.io/popup-auto/26/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
     "broken" : 10,
     "skipped" : 0,
     "passed" : 46,

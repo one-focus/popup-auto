@@ -1,0 +1,356 @@
+{
+  "uid" : "2a0d9f8222e2f6f1",
+  "name" : "emksteel.ru диалог оставить заявку -- @1.1 ",
+  "fullName" : "Проверка сайта emksteel.ru: emksteel.ru диалог оставить заявку",
+  "historyId" : "1141a57a973e9471bfd8ec5eb6bc6f10",
+  "time" : {
+    "start" : 1647270911163,
+    "stop" : 1647270928417,
+    "duration" : 17254
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emksteel.ru page",
+      "time" : {
+        "start" : 1647270911185,
+        "stop" : 1647270913594,
+        "duration" : 2409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "53d093e2671d1a77",
+        "name" : "screenshot",
+        "source" : "53d093e2671d1a77.png",
+        "type" : "image/png",
+        "size" : 454523
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_comment_leave_order\" in message field in \"1 section\"",
+      "time" : {
+        "start" : 1647270913594,
+        "stop" : 1647270914549,
+        "duration" : 955
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c061efd215255a4",
+        "name" : "screenshot",
+        "source" : "c061efd215255a4.png",
+        "type" : "image/png",
+        "size" : 232570
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on more info button",
+      "time" : {
+        "start" : 1647270914549,
+        "stop" : 1647270915887,
+        "duration" : 1338
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "72d4d89ec5b48eb4",
+        "name" : "screenshot",
+        "source" : "72d4d89ec5b48eb4.png",
+        "type" : "image/png",
+        "size" : 667926
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When wait 1 sec",
+      "time" : {
+        "start" : 1647270915887,
+        "stop" : 1647270917211,
+        "duration" : 1324
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f49d3aba333d72c8",
+        "name" : "screenshot",
+        "source" : "f49d3aba333d72c8.png",
+        "type" : "image/png",
+        "size" : 445333
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_email_dialog_steel\" in name field in \"1 section\"",
+      "time" : {
+        "start" : 1647270917211,
+        "stop" : 1647270918250,
+        "duration" : 1039
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7e8e72f7441ad42b",
+        "name" : "screenshot",
+        "source" : "7e8e72f7441ad42b.png",
+        "type" : "image/png",
+        "size" : 449812
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_company_name\" in company name field in \"1 section\"",
+      "time" : {
+        "start" : 1647270918250,
+        "stop" : 1647270919200,
+        "duration" : 950
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "89d42525cae72a92",
+        "name" : "screenshot",
+        "source" : "89d42525cae72a92.png",
+        "type" : "image/png",
+        "size" : 453022
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field in \"1 section\"",
+      "time" : {
+        "start" : 1647270919200,
+        "stop" : 1647270920139,
+        "duration" : 939
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7ad41759f0966bc4",
+        "name" : "screenshot",
+        "source" : "7ad41759f0966bc4.png",
+        "type" : "image/png",
+        "size" : 455456
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field in \"1 section\"",
+      "time" : {
+        "start" : 1647270920140,
+        "stop" : 1647270921062,
+        "duration" : 922
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "935316fa93cc3a9d",
+        "name" : "screenshot",
+        "source" : "935316fa93cc3a9d.png",
+        "type" : "image/png",
+        "size" : 455719
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_comment\" in message field in \"1 section\"",
+      "time" : {
+        "start" : 1647270921063,
+        "stop" : 1647270922021,
+        "duration" : 958
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "15e94f77ee3cc4b9",
+        "name" : "screenshot",
+        "source" : "15e94f77ee3cc4b9.png",
+        "type" : "image/png",
+        "size" : 457868
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on send button in \"1 section\"",
+      "time" : {
+        "start" : 1647270922021,
+        "stop" : 1647270922939,
+        "duration" : 918
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8b944d709ffc9ea",
+        "name" : "screenshot",
+        "source" : "c8b944d709ffc9ea.png",
+        "type" : "image/png",
+        "size" : 457487
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_dialog_steel\" contains \"Тема: Запрос от test_automation_company_name;[PHONE]: +7 (000) 000-00-00;[EMAIL]: automation.emk@gmail.com;[BODY]: test_automation_comment\" in 900 sec",
+      "time" : {
+        "start" : 1647270922939,
+        "stop" : 1647270928416,
+        "duration" : 5477
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa72effd8ff10c9f",
+        "name" : "screenshot",
+        "source" : "aa72effd8ff10c9f.png",
+        "type" : "image/png",
+        "size" : 444698
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта emksteel.ru"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "button",
+    "value" : "more info button"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "401c8dc03438fe48",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/401c8dc03438fe48",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647253598669,
+          "stop" : 1647253886014,
+          "duration" : 287345
+        }
+      }, {
+        "uid" : "d731699e96754039",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/23//#testresult/d731699e96754039",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647147025173,
+          "stop" : 1647147312533,
+          "duration" : 287360
+        }
+      }, {
+        "uid" : "23853a115a9f0919",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/22//#testresult/23853a115a9f0919",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647059651457,
+          "stop" : 1647059939118,
+          "duration" : 287661
+        }
+      }, {
+        "uid" : "1e7c816093250979",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/21//#testresult/1e7c816093250979",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646974745813,
+          "stop" : 1646975034249,
+          "duration" : 288436
+        }
+      }, {
+        "uid" : "1671f4e1ef026847",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/1671f4e1ef026847",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646887576124,
+          "stop" : 1646887864124,
+          "duration" : 288000
+        }
+      }, {
+        "uid" : "ecb43776cd5af997",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/ecb43776cd5af997",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646812287210,
+          "stop" : 1646812396893,
+          "duration" : 109683
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "2a0d9f8222e2f6f1.json",
+  "parameterValues" : [ "more info button" ]
+}

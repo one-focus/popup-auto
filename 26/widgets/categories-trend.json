@@ -2,6 +2,11 @@
   "buildOrder" : 26,
   "reportUrl" : "https://one-focus.github.io/popup-auto/26/",
   "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 26,
+  "reportUrl" : "https://one-focus.github.io/popup-auto/26/",
+  "reportName" : "Allure Report with history",
   "data" : {
     "Test defects" : 10
   }
