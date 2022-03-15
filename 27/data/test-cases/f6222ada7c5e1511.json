@@ -1,0 +1,344 @@
+{
+  "uid" : "f6222ada7c5e1511",
+  "name" : "контакты emk24 -- @1.2 ",
+  "fullName" : "Проверка формы на странце контактов emk24: контакты emk24",
+  "historyId" : "a4af14f857bea6c7f0f3d45ac3bb5382",
+  "time" : {
+    "start" : 1647316798654,
+    "stop" : 1647316905207,
+    "duration" : 106553
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emk24.by page",
+      "time" : {
+        "start" : 1647316798739,
+        "stop" : 1647316801275,
+        "duration" : 2536
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e5b6a523974165f6",
+        "name" : "screenshot",
+        "source" : "e5b6a523974165f6.png",
+        "type" : "image/png",
+        "size" : 1039950
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When open url: \"emk24.by/about/contacts/\"",
+      "time" : {
+        "start" : 1647316801275,
+        "stop" : 1647316803003,
+        "duration" : 1728
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d97eeb5d02de9e4b",
+        "name" : "screenshot",
+        "source" : "d97eeb5d02de9e4b.png",
+        "type" : "image/png",
+        "size" : 297649
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_email_contacts\" in company field",
+      "time" : {
+        "start" : 1647316803003,
+        "stop" : 1647316804006,
+        "duration" : 1003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fbf3af6e3bb34862",
+        "name" : "screenshot",
+        "source" : "fbf3af6e3bb34862.png",
+        "type" : "image/png",
+        "size" : 309775
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_user_name\" in name field",
+      "time" : {
+        "start" : 1647316804006,
+        "stop" : 1647316804912,
+        "duration" : 906
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1e7e75b497dd7809",
+        "name" : "screenshot",
+        "source" : "1e7e75b497dd7809.png",
+        "type" : "image/png",
+        "size" : 308542
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field",
+      "time" : {
+        "start" : 1647316804912,
+        "stop" : 1647316805849,
+        "duration" : 937
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92ea9dbaf030b328",
+        "name" : "screenshot",
+        "source" : "92ea9dbaf030b328.png",
+        "type" : "image/png",
+        "size" : 290952
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field",
+      "time" : {
+        "start" : 1647316805849,
+        "stop" : 1647316806747,
+        "duration" : 898
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4f586e2347016c9",
+        "name" : "screenshot",
+        "source" : "b4f586e2347016c9.png",
+        "type" : "image/png",
+        "size" : 294179
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation_message\" in message field",
+      "time" : {
+        "start" : 1647316806747,
+        "stop" : 1647316807628,
+        "duration" : 881
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "641530e64ce11a4f",
+        "name" : "screenshot",
+        "source" : "641530e64ce11a4f.png",
+        "type" : "image/png",
+        "size" : 297779
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on Send button",
+      "time" : {
+        "start" : 1647316807628,
+        "stop" : 1647316808797,
+        "duration" : 1169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d59647cba25fca0",
+        "name" : "screenshot",
+        "source" : "9d59647cba25fca0.png",
+        "type" : "image/png",
+        "size" : 289921
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"Ваше сообщение отравлено\" is displayed",
+      "time" : {
+        "start" : 1647316808797,
+        "stop" : 1647316809514,
+        "duration" : 717
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9385bbec23f33e73",
+        "name" : "screenshot",
+        "source" : "9385bbec23f33e73.png",
+        "type" : "image/png",
+        "size" : 461226
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_contacts\" contains \"emk24.by;[NAME]: test_automation_user_name;[PHONE]: +70000000000;[EMAIL]: automation.emk@gmail.com\" in 900 sec",
+      "time" : {
+        "start" : 1647316809514,
+        "stop" : 1647316905207,
+        "duration" : 95693
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c3ccb7f727807afd",
+        "name" : "screenshot",
+        "source" : "c3ccb7f727807afd.png",
+        "type" : "image/png",
+        "size" : 490676
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка формы на странце контактов emk24"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "url",
+    "value" : "emk24.by"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "1d63940eefb1a1ba",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/1d63940eefb1a1ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647272260347,
+          "stop" : 1647272367486,
+          "duration" : 107139
+        }
+      }, {
+        "uid" : "f731ebe211d3c49b",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/f731ebe211d3c49b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647258959651,
+          "stop" : 1647259068250,
+          "duration" : 108599
+        }
+      }, {
+        "uid" : "2f8c29f1ada0d167",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/23//#testresult/2f8c29f1ada0d167",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647151839184,
+          "stop" : 1647151855634,
+          "duration" : 16450
+        }
+      }, {
+        "uid" : "e7dd1298d4457592",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/22//#testresult/e7dd1298d4457592",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647064663904,
+          "stop" : 1647064770896,
+          "duration" : 106992
+        }
+      }, {
+        "uid" : "9cebe4263b87f517",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/21//#testresult/9cebe4263b87f517",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646980513435,
+          "stop" : 1646980620095,
+          "duration" : 106660
+        }
+      }, {
+        "uid" : "ebaaaf54d9a0f439",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/ebaaaf54d9a0f439",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646893494625,
+          "stop" : 1646893600636,
+          "duration" : 106011
+        }
+      }, {
+        "uid" : "bc9fd3e63435f097",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/bc9fd3e63435f097",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646815128736,
+          "stop" : 1646815236176,
+          "duration" : 107440
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "f6222ada7c5e1511.json",
+  "parameterValues" : [ "emk24.by" ]
+}

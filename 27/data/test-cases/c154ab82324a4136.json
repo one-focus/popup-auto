@@ -1,0 +1,257 @@
+{
+  "uid" : "c154ab82324a4136",
+  "name" : "railws.com заказать звонок",
+  "fullName" : "Проверка сайта railws.com: railws.com заказать звонок",
+  "historyId" : "323eb44bae1306dda680f0ccdf57fc5a",
+  "time" : {
+    "start" : 1647315867522,
+    "stop" : 1647315970961,
+    "duration" : 103439
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open railws.com page",
+      "time" : {
+        "start" : 1647315867570,
+        "stop" : 1647315870314,
+        "duration" : 2744
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e498e4b93856ca12",
+        "name" : "screenshot",
+        "source" : "e498e4b93856ca12.png",
+        "type" : "image/png",
+        "size" : 879232
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on order call link",
+      "time" : {
+        "start" : 1647315870314,
+        "stop" : 1647315871772,
+        "duration" : 1458
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f849875b708e364",
+        "name" : "screenshot",
+        "source" : "9f849875b708e364.png",
+        "type" : "image/png",
+        "size" : 874537
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_email_order_railws\" in name field in \"order call section\"",
+      "time" : {
+        "start" : 1647315871772,
+        "stop" : 1647315872913,
+        "duration" : 1141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1a58ed694eed74",
+        "name" : "screenshot",
+        "source" : "1a58ed694eed74.png",
+        "type" : "image/png",
+        "size" : 667471
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+9000000000\" in phone field in \"order call section\"",
+      "time" : {
+        "start" : 1647315872913,
+        "stop" : 1647315874001,
+        "duration" : 1088
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "39b83f9e7d536e24",
+        "name" : "screenshot",
+        "source" : "39b83f9e7d536e24.png",
+        "type" : "image/png",
+        "size" : 670720
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on send button in \"order call section\"",
+      "time" : {
+        "start" : 1647315874002,
+        "stop" : 1647315875032,
+        "duration" : 1030
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fe36ef364a6c3ffc",
+        "name" : "screenshot",
+        "source" : "fe36ef364a6c3ffc.png",
+        "type" : "image/png",
+        "size" : 672013
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_order_railws\" contains \"Телефон : +7 900 000 00 00\" in 900 sec",
+      "time" : {
+        "start" : 1647315875033,
+        "stop" : 1647315970961,
+        "duration" : 95928
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "825d401ee0930008",
+        "name" : "screenshot",
+        "source" : "825d401ee0930008.png",
+        "type" : "image/png",
+        "size" : 879203
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта railws.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "8647c4141c683f72",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/8647c4141c683f72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647271154292,
+          "stop" : 1647271167722,
+          "duration" : 13430
+        }
+      }, {
+        "uid" : "a8e5d2ed5c2bad0b",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/a8e5d2ed5c2bad0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647257430483,
+          "stop" : 1647257443990,
+          "duration" : 13507
+        }
+      }, {
+        "uid" : "5b9faebd058a7c2f",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/23//#testresult/5b9faebd058a7c2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647150923664,
+          "stop" : 1647150936841,
+          "duration" : 13177
+        }
+      }, {
+        "uid" : "13491fa73d337745",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/22//#testresult/13491fa73d337745",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647063829380,
+          "stop" : 1647063843046,
+          "duration" : 13666
+        }
+      }, {
+        "uid" : "3dd8518771b4f767",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/21//#testresult/3dd8518771b4f767",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646978665378,
+          "stop" : 1646978679888,
+          "duration" : 14510
+        }
+      }, {
+        "uid" : "1d4bd7588f8ce0a0",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/1d4bd7588f8ce0a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646891663514,
+          "stop" : 1646891767342,
+          "duration" : 103828
+        }
+      }, {
+        "uid" : "1812ade1b8a84ea2",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/1812ade1b8a84ea2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646813638263,
+          "stop" : 1646813743039,
+          "duration" : 104776
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "c154ab82324a4136.json",
+  "parameterValues" : [ ]
+}
