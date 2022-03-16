@@ -1,6 +1,6 @@
 [ {
-  "buildOrder" : 29,
-  "reportUrl" : "https://one-focus.github.io/popup-auto/29/",
+  "buildOrder" : 31,
+  "reportUrl" : "https://one-focus.github.io/popup-auto/31/",
   "reportName" : "Allure Report with history",
   "data" : { }
 }, {
@@ -12,67 +12,71 @@
   "buildOrder" : 27,
   "reportUrl" : "https://one-focus.github.io/popup-auto/27/",
   "reportName" : "Allure Report with history",
-  "data" : { }
-}, {
-  "buildOrder" : 26,
-  "reportUrl" : "https://one-focus.github.io/popup-auto/26/",
-  "reportName" : "Allure Report with history",
-  "data" : { }
+  "data" : {
+    "duration" : 4054025
+  }
 }, {
   "buildOrder" : 26,
   "reportUrl" : "https://one-focus.github.io/popup-auto/26/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Test defects" : 10
+    "duration" : 4475647
+  }
+}, {
+  "buildOrder" : 26,
+  "reportUrl" : "https://one-focus.github.io/popup-auto/26/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 13789829
   }
 }, {
   "buildOrder" : 25,
   "reportUrl" : "https://one-focus.github.io/popup-auto/25/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Test defects" : 1
+    "duration" : 67444
   }
 }, {
   "buildOrder" : 24,
   "reportUrl" : "https://one-focus.github.io/popup-auto/24/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Test defects" : 1
+    "duration" : 154529
   }
 }, {
   "buildOrder" : 23,
   "reportUrl" : "https://one-focus.github.io/popup-auto/23/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Test defects" : 13
+    "duration" : 12192213
   }
 }, {
   "buildOrder" : 22,
   "reportUrl" : "https://one-focus.github.io/popup-auto/22/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Test defects" : 11
+    "duration" : 11805538
   }
 }, {
   "buildOrder" : 21,
   "reportUrl" : "https://one-focus.github.io/popup-auto/21/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Test defects" : 13
+    "duration" : 14110133
   }
 }, {
   "buildOrder" : 20,
   "reportUrl" : "https://one-focus.github.io/popup-auto/20/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Test defects" : 11
+    "duration" : 13940431
   }
 }, {
   "buildOrder" : 19,
   "reportUrl" : "https://one-focus.github.io/popup-auto/19/",
   "reportName" : "Allure Report with history",
   "data" : {
-    "Test defects" : 4
+    "duration" : 7927519
   }
 }, {
   "data" : { }
