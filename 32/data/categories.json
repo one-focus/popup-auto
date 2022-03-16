@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "RuntimeError: Сообщение с текстом \"043456789\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "Скачать стандарт emk24 -- @1.4 ",
+        "uid" : "951f4e88a6f85c70",
+        "parentUid" : "b8cec1f0e8b9c97e6669d996fe2acba5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647470774056,
+          "stop" : 1647471694253,
+          "duration" : 920197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "043456789", "emk24.com.ua" ]
+      } ],
+      "uid" : "b8cec1f0e8b9c97e6669d996fe2acba5"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"17.03.2022 02:04:33_test_automation_email_order_splav\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "Заказ сплава emk24 -- @1.1 ",
+        "uid" : "b7dc33712551582e",
+        "parentUid" : "968077c3f139f532fad8deaaf0751ba0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647471867359,
+          "stop" : 1647472786723,
+          "duration" : 919364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.ru" ]
+      } ],
+      "uid" : "968077c3f139f532fad8deaaf0751ba0"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
