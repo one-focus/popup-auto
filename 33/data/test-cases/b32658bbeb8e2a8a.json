@@ -1,0 +1,304 @@
+{
+  "uid" : "b32658bbeb8e2a8a",
+  "name" : "forging.emk24.su заказать звонок",
+  "fullName" : "Проверка сайта forging.emk24.su: forging.emk24.su заказать звонок",
+  "historyId" : "b50493f2b910e5ed39a635f0d0327635",
+  "time" : {
+    "start" : 1647488574179,
+    "stop" : 1647488587480,
+    "duration" : 13301
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open forging.emk24.su page",
+      "time" : {
+        "start" : 1647488574268,
+        "stop" : 1647488576596,
+        "duration" : 2328
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "30e9c37041e9234e",
+        "name" : "screenshot",
+        "source" : "30e9c37041e9234e.png",
+        "type" : "image/png",
+        "size" : 535462
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on order call link",
+      "time" : {
+        "start" : 1647488576596,
+        "stop" : 1647488578066,
+        "duration" : 1470
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc3f46a3406b9a1d",
+        "name" : "screenshot",
+        "source" : "cc3f46a3406b9a1d.png",
+        "type" : "image/png",
+        "size" : 540403
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_email_call_ord\" in name field in \"order call section\"",
+      "time" : {
+        "start" : 1647488578066,
+        "stop" : 1647488579138,
+        "duration" : 1072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bc1bf6eecd1180d9",
+        "name" : "screenshot",
+        "source" : "bc1bf6eecd1180d9.png",
+        "type" : "image/png",
+        "size" : 396715
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field in \"order call section\"",
+      "time" : {
+        "start" : 1647488579138,
+        "stop" : 1647488580111,
+        "duration" : 973
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e2f5293691459d65",
+        "name" : "screenshot",
+        "source" : "e2f5293691459d65.png",
+        "type" : "image/png",
+        "size" : 396530
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on send button in \"order call section\"",
+      "time" : {
+        "start" : 1647488580111,
+        "stop" : 1647488581901,
+        "duration" : 1790
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "40a0c643cb91dd11",
+        "name" : "screenshot",
+        "source" : "40a0c643cb91dd11.png",
+        "type" : "image/png",
+        "size" : 396036
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"СПАСИБО ЗА ЗАЯВКУ!\" is displayed",
+      "time" : {
+        "start" : 1647488581901,
+        "stop" : 1647488582112,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "52c738ccffdd2429",
+        "name" : "screenshot",
+        "source" : "52c738ccffdd2429.png",
+        "type" : "image/png",
+        "size" : 53896
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_call_ord\" contains \"[FORM]: Заказать обратный звонок;[PHONE]: +70000000000\" in 480 sec",
+      "time" : {
+        "start" : 1647488582112,
+        "stop" : 1647488587480,
+        "duration" : 5368
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "11ebf6cc3775c244",
+        "name" : "screenshot",
+        "source" : "11ebf6cc3775c244.png",
+        "type" : "image/png",
+        "size" : 61882
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "test"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта forging.emk24.su"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "72ec7dd6d3211f89",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/32//#testresult/72ec7dd6d3211f89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647469266994,
+          "stop" : 1647469281030,
+          "duration" : 14036
+        }
+      }, {
+        "uid" : "7927e0b8be69e5d9",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/27//#testresult/7927e0b8be69e5d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647315854917,
+          "stop" : 1647315867513,
+          "duration" : 12596
+        }
+      }, {
+        "uid" : "8f3d0f39f4204115",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/8f3d0f39f4204115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647271141216,
+          "stop" : 1647271154289,
+          "duration" : 13073
+        }
+      }, {
+        "uid" : "74f324754d4280e0",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/74f324754d4280e0",
+        "status" : "broken",
+        "statusDetails" : "requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)\n",
+        "time" : {
+          "start" : 1647256904034,
+          "stop" : 1647257430480,
+          "duration" : 526446
+        }
+      }, {
+        "uid" : "ab413f5102b19913",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/23//#testresult/ab413f5102b19913",
+        "status" : "broken",
+        "statusDetails" : "requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)\n",
+        "time" : {
+          "start" : 1647150397632,
+          "stop" : 1647150923660,
+          "duration" : 526028
+        }
+      }, {
+        "uid" : "135624c1529558c5",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/22//#testresult/135624c1529558c5",
+        "status" : "broken",
+        "statusDetails" : "requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)\n",
+        "time" : {
+          "start" : 1647063302981,
+          "stop" : 1647063829378,
+          "duration" : 526397
+        }
+      }, {
+        "uid" : "afa03dbae0112104",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/21//#testresult/afa03dbae0112104",
+        "status" : "broken",
+        "statusDetails" : "requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)\n",
+        "time" : {
+          "start" : 1646978138077,
+          "stop" : 1646978665376,
+          "duration" : 527299
+        }
+      }, {
+        "uid" : "171d0ce9e2c18bfd",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/171d0ce9e2c18bfd",
+        "status" : "broken",
+        "statusDetails" : "requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)\n",
+        "time" : {
+          "start" : 1646891137478,
+          "stop" : 1646891663511,
+          "duration" : 526033
+        }
+      }, {
+        "uid" : "5dd1040056e0f7",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/5dd1040056e0f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646813334540,
+          "stop" : 1646813638260,
+          "duration" : 303720
+        }
+      } ]
+    },
+    "tags" : [ "test", "regression" ]
+  },
+  "source" : "b32658bbeb8e2a8a.json",
+  "parameterValues" : [ ]
+}
