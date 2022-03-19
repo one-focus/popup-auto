@@ -1,6 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Mar 08 08:55:02 GMT 2022","Tue Mar 08 08:55:21 GMT 2022","18474","","","","","","emkmet_ru секция 1 и 4 -- @1.1 ",""
-"passed","Tue Mar 08 08:52:29 GMT 2022","Tue Mar 08 08:54:17 GMT 2022","107922","","","","","","a1-valves.com заказать звонок -- @1.1 ",""
-"passed","Tue Mar 08 08:54:17 GMT 2022","Tue Mar 08 08:54:29 GMT 2022","11552","","","","","","a1-valves.com заказать звонок -- @1.2 ",""
-"passed","Tue Mar 08 08:54:46 GMT 2022","Tue Mar 08 08:55:02 GMT 2022","16718","","","","","","a1-valves.com оставить заявку -- @1.2 ",""
-"passed","Tue Mar 08 08:54:29 GMT 2022","Tue Mar 08 08:54:46 GMT 2022","17163","","","","","","a1-valves.com оставить заявку -- @1.1 ",""
