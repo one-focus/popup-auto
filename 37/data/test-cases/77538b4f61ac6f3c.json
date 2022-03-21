@@ -1,0 +1,379 @@
+{
+  "uid" : "77538b4f61ac6f3c",
+  "name" : "forging.emk24.su секция 3",
+  "fullName" : "Проверка сайта forging.emk24.su: forging.emk24.su секция 3",
+  "historyId" : "98f09a9f0c02011587a59629cff19854",
+  "time" : {
+    "start" : 1647835137166,
+    "stop" : 1647835150564,
+    "duration" : 13398
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open forging.emk24.su page",
+      "time" : {
+        "start" : 1647835137205,
+        "stop" : 1647835139061,
+        "duration" : 1856
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b70836db6b8c583d",
+        "name" : "screenshot",
+        "source" : "b70836db6b8c583d.png",
+        "type" : "image/png",
+        "size" : 535640
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_email_3\" in name field in \"3 section\"",
+      "time" : {
+        "start" : 1647835139062,
+        "stop" : 1647835139960,
+        "duration" : 898
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c5d015a5441ce1c",
+        "name" : "screenshot",
+        "source" : "7c5d015a5441ce1c.png",
+        "type" : "image/png",
+        "size" : 179566
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field in \"3 section\"",
+      "time" : {
+        "start" : 1647835139960,
+        "stop" : 1647835140803,
+        "duration" : 843
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9a4b0e9f485d1674",
+        "name" : "screenshot",
+        "source" : "9a4b0e9f485d1674.png",
+        "type" : "image/png",
+        "size" : 179141
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_company_name\" in company name field in \"3 section\"",
+      "time" : {
+        "start" : 1647835140803,
+        "stop" : 1647835141646,
+        "duration" : 843
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bcac000bb1b8a9e3",
+        "name" : "screenshot",
+        "source" : "bcac000bb1b8a9e3.png",
+        "type" : "image/png",
+        "size" : 180324
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field in \"3 section\"",
+      "time" : {
+        "start" : 1647835141646,
+        "stop" : 1647835142503,
+        "duration" : 857
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc6661ffaeb57bfd",
+        "name" : "screenshot",
+        "source" : "cc6661ffaeb57bfd.png",
+        "type" : "image/png",
+        "size" : 182112
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_comment\" in message field in \"3 section\"",
+      "time" : {
+        "start" : 1647835142503,
+        "stop" : 1647835143353,
+        "duration" : 850
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "79873d1283790b0d",
+        "name" : "screenshot",
+        "source" : "79873d1283790b0d.png",
+        "type" : "image/png",
+        "size" : 181290
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on send button in \"3 section\"",
+      "time" : {
+        "start" : 1647835143354,
+        "stop" : 1647835144133,
+        "duration" : 779
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d3f22d4eb31aa88d",
+        "name" : "screenshot",
+        "source" : "d3f22d4eb31aa88d.png",
+        "type" : "image/png",
+        "size" : 180995
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"СПАСИБО ЗА ЗАЯВКУ!\" is displayed",
+      "time" : {
+        "start" : 1647835144133,
+        "stop" : 1647835145197,
+        "duration" : 1064
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "83857b38bb9417d0",
+        "name" : "screenshot",
+        "source" : "83857b38bb9417d0.png",
+        "type" : "image/png",
+        "size" : 53949
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_3\" contains \"[FORM]: Форма заказа внизу;[PHONE]: +70000000000;[EMAIL]: automation.emk@gmail.com;[BODY]: Компания: test_automation_company\" in 900 sec",
+      "time" : {
+        "start" : 1647835145197,
+        "stop" : 1647835150564,
+        "duration" : 5367
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1f6ec8cfb95e33b9",
+        "name" : "screenshot",
+        "source" : "1f6ec8cfb95e33b9.png",
+        "type" : "image/png",
+        "size" : 61957
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта forging.emk24.su"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "1d9e1666ef3a9705",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/36//#testresult/1d9e1666ef3a9705",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647747925069,
+          "stop" : 1647747940215,
+          "duration" : 15146
+        }
+      }, {
+        "uid" : "84d6d608b42675ba",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/35//#testresult/84d6d608b42675ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647661544158,
+          "stop" : 1647661559856,
+          "duration" : 15698
+        }
+      }, {
+        "uid" : "fa175b18a12c088",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/34//#testresult/fa175b18a12c088",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647574042854,
+          "stop" : 1647574056135,
+          "duration" : 13281
+        }
+      }, {
+        "uid" : "af01f84d9ff1e16d",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/33//#testresult/af01f84d9ff1e16d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647488469107,
+          "stop" : 1647488574178,
+          "duration" : 105071
+        }
+      }, {
+        "uid" : "411364622174c642",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/32//#testresult/411364622174c642",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647469162505,
+          "stop" : 1647469266993,
+          "duration" : 104488
+        }
+      }, {
+        "uid" : "934e02e961e4dce2",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/27//#testresult/934e02e961e4dce2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647315841067,
+          "stop" : 1647315854916,
+          "duration" : 13849
+        }
+      }, {
+        "uid" : "fd4771f456ad9613",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/fd4771f456ad9613",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647271126741,
+          "stop" : 1647271141216,
+          "duration" : 14475
+        }
+      }, {
+        "uid" : "6da367e7e147a2d6",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/6da367e7e147a2d6",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"14.03.2022 14:06:26_test_automation_email_3\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1647255983240,
+          "stop" : 1647256904033,
+          "duration" : 920793
+        }
+      }, {
+        "uid" : "1141c688ee3b2fc5",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/23//#testresult/1141c688ee3b2fc5",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"13.03.2022 08:31:21_test_automation_email_3\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1647149477767,
+          "stop" : 1647150397631,
+          "duration" : 919864
+        }
+      }, {
+        "uid" : "f3565e4dd4cb5ba6",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/22//#testresult/f3565e4dd4cb5ba6",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"12.03.2022 08:19:45_test_automation_email_3\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1647062382211,
+          "stop" : 1647063302980,
+          "duration" : 920769
+        }
+      }, {
+        "uid" : "595edf6b5206e53f",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/21//#testresult/595edf6b5206e53f",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"11.03.2022 08:40:20_test_automation_email_3\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1646977216105,
+          "stop" : 1646978138076,
+          "duration" : 921971
+        }
+      }, {
+        "uid" : "22eb1e8ac7e37aeb",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/22eb1e8ac7e37aeb",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"10.03.2022 08:30:20_test_automation_email_3\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1646890217171,
+          "stop" : 1646891137477,
+          "duration" : 920306
+        }
+      }, {
+        "uid" : "68cffafb290500fe",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/68cffafb290500fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646813228197,
+          "stop" : 1646813334539,
+          "duration" : 106342
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "77538b4f61ac6f3c.json",
+  "parameterValues" : [ ]
+}
