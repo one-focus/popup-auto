@@ -1,0 +1,370 @@
+{
+  "uid" : "ee738d359f4e5632",
+  "name" : "emkmet_ru секция 1 и 4 -- @1.2 ",
+  "fullName" : "Проверка сайта emkmet.ru: emkmet_ru секция 1 и 4",
+  "historyId" : "b281885eaa68a5b9e87e5f388592f5f2",
+  "time" : {
+    "start" : 1647919697532,
+    "stop" : 1647919712913,
+    "duration" : 15381
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emkmet.ru page",
+      "time" : {
+        "start" : 1647919697557,
+        "stop" : 1647919699472,
+        "duration" : 1915
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "adc981bc99b1cffa",
+        "name" : "screenshot",
+        "source" : "adc981bc99b1cffa.png",
+        "type" : "image/png",
+        "size" : 1068164
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_company_name\" in company field in \"4 section\"",
+      "time" : {
+        "start" : 1647919699472,
+        "stop" : 1647919700945,
+        "duration" : 1473
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a609208eb38a0f87",
+        "name" : "screenshot",
+        "source" : "a609208eb38a0f87.png",
+        "type" : "image/png",
+        "size" : 1182513
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_product\" in product field in \"4 section\"",
+      "time" : {
+        "start" : 1647919700945,
+        "stop" : 1647919702349,
+        "duration" : 1404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "86b350873ac10234",
+        "name" : "screenshot",
+        "source" : "86b350873ac10234.png",
+        "type" : "image/png",
+        "size" : 1180703
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field in \"4 section\"",
+      "time" : {
+        "start" : 1647919702349,
+        "stop" : 1647919703733,
+        "duration" : 1384
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "882e6b29b180c557",
+        "name" : "screenshot",
+        "source" : "882e6b29b180c557.png",
+        "type" : "image/png",
+        "size" : 1181227
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"70000000000\" in phone field in \"4 section\"",
+      "time" : {
+        "start" : 1647919703733,
+        "stop" : 1647919705137,
+        "duration" : 1404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1d452878e327b525",
+        "name" : "screenshot",
+        "source" : "1d452878e327b525.png",
+        "type" : "image/png",
+        "size" : 1181581
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on get price button in \"4 section\"",
+      "time" : {
+        "start" : 1647919705137,
+        "stop" : 1647919707319,
+        "duration" : 2182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d6bec8f3f7d9f834",
+        "name" : "screenshot",
+        "source" : "d6bec8f3f7d9f834.png",
+        "type" : "image/png",
+        "size" : 1189871
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"СПАСИБО ЗА ЗАЯВКУ!\" is displayed",
+      "time" : {
+        "start" : 1647919707320,
+        "stop" : 1647919707507,
+        "duration" : 187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "30c07061bd202b8d",
+        "name" : "screenshot",
+        "source" : "30c07061bd202b8d.png",
+        "type" : "image/png",
+        "size" : 45611
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_company_name\" contains \"Компания : generated_company_name;Продукты : test_automation_product;Email : automation.emk@gmail.com;Телефон : +7000000000\" in 900 sec",
+      "time" : {
+        "start" : 1647919707508,
+        "stop" : 1647919712913,
+        "duration" : 5405
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4bc71c2c228c11b2",
+        "name" : "screenshot",
+        "source" : "4bc71c2c228c11b2.png",
+        "type" : "image/png",
+        "size" : 45566
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта emkmet.ru"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "section",
+    "value" : "4 section"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "ea8e6b2c9a043f1a",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/37//#testresult/ea8e6b2c9a043f1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647833287559,
+          "stop" : 1647833483540,
+          "duration" : 195981
+        }
+      }, {
+        "uid" : "23bdc0cca284ee3b",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/36//#testresult/23bdc0cca284ee3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647746436886,
+          "stop" : 1647746451399,
+          "duration" : 14513
+        }
+      }, {
+        "uid" : "f39b70661c6dd69a",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/35//#testresult/f39b70661c6dd69a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647660316954,
+          "stop" : 1647660333069,
+          "duration" : 16115
+        }
+      }, {
+        "uid" : "fa55c8376608d1c4",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/34//#testresult/fa55c8376608d1c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647573633679,
+          "stop" : 1647573648077,
+          "duration" : 14398
+        }
+      }, {
+        "uid" : "f7730e7ffc59bb31",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/33//#testresult/f7730e7ffc59bb31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647487153002,
+          "stop" : 1647487168805,
+          "duration" : 15803
+        }
+      }, {
+        "uid" : "2266ec5d8e376316",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/32//#testresult/2266ec5d8e376316",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647468118393,
+          "stop" : 1647468315532,
+          "duration" : 197139
+        }
+      }, {
+        "uid" : "8919f41447cb3bc9",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/27//#testresult/8919f41447cb3bc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647314349038,
+          "stop" : 1647314364130,
+          "duration" : 15092
+        }
+      }, {
+        "uid" : "3a5e74900cd84998",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/3a5e74900cd84998",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647270542393,
+          "stop" : 1647270557270,
+          "duration" : 14877
+        }
+      }, {
+        "uid" : "44a7f50c5ebd1f0e",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/44a7f50c5ebd1f0e",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"14.03.2022 12:31:44_company_name\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1647250301494,
+          "stop" : 1647251221540,
+          "duration" : 920046
+        }
+      }, {
+        "uid" : "9f7e58d93081e774",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/23//#testresult/9f7e58d93081e774",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"13.03.2022 07:03:38_company_name\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1647144215465,
+          "stop" : 1647145134246,
+          "duration" : 918781
+        }
+      }, {
+        "uid" : "8ac7f4548cb4eb1a",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/22//#testresult/8ac7f4548cb4eb1a",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"12.03.2022 06:44:21_company_name\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1647056658115,
+          "stop" : 1647057578625,
+          "duration" : 920510
+        }
+      }, {
+        "uid" : "5ad7d20573834416",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/21//#testresult/5ad7d20573834416",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"11.03.2022 07:04:36_company_name\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1646971472675,
+          "stop" : 1646972394283,
+          "duration" : 921608
+        }
+      }, {
+        "uid" : "5d1705a17daa9cd0",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/5d1705a17daa9cd0",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"10.03.2022 06:41:23_company_name\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1646883680784,
+          "stop" : 1646884600648,
+          "duration" : 919864
+        }
+      }, {
+        "uid" : "ac1f832822c8cc94",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/ac1f832822c8cc94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646811634802,
+          "stop" : 1646811742372,
+          "duration" : 107570
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "ee738d359f4e5632.json",
+  "parameterValues" : [ "4 section" ]
+}
