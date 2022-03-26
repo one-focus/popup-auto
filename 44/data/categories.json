@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 10.000\n  (Session info: headless chrome=98.0.4758.102)\n\n",
+      "children" : [ {
+        "name" : "корзина emk24 -- @1.3 ",
+        "uid" : "f9a6da5d9479a0c",
+        "parentUid" : "a62321371604fd12ec67a39f84ae1b95",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648267969978,
+          "stop" : 1648268315425,
+          "duration" : 345447
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.kz" ]
+      }, {
+        "name" : "Купить в 1 клик emk24 -- @1.3 ",
+        "uid" : "f738f899fd25db3f",
+        "parentUid" : "a62321371604fd12ec67a39f84ae1b95",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648268410531,
+          "stop" : 1648268627076,
+          "duration" : 216545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.kz" ]
+      } ],
+      "uid" : "a62321371604fd12ec67a39f84ae1b95"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

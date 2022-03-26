@@ -1,0 +1,394 @@
+{
+  "uid" : "fc9ad893e6007c40",
+  "name" : "emksteel.ru заказать звонок -- @1.1 ",
+  "fullName" : "Проверка сайта emksteel.ru: emksteel.ru заказать звонок",
+  "historyId" : "9616ead1417f90724bb838c6d8277918",
+  "time" : {
+    "start" : 1648266172038,
+    "stop" : 1648266550884,
+    "duration" : 378846
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emksteel.ru page",
+      "time" : {
+        "start" : 1648266172084,
+        "stop" : 1648266176592,
+        "duration" : 4508
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a1ebeb646b8a96d",
+        "name" : "screenshot",
+        "source" : "3a1ebeb646b8a96d.png",
+        "type" : "image/png",
+        "size" : 520439
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on top request call button",
+      "time" : {
+        "start" : 1648266176593,
+        "stop" : 1648266177846,
+        "duration" : 1253
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b4e341d47df5868",
+        "name" : "screenshot",
+        "source" : "3b4e341d47df5868.png",
+        "type" : "image/png",
+        "size" : 521019
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_email_order_call\" in name field in \"request call section\"",
+      "time" : {
+        "start" : 1648266177846,
+        "stop" : 1648266178804,
+        "duration" : 958
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d21f8a5c68b5399",
+        "name" : "screenshot",
+        "source" : "5d21f8a5c68b5399.png",
+        "type" : "image/png",
+        "size" : 359276
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_company\" in company name field in \"request call section\"",
+      "time" : {
+        "start" : 1648266178805,
+        "stop" : 1648266179703,
+        "duration" : 898
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d700f5bc70e41649",
+        "name" : "screenshot",
+        "source" : "d700f5bc70e41649.png",
+        "type" : "image/png",
+        "size" : 361726
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field in \"request call section\"",
+      "time" : {
+        "start" : 1648266179703,
+        "stop" : 1648266180595,
+        "duration" : 892
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce33734f40847cd5",
+        "name" : "screenshot",
+        "source" : "ce33734f40847cd5.png",
+        "type" : "image/png",
+        "size" : 361917
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on send button in \"request call section\"",
+      "time" : {
+        "start" : 1648266180596,
+        "stop" : 1648266181466,
+        "duration" : 870
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8f06e3e7b8c241db",
+        "name" : "screenshot",
+        "source" : "8f06e3e7b8c241db.png",
+        "type" : "image/png",
+        "size" : 361828
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"Спасибо за Ваше сообщение\" is displayed",
+      "time" : {
+        "start" : 1648266181466,
+        "stop" : 1648266184713,
+        "duration" : 3247
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "85092678e43387a0",
+        "name" : "screenshot",
+        "source" : "85092678e43387a0.png",
+        "type" : "image/png",
+        "size" : 359062
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_order_call\" contains \"Запрос звонка emksteel.ru test_automation_company;Пожалуйста, перезвоните мне;[PHONE]: +7 (000) 000-00-00\" in 900 sec",
+      "time" : {
+        "start" : 1648266184713,
+        "stop" : 1648266550884,
+        "duration" : 366171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d4b77152598c683",
+        "name" : "screenshot",
+        "source" : "6d4b77152598c683.png",
+        "type" : "image/png",
+        "size" : 359134
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта emksteel.ru"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "button",
+    "value" : "top request call button"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 16,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "1f45555651d9717c",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/43//#testresult/1f45555651d9717c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648186589115,
+          "stop" : 1648186877236,
+          "duration" : 288121
+        }
+      }, {
+        "uid" : "2253407c279d89c1",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/39//#testresult/2253407c279d89c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648006497901,
+          "stop" : 1648006784605,
+          "duration" : 286704
+        }
+      }, {
+        "uid" : "568e90b3739591e",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/38//#testresult/568e90b3739591e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647919749654,
+          "stop" : 1647919949713,
+          "duration" : 200059
+        }
+      }, {
+        "uid" : "b7b486625bfec601",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/37//#testresult/b7b486625bfec601",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647833702374,
+          "stop" : 1647833990957,
+          "duration" : 288583
+        }
+      }, {
+        "uid" : "24ce4c8356f7f55d",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/36//#testresult/24ce4c8356f7f55d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647746486442,
+          "stop" : 1647746773231,
+          "duration" : 286789
+        }
+      }, {
+        "uid" : "b0b74bcb25976cd9",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/35//#testresult/b0b74bcb25976cd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647660370800,
+          "stop" : 1647660660071,
+          "duration" : 289271
+        }
+      }, {
+        "uid" : "99fc0cb3f7f9e256",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/34//#testresult/99fc0cb3f7f9e256",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED\n  (Session info: headless chrome=98.0.4758.102)\n\n",
+        "time" : {
+          "start" : 1647573864564,
+          "stop" : 1647573867186,
+          "duration" : 2622
+        }
+      }, {
+        "uid" : "95f942a6fbbd80d2",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/33//#testresult/95f942a6fbbd80d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647487297054,
+          "stop" : 1647487405102,
+          "duration" : 108048
+        }
+      }, {
+        "uid" : "b1c16a9b97f63fbf",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/32//#testresult/b1c16a9b97f63fbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647468353623,
+          "stop" : 1647468371292,
+          "duration" : 17669
+        }
+      }, {
+        "uid" : "d44852eac368a67e",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/27//#testresult/d44852eac368a67e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647314491109,
+          "stop" : 1647314597975,
+          "duration" : 106866
+        }
+      }, {
+        "uid" : "f3d0f7218accde84",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/f3d0f7218accde84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647270683540,
+          "stop" : 1647270791306,
+          "duration" : 107766
+        }
+      }, {
+        "uid" : "902faf97de6f5a",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/902faf97de6f5a",
+        "status" : "broken",
+        "statusDetails" : "requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)\n",
+        "time" : {
+          "start" : 1647253068396,
+          "stop" : 1647253387328,
+          "duration" : 318932
+        }
+      }, {
+        "uid" : "8d059cdc6aec3e96",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/23//#testresult/8d059cdc6aec3e96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647146978198,
+          "stop" : 1647146995462,
+          "duration" : 17264
+        }
+      }, {
+        "uid" : "7b6ef3c4174e4cc6",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/22//#testresult/7b6ef3c4174e4cc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647059424867,
+          "stop" : 1647059441838,
+          "duration" : 16971
+        }
+      }, {
+        "uid" : "84ff75a09ce7e8ca",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/21//#testresult/84ff75a09ce7e8ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646974243929,
+          "stop" : 1646974533112,
+          "duration" : 289183
+        }
+      }, {
+        "uid" : "85567c151e86d505",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/85567c151e86d505",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646886446056,
+          "stop" : 1646886734620,
+          "duration" : 288564
+        }
+      }, {
+        "uid" : "7bb30730d1f6bb9a",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/7bb30730d1f6bb9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646812235510,
+          "stop" : 1646812254104,
+          "duration" : 18594
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "fc9ad893e6007c40.json",
+  "parameterValues" : [ "top request call button" ]
+}
