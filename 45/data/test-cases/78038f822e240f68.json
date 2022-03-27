@@ -1,0 +1,412 @@
+{
+  "uid" : "78038f822e240f68",
+  "name" : "emksteel.ru заказать звонок -- @1.3 ",
+  "fullName" : "Проверка сайта emksteel.ru: emksteel.ru заказать звонок",
+  "historyId" : "24801adc34e8fbdc535f43f2c7d31356",
+  "time" : {
+    "start" : 1648351756613,
+    "stop" : 1648351773242,
+    "duration" : 16629
+  },
+  "status" : "broken",
+  "statusMessage" : "RuntimeError: ['\"[PHONE]: +7 (000) 000-00-00\" не найден в \"От: 27.03.2022 06:29:20_test_automation_email_order_call [your-telephone]  Тема: Запрос звонка emksteel.ru test_automation_company  Сообщение: Пожалуйста, перезвоните мне  [NAME]: 27.03.2022 06:29:20_test_automation_email_order_call [PHONE]: +0 (070) 000-00-00 [EMAIL]: [your-email]  [PSESSION_ID]: py87201  -- Запрос звонка с сайта emksteel.ru  \"']\n",
+  "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 117, in step_impl\n    raise RuntimeError(errors)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "RuntimeError: ['\"[PHONE]: +7 (000) 000-00-00\" не найден в \"От: 27.03.2022 06:29:20_test_automation_email_order_call [your-telephone]  Тема: Запрос звонка emksteel.ru test_automation_company  Сообщение: Пожалуйста, перезвоните мне  [NAME]: 27.03.2022 06:29:20_test_automation_email_order_call [PHONE]: +0 (070) 000-00-00 [EMAIL]: [your-email]  [PSESSION_ID]: py87201  -- Запрос звонка с сайта emksteel.ru  \"']\n",
+    "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 117, in step_impl\n    raise RuntimeError(errors)\n",
+    "steps" : [ {
+      "name" : "Given open emksteel.ru page",
+      "time" : {
+        "start" : 1648351756641,
+        "stop" : 1648351758556,
+        "duration" : 1915
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "34767cf9da2309c6",
+        "name" : "screenshot",
+        "source" : "34767cf9da2309c6.png",
+        "type" : "image/png",
+        "size" : 441527
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on request call back button",
+      "time" : {
+        "start" : 1648351758556,
+        "stop" : 1648351759951,
+        "duration" : 1395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "63e6140699d33ae5",
+        "name" : "screenshot",
+        "source" : "63e6140699d33ae5.png",
+        "type" : "image/png",
+        "size" : 429036
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_email_order_call\" in name field in \"request call section\"",
+      "time" : {
+        "start" : 1648351759951,
+        "stop" : 1648351760984,
+        "duration" : 1033
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "35baba7e9c9cd047",
+        "name" : "screenshot",
+        "source" : "35baba7e9c9cd047.png",
+        "type" : "image/png",
+        "size" : 351022
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"test_automation_company\" in company name field in \"request call section\"",
+      "time" : {
+        "start" : 1648351760984,
+        "stop" : 1648351761981,
+        "duration" : 997
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2a01bfdef090b71d",
+        "name" : "screenshot",
+        "source" : "2a01bfdef090b71d.png",
+        "type" : "image/png",
+        "size" : 353310
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field in \"request call section\"",
+      "time" : {
+        "start" : 1648351761982,
+        "stop" : 1648351762949,
+        "duration" : 967
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4e18e941bc6c7564",
+        "name" : "screenshot",
+        "source" : "4e18e941bc6c7564.png",
+        "type" : "image/png",
+        "size" : 353555
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on send button in \"request call section\"",
+      "time" : {
+        "start" : 1648351762949,
+        "stop" : 1648351763902,
+        "duration" : 953
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8614464c39aed3a5",
+        "name" : "screenshot",
+        "source" : "8614464c39aed3a5.png",
+        "type" : "image/png",
+        "size" : 353560
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then text \"Спасибо за Ваше сообщение\" is displayed",
+      "time" : {
+        "start" : 1648351763903,
+        "stop" : 1648351766434,
+        "duration" : 2531
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24827eefeae77d5",
+        "name" : "screenshot",
+        "source" : "24827eefeae77d5.png",
+        "type" : "image/png",
+        "size" : 349327
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_order_call\" contains \"Запрос звонка emksteel.ru test_automation_company;Пожалуйста, перезвоните мне;[PHONE]: +7 (000) 000-00-00\" in 900 sec",
+      "time" : {
+        "start" : 1648351766435,
+        "stop" : 1648351773241,
+        "duration" : 6806
+      },
+      "status" : "broken",
+      "statusMessage" : "RuntimeError: ['\"[PHONE]: +7 (000) 000-00-00\" не найден в \"От: 27.03.2022 06:29:20_test_automation_email_order_call [your-telephone]  Тема: Запрос звонка emksteel.ru test_automation_company  Сообщение: Пожалуйста, перезвоните мне  [NAME]: 27.03.2022 06:29:20_test_automation_email_order_call [PHONE]: +0 (070) 000-00-00 [EMAIL]: [your-email]  [PSESSION_ID]: py87201  -- Запрос звонка с сайта emksteel.ru  \"']\n",
+      "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.10/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 117, in step_impl\n    raise RuntimeError(errors)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa3acef0e7ffe27d",
+        "name" : "screenshot",
+        "source" : "aa3acef0e7ffe27d.png",
+        "type" : "image/png",
+        "size" : 349520
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта emksteel.ru"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "button",
+    "value" : "request call back button"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 17,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "9695dbe53bcd87a6",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/44//#testresult/9695dbe53bcd87a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648266566955,
+          "stop" : 1648266582649,
+          "duration" : 15694
+        }
+      }, {
+        "uid" : "73cfd31d4ade5bd4",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/43//#testresult/73cfd31d4ade5bd4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648186982324,
+          "stop" : 1648186998394,
+          "duration" : 16070
+        }
+      }, {
+        "uid" : "91d32a73862535ba",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/39//#testresult/91d32a73862535ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648006799314,
+          "stop" : 1648006905146,
+          "duration" : 105832
+        }
+      }, {
+        "uid" : "137c71f8a9d6c37e",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/38//#testresult/137c71f8a9d6c37e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647919968183,
+          "stop" : 1647920073660,
+          "duration" : 105477
+        }
+      }, {
+        "uid" : "9e5fa99333aa84ef",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/37//#testresult/9e5fa99333aa84ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647834007299,
+          "stop" : 1647834022544,
+          "duration" : 15245
+        }
+      }, {
+        "uid" : "376430c488fcaf8f",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/36//#testresult/376430c488fcaf8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647747060600,
+          "stop" : 1647747257114,
+          "duration" : 196514
+        }
+      }, {
+        "uid" : "16a2436f6633b5bf",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/35//#testresult/16a2436f6633b5bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647660675917,
+          "stop" : 1647660782448,
+          "duration" : 106531
+        }
+      }, {
+        "uid" : "b6fc66230417ecc9",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/34//#testresult/b6fc66230417ecc9",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED\n  (Session info: headless chrome=98.0.4758.102)\n\n",
+        "time" : {
+          "start" : 1647573868868,
+          "stop" : 1647573870538,
+          "duration" : 1670
+        }
+      }, {
+        "uid" : "474a541d32d42bf8",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/33//#testresult/474a541d32d42bf8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647487420796,
+          "stop" : 1647487797247,
+          "duration" : 376451
+        }
+      }, {
+        "uid" : "4b2eb2b089691ce6",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/32//#testresult/4b2eb2b089691ce6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647468386831,
+          "stop" : 1647468492557,
+          "duration" : 105726
+        }
+      }, {
+        "uid" : "c6b3bc8377d4b3ab",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/27//#testresult/c6b3bc8377d4b3ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647314703559,
+          "stop" : 1647314720507,
+          "duration" : 16948
+        }
+      }, {
+        "uid" : "7c153e131d32cf0c",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/7c153e131d32cf0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647270895971,
+          "stop" : 1647270911162,
+          "duration" : 15191
+        }
+      }, {
+        "uid" : "30b910dfc07eb501",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/30b910dfc07eb501",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647253583714,
+          "stop" : 1647253598668,
+          "duration" : 14954
+        }
+      }, {
+        "uid" : "1c1d85e3a45ef0ee",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/23//#testresult/1c1d85e3a45ef0ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647147010557,
+          "stop" : 1647147025172,
+          "duration" : 14615
+        }
+      }, {
+        "uid" : "7a14473c22327e56",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/22//#testresult/7a14473c22327e56",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647059636521,
+          "stop" : 1647059651456,
+          "duration" : 14935
+        }
+      }, {
+        "uid" : "a4ac318667bff4e6",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/21//#testresult/a4ac318667bff4e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646974728862,
+          "stop" : 1646974745812,
+          "duration" : 16950
+        }
+      }, {
+        "uid" : "8db6d468e49a576f",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/8db6d468e49a576f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646887290443,
+          "stop" : 1646887576115,
+          "duration" : 285672
+        }
+      }, {
+        "uid" : "6cc98b724b7148cf",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/6cc98b724b7148cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646812270376,
+          "stop" : 1646812287209,
+          "duration" : 16833
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "78038f822e240f68.json",
+  "parameterValues" : [ "request call back button" ]
+}

@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "RuntimeError: ['\"[PHONE]: +7 (000) 000-00-00\" не найден в \"От: 27.03.2022 06:29:20_test_automation_email_order_call [your-telephone]  Тема: Запрос звонка emksteel.ru test_automation_company  Сообщение: Пожалуйста, перезвоните мне  [NAME]: 27.03.2022 06:29:20_test_automation_email_order_call [PHONE]: +0 (070) 000-00-00 [EMAIL]: [your-email]  [PSESSION_ID]: py87201  -- Запрос звонка с сайта emksteel.ru  \"']\n",
+      "children" : [ {
+        "name" : "emksteel.ru заказать звонок -- @1.3 ",
+        "uid" : "78038f822e240f68",
+        "parentUid" : "e9035d9836a7e8a6df43909a86416765",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648351756613,
+          "stop" : 1648351773242,
+          "duration" : 16629
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "request call back button" ]
+      } ],
+      "uid" : "e9035d9836a7e8a6df43909a86416765"
+    }, {
+      "name" : "RuntimeError: ['\"[PHONE]: +7 (000) 000-00-00\" не найден в \"От: 27.03.2022 06:29:40_test_automation_email_dialog_steel automation.emk@gmail.com Тема: Запрос от test_automation_company_name  Сообщение: [NAME]: 27.03.2022 06:29:40_test_automation_email_dialog_steel [PHONE]: +0 (000) 000-00-70 [EMAIL]: automation.emk@gmail.com [BODY]: test_automation_comment     [PSESSION_ID]: py87201  --  Запрос с сайта emksteel.ru  \"']\n",
+      "children" : [ {
+        "name" : "emksteel.ru диалог оставить заявку -- @1.1 ",
+        "uid" : "b0950d0f1a4f4e66",
+        "parentUid" : "d74688037da4593311f559bb82db10cd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648351773243,
+          "stop" : 1648351793015,
+          "duration" : 19772
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "more info button" ]
+      } ],
+      "uid" : "d74688037da4593311f559bb82db10cd"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
