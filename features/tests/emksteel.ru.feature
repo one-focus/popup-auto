@@ -2,6 +2,7 @@
 @regression
 Feature: Проверка сайта emksteel.ru
 
+  @flaky
   Scenario Outline: emksteel.ru заказать звонок
     Given open emksteel.ru page
     When click on <button>

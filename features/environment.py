@@ -76,6 +76,8 @@ def before_feature(context, feature):
 
 def before_scenario(context, scenario):
     # context.driver.delete_all_cookies()
+    if "flaky" in scenario.effective_tags:
+        patch_scenario_with_autoretry(scenario, max_attempts=3)
     context.values = {}
     print(f'Scenario started: {scenario.name}')
     context.driver.delete_all_cookies()
@@ -83,9 +85,10 @@ def before_scenario(context, scenario):
 
 def after_step(context, step) -> None:
     try:
-        allure.attach(context.driver.get_screenshot_as_png(),
-                      name=f'screenshot',
-                      attachment_type=allure.attachment_type.PNG)
+        if step.status == 'failed':
+            allure.attach(context.driver.get_screenshot_as_png(),
+                          name=f'screenshot',
+                          attachment_type=allure.attachment_type.PNG)
     except Exception:
         pass
     if step.status == 'failed':
