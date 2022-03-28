@@ -44,6 +44,7 @@ def enter_in(context, text, field_name, section=None):
             try:
                 element = context.driver.find_element_by_xpath(f'{section_xpath}{element[1]}')
                 element.clear()
+                element.click()
                 element.send_keys(text)
             except NoSuchElementException:
                 raise RuntimeError(f'Не могу найти {field_name} в {section}. With xpath {section_xpath}{element[1]}')

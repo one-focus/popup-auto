@@ -8,6 +8,7 @@ Feature: Проверка сайта emksteel.ru
     When click on <button>
     When enter "generated_test_automation_email_order_call" in name field in "request call section"
     When enter "test_automation_company" in company name field in "request call section"
+    When wait 5 sec
     When enter "+70000000000" in phone field in "request call section"
     When click on send button in "request call section"
     Then text "Спасибо за Ваше сообщение" is displayed
