@@ -1,0 +1,371 @@
+{
+  "uid" : "e32c974ea123a8a3",
+  "name" : "a1-valves.com заказать звонок -- @1.2 ",
+  "fullName" : "Проверка сайта a1-valves.com: a1-valves.com заказать звонок",
+  "historyId" : "e59eeba2f66fd1eb52ee7bdf06351099",
+  "time" : {
+    "start" : 1648438333208,
+    "stop" : 1648438344379,
+    "duration" : 11171
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open a1-valves.com page",
+      "time" : {
+        "start" : 1648438333262,
+        "stop" : 1648438335517,
+        "duration" : 2255
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a62d40bfa22c895b",
+        "name" : "screenshot",
+        "source" : "a62d40bfa22c895b.png",
+        "type" : "image/png",
+        "size" : 717334
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on order call button in \"catalog section\"",
+      "time" : {
+        "start" : 1648438335517,
+        "stop" : 1648438336381,
+        "duration" : 864
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d92691a0992452e",
+        "name" : "screenshot",
+        "source" : "5d92691a0992452e.png",
+        "type" : "image/png",
+        "size" : 184508
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"generated_test_automation_email_call_a1\" in name field in \"request call section\"",
+      "time" : {
+        "start" : 1648438336381,
+        "stop" : 1648438337288,
+        "duration" : 907
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8d42f8b4077a8f66",
+        "name" : "screenshot",
+        "source" : "8d42f8b4077a8f66.png",
+        "type" : "image/png",
+        "size" : 164052
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field in \"request call section\"",
+      "time" : {
+        "start" : 1648438337289,
+        "stop" : 1648438338124,
+        "duration" : 835
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d9bc0c0177478987",
+        "name" : "screenshot",
+        "source" : "d9bc0c0177478987.png",
+        "type" : "image/png",
+        "size" : 164326
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When click on send button in \"request call section\"",
+      "time" : {
+        "start" : 1648438338124,
+        "stop" : 1648438338904,
+        "duration" : 780
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "45d65d14e7a99ee9",
+        "name" : "screenshot",
+        "source" : "45d65d14e7a99ee9.png",
+        "type" : "image/png",
+        "size" : 164720
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_call_a1\" contains \"Телефон : +70000000000\" in 900 sec",
+      "time" : {
+        "start" : 1648438338904,
+        "stop" : 1648438344378,
+        "duration" : 5474
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1f7e7582da73e2a0",
+        "name" : "screenshot",
+        "source" : "1f7e7582da73e2a0.png",
+        "type" : "image/png",
+        "size" : 185911
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта a1-valves.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "section",
+    "value" : "catalog section"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 17,
+        "unknown" : 0,
+        "total" : 20
+      },
+      "items" : [ {
+        "uid" : "8667bc7d6f95f5fa",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/45//#testresult/8667bc7d6f95f5fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648351243249,
+          "stop" : 1648351254599,
+          "duration" : 11350
+        }
+      }, {
+        "uid" : "fd3ca647aed7258a",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/44//#testresult/fd3ca647aed7258a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648264884965,
+          "stop" : 1648264985886,
+          "duration" : 100921
+        }
+      }, {
+        "uid" : "8acc39d03ed25764",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/43//#testresult/8acc39d03ed25764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648186106561,
+          "stop" : 1648186210177,
+          "duration" : 103616
+        }
+      }, {
+        "uid" : "674a047fd3c73c62",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/39//#testresult/674a047fd3c73c62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648006115913,
+          "stop" : 1648006216992,
+          "duration" : 101079
+        }
+      }, {
+        "uid" : "c88cf32160beeaf",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/38//#testresult/c88cf32160beeaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647919544146,
+          "stop" : 1647919555349,
+          "duration" : 11203
+        }
+      }, {
+        "uid" : "2f7cf6387e1e4717",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/37//#testresult/2f7cf6387e1e4717",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647833045045,
+          "stop" : 1647833236379,
+          "duration" : 191334
+        }
+      }, {
+        "uid" : "224b638c72e964f6",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/36//#testresult/224b638c72e964f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647746194888,
+          "stop" : 1647746205879,
+          "duration" : 10991
+        }
+      }, {
+        "uid" : "f2a10090e4fbc667",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/35//#testresult/f2a10090e4fbc667",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647659801237,
+          "stop" : 1647659812957,
+          "duration" : 11720
+        }
+      }, {
+        "uid" : "8f2398e2ee72ed70",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/34//#testresult/8f2398e2ee72ed70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647573574033,
+          "stop" : 1647573584479,
+          "duration" : 10446
+        }
+      }, {
+        "uid" : "1e838fab8d23c051",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/33//#testresult/1e838fab8d23c051",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647487088701,
+          "stop" : 1647487099960,
+          "duration" : 11259
+        }
+      }, {
+        "uid" : "db87efcec20cb43",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/32//#testresult/db87efcec20cb43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647467963165,
+          "stop" : 1647467974546,
+          "duration" : 11381
+        }
+      }, {
+        "uid" : "bdc8ce76d3fa2613",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/27//#testresult/bdc8ce76d3fa2613",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647314286568,
+          "stop" : 1647314297731,
+          "duration" : 11163
+        }
+      }, {
+        "uid" : "268e734b49418927",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/268e734b49418927",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647270297993,
+          "stop" : 1647270399452,
+          "duration" : 101459
+        }
+      }, {
+        "uid" : "d46ab4fa418f80a9",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/26//#testresult/d46ab4fa418f80a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647248432244,
+          "stop" : 1647248443327,
+          "duration" : 11083
+        }
+      }, {
+        "uid" : "9f81eded5ad7ebb6",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/23//#testresult/9f81eded5ad7ebb6",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"13.03.2022 06:32:30_test_automation_email_call_a1\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1647142346938,
+          "stop" : 1647143260937,
+          "duration" : 913999
+        }
+      }, {
+        "uid" : "e7a05ef3baafd1a",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/22//#testresult/e7a05ef3baafd1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647055211383,
+          "stop" : 1647055222668,
+          "duration" : 11285
+        }
+      }, {
+        "uid" : "24be5e0a06a7f12e",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/21//#testresult/24be5e0a06a7f12e",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"11.03.2022 06:33:20_test_automation_email_call_a1\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1646969595824,
+          "stop" : 1646970511437,
+          "duration" : 915613
+        }
+      }, {
+        "uid" : "15a681992e16facd",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/20//#testresult/15a681992e16facd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646882443719,
+          "stop" : 1646882454305,
+          "duration" : 10586
+        }
+      }, {
+        "uid" : "8a335d401d94f693",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/19//#testresult/8a335d401d94f693",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"09.03.2022 10:19:57_test_automation_email_call_a1\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1646810393779,
+          "stop" : 1646811308477,
+          "duration" : 914698
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "e32c974ea123a8a3.json",
+  "parameterValues" : [ "catalog section" ]
+}

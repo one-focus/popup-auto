@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "RuntimeError: Сообщение с текстом \"28.03.2022 07:25:00_test_automation_email_emk24_vacancy\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "emk24 -- @1.1 ",
+        "uid" : "ff62039237f63213",
+        "parentUid" : "288fd1cf44687c8375abcad0fd3c8a9e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648441488491,
+          "stop" : 1648442413023,
+          "duration" : 924532
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.ru" ]
+      } ],
+      "uid" : "288fd1cf44687c8375abcad0fd3c8a9e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
