@@ -1,5 +1,4 @@
 import configparser
-import logging
 
 from sys import platform
 
@@ -71,13 +70,13 @@ def before_feature(context, feature):
     # retry failures
     for scenario in feature.scenarios:
         # if "flaky" in scenario.effective_tags:
-        patch_scenario_with_autoretry(scenario, max_attempts=1)
+        patch_scenario_with_autoretry(scenario, max_attempts=2)
 
 
 def before_scenario(context, scenario):
     # context.driver.delete_all_cookies()
     if "flaky" in scenario.effective_tags:
-        patch_scenario_with_autoretry(scenario, max_attempts=3)
+        patch_scenario_with_autoretry(scenario, max_attempts=2)
     context.values = {}
     print(f'Scenario started: {scenario.name}')
     context.driver.delete_all_cookies()
