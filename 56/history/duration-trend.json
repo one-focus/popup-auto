@@ -2,6 +2,13 @@
   "buildOrder" : 56,
   "reportUrl" : "https://one-focus.github.io/popup-auto/56/",
   "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 10528423
+  }
+}, {
+  "buildOrder" : 56,
+  "reportUrl" : "https://one-focus.github.io/popup-auto/56/",
+  "reportName" : "Allure Report with history",
   "data" : { }
 }, {
   "buildOrder" : 55,
@@ -124,12 +131,5 @@
   "reportName" : "Allure Report with history",
   "data" : {
     "duration" : 4717770
-  }
-}, {
-  "buildOrder" : 35,
-  "reportUrl" : "https://one-focus.github.io/popup-auto/35/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 4641131
   }
 } ]
