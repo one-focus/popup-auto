@@ -14,7 +14,7 @@ Feature: Проверка кнопки Купить в 1 клик
     When enter "generated_comment_1_click" in comment field
     When click on Send button
 
-    Then text "Спасибо, ваш заказ принят" is displayed
+    Then text "Спасибо, Ваша заявка принята" is displayed
 
     Then email with "generated_comment_1_click" contains "Заказ в 1 клик!;[NAME]: test_automation_contact_name;[PHONE]: +70000000000;[EMAIL]: automation.emk@gmail.com" in 900 sec
 
