@@ -1,0 +1,788 @@
+{
+  "uid" : "43183e466a1576c6",
+  "name" : "корзина emk24 -- @1.4 ",
+  "fullName" : "Проверка корзины emk24: корзина emk24",
+  "historyId" : "1e30babfd37e0240ae7d36686b5acc9d",
+  "time" : {
+    "start" : 1649389987827,
+    "stop" : 1649390036159,
+    "duration" : 48332
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Не могу найти comment field в течение 5 сек\n\n",
+  "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 54, in enter_in\n    context.current_page.type_in(field_name, text)\n  File \"/home/runner/work/popup-auto/popup-auto/features/pages/base_page.py\", line 39, in type_in\n    self.get_element(element_name).clear()\n  File \"/home/runner/work/popup-auto/popup-auto/features/pages/base_page.py\", line 58, in get_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Не могу найти comment field в течение 5 сек\n\n",
+    "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 54, in enter_in\n    context.current_page.type_in(field_name, text)\n  File \"/home/runner/work/popup-auto/popup-auto/features/pages/base_page.py\", line 39, in type_in\n    self.get_element(element_name).clear()\n  File \"/home/runner/work/popup-auto/popup-auto/features/pages/base_page.py\", line 58, in get_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given open emk24.com.ua page",
+      "time" : {
+        "start" : 1649389987883,
+        "stop" : 1649389991322,
+        "duration" : 3439
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When click on first left menuitem",
+      "time" : {
+        "start" : 1649389991322,
+        "stop" : 1649389993928,
+        "duration" : 2606
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When enter \"1\" in first count field",
+      "time" : {
+        "start" : 1649389993928,
+        "stop" : 1649389994523,
+        "duration" : 595
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When click on first basket button",
+      "time" : {
+        "start" : 1649389994523,
+        "stop" : 1649389995454,
+        "duration" : 931
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When wait 5 sec",
+      "time" : {
+        "start" : 1649389995454,
+        "stop" : 1649390000460,
+        "duration" : 5006
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given open url: \"emk24.com.ua/order/\"",
+      "time" : {
+        "start" : 1649390000460,
+        "stop" : 1649390001609,
+        "duration" : 1149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When enter \"test_automation_comment\" in comment field",
+      "time" : {
+        "start" : 1649390001609,
+        "stop" : 1649390013536,
+        "duration" : 11927
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Не могу найти comment field в течение 5 сек\n\n",
+      "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 54, in enter_in\n    context.current_page.type_in(field_name, text)\n  File \"/home/runner/work/popup-auto/popup-auto/features/pages/base_page.py\", line 39, in type_in\n    self.get_element(element_name).clear()\n  File \"/home/runner/work/popup-auto/popup-auto/features/pages/base_page.py\", line 58, in get_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ecb819dc96e156ac",
+        "name" : "screenshot",
+        "source" : "ecb819dc96e156ac.png",
+        "type" : "image/png",
+        "size" : 194407
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "When click on checkout button",
+      "time" : {
+        "start" : 1649390013578,
+        "stop" : 1649390014663,
+        "duration" : 1085
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When enter \"123456789\" in INN field",
+      "time" : {
+        "start" : 1649390014663,
+        "stop" : 1649390016824,
+        "duration" : 2161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When enter \"test_automation_company_name\" in company field",
+      "time" : {
+        "start" : 1649390016824,
+        "stop" : 1649390017419,
+        "duration" : 595
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When enter \"test_automation_contact_name\" in contact name field",
+      "time" : {
+        "start" : 1649390017419,
+        "stop" : 1649390018370,
+        "duration" : 951
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field",
+      "time" : {
+        "start" : 1649390018370,
+        "stop" : 1649390023375,
+        "duration" : 5005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field",
+      "time" : {
+        "start" : 1649390023376,
+        "stop" : 1649390024429,
+        "duration" : 1053
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When click on checkout button",
+      "time" : {
+        "start" : 1649390024430,
+        "stop" : 1649390036158,
+        "duration" : 11728
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Не могу найти comment field в течение 5 сек\n\n",
+      "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 54, in enter_in\n    context.current_page.type_in(field_name, text)\n  File \"/home/runner/work/popup-auto/popup-auto/features/pages/base_page.py\", line 39, in type_in\n    self.get_element(element_name).clear()\n  File \"/home/runner/work/popup-auto/popup-auto/features/pages/base_page.py\", line 58, in get_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dc20bf692cab0888",
+        "name" : "screenshot",
+        "source" : "dc20bf692cab0888.png",
+        "type" : "image/png",
+        "size" : 194407
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "Then text \"Спасибо за заказ!\" is displayed",
+      "time" : {
+        "start" : 1649390036158,
+        "stop" : 1649390036158,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When remember order number label as \"order_number\"",
+      "time" : {
+        "start" : 1649390036158,
+        "stop" : 1649390036158,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then email with \"order_number\" contains \"Ваша заявка номер order_number\" in 900 sec",
+      "time" : {
+        "start" : 1649390036158,
+        "stop" : 1649390036158,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given open emk24.com.ua page",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When click on first left menuitem",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When enter \"1\" in first count field",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When click on first basket button",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When wait 5 sec",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given open url: \"emk24.com.ua/order/\"",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When enter \"test_automation_comment\" in comment field",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: Не могу найти comment field в течение 5 сек\n\n",
+      "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 54, in enter_in\n    context.current_page.type_in(field_name, text)\n  File \"/home/runner/work/popup-auto/popup-auto/features/pages/base_page.py\", line 39, in type_in\n    self.get_element(element_name).clear()\n  File \"/home/runner/work/popup-auto/popup-auto/features/pages/base_page.py\", line 58, in get_element\n    return WebDriverWait(self.driver, timeout).until(\n  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/selenium/webdriver/support/wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "When click on checkout button",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When enter \"123456789\" in INN field",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When enter \"test_automation_company_name\" in company field",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When enter \"test_automation_contact_name\" in contact name field",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When click on checkout button",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then text \"Спасибо за заказ!\" is displayed",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When remember order number label as \"order_number\"",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then email with \"order_number\" contains \"Ваша заявка номер order_number\" in 900 sec",
+      "time" : {
+        "start" : 1649390036159,
+        "stop" : 1649390036159,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 34,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка корзины emk24"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "url",
+    "value" : "emk24.com.ua"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 32,
+        "unknown" : 0,
+        "total" : 34
+      },
+      "items" : [ {
+        "uid" : "9a84aecbda9563b1",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/60//#testresult/9a84aecbda9563b1",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Не могу найти comment field в течение 5 сек\n\n",
+        "time" : {
+          "start" : 1649327010335,
+          "stop" : 1649327059474,
+          "duration" : 49139
+        }
+      }, {
+        "uid" : "6145088336843d61",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/59//#testresult/6145088336843d61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649303977391,
+          "stop" : 1649304006603,
+          "duration" : 29212
+        }
+      }, {
+        "uid" : "35f1711e4b49dfee",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/58//#testresult/35f1711e4b49dfee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649217071551,
+          "stop" : 1649217102662,
+          "duration" : 31111
+        }
+      }, {
+        "uid" : "20212e40cdf95e7",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/57//#testresult/20212e40cdf95e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649164919821,
+          "stop" : 1649164949744,
+          "duration" : 29923
+        }
+      }, {
+        "uid" : "6f943b432fd9286c",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/56//#testresult/6f943b432fd9286c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649146291861,
+          "stop" : 1649146410319,
+          "duration" : 118458
+        }
+      }, {
+        "uid" : "ee6967869da49048",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/55//#testresult/ee6967869da49048",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649044694736,
+          "stop" : 1649044723749,
+          "duration" : 29013
+        }
+      }, {
+        "uid" : "ee256b13e8dd2427",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/54//#testresult/ee256b13e8dd2427",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648958963818,
+          "stop" : 1648958992510,
+          "duration" : 28692
+        }
+      }, {
+        "uid" : "1f9b3792f533981d",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/53//#testresult/1f9b3792f533981d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648872571609,
+          "stop" : 1648872599313,
+          "duration" : 27704
+        }
+      }, {
+        "uid" : "d0a6049de34ac27",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/52//#testresult/d0a6049de34ac27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648786815184,
+          "stop" : 1648786842488,
+          "duration" : 27304
+        }
+      }, {
+        "uid" : "c3f45cbf84da66fb",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/51//#testresult/c3f45cbf84da66fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648698461493,
+          "stop" : 1648698490307,
+          "duration" : 28814
+        }
+      }, {
+        "uid" : "18d7b741a98dfc1a",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/50//#testresult/18d7b741a98dfc1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648613138651,
+          "stop" : 1648613166924,
+          "duration" : 28273
+        }
+      }, {
+        "uid" : "19af148e20ca77a9",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/49//#testresult/19af148e20ca77a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648525688078,
+          "stop" : 1648525716304,
+          "duration" : 28226
+        }
+      }, {
+        "uid" : "2be25760a83089c1",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/48//#testresult/2be25760a83089c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648454606585,
+          "stop" : 1648454723746,
+          "duration" : 117161
+        }
+      }, {
+        "uid" : "3799ef7979868646",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/46//#testresult/3799ef7979868646",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648439670639,
+          "stop" : 1648439704863,
+          "duration" : 34224
+        }
+      }, {
+        "uid" : "faa269fe73ff434",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/45//#testresult/faa269fe73ff434",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648352277188,
+          "stop" : 1648352309825,
+          "duration" : 32637
+        }
+      }, {
+        "uid" : "330af98cbd7da266",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/44//#testresult/330af98cbd7da266",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648268315425,
+          "stop" : 1648268351344,
+          "duration" : 35919
+        }
+      }, {
+        "uid" : "6b87d57abc1c0cec",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/43//#testresult/6b87d57abc1c0cec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648188359932,
+          "stop" : 1648188396875,
+          "duration" : 36943
+        }
+      }, {
+        "uid" : "9c2b78b823ff0dc8",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/39//#testresult/9c2b78b823ff0dc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648008438478,
+          "stop" : 1648008469643,
+          "duration" : 31165
+        }
+      }, {
+        "uid" : "9667402e9c1c5407",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/38//#testresult/9667402e9c1c5407",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647921452426,
+          "stop" : 1647921484243,
+          "duration" : 31817
+        }
+      }, {
+        "uid" : "8bf0e0c226d8b033",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/37//#testresult/8bf0e0c226d8b033",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647835596724,
+          "stop" : 1647835718436,
+          "duration" : 121712
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "43183e466a1576c6.json",
+  "parameterValues" : [ "emk24.com.ua" ]
+}
