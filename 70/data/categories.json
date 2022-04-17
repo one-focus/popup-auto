@@ -1,0 +1,91 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED\n  (Session info: headless chrome=100.0.4896.75)\n\n",
+      "children" : [ {
+        "name" : "emksteel.ru заказать звонок -- @1.1 ",
+        "uid" : "e8ba719125619b4c",
+        "parentUid" : "1362f41f92ab1120993835253dabfaa1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650166769157,
+          "stop" : 1650166771764,
+          "duration" : 2607
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "top request call button" ]
+      }, {
+        "name" : "emksteel.ru заказать звонок -- @1.2 ",
+        "uid" : "fd289eb5ac8de10a",
+        "parentUid" : "1362f41f92ab1120993835253dabfaa1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650166771766,
+          "stop" : 1650166773236,
+          "duration" : 1470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "bottom request call button" ]
+      }, {
+        "name" : "emksteel.ru заказать звонок -- @1.3 ",
+        "uid" : "e761002f53ff80c3",
+        "parentUid" : "1362f41f92ab1120993835253dabfaa1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650166773237,
+          "stop" : 1650166777724,
+          "duration" : 4487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "request call back button" ]
+      }, {
+        "name" : "emksteel.ru диалог оставить заявку -- @1.1 ",
+        "uid" : "83f3b587f1c774b",
+        "parentUid" : "1362f41f92ab1120993835253dabfaa1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650166777726,
+          "stop" : 1650166779217,
+          "duration" : 1491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "more info button" ]
+      }, {
+        "name" : "emksteel.ru диалог оставить заявку -- @1.2 ",
+        "uid" : "71bbdac1b9bd1d24",
+        "parentUid" : "1362f41f92ab1120993835253dabfaa1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650166779218,
+          "stop" : 1650166780706,
+          "duration" : 1488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "send email button" ]
+      }, {
+        "name" : "emksteel.ru оставить заявку",
+        "uid" : "b41ce86efa75e9e3",
+        "parentUid" : "1362f41f92ab1120993835253dabfaa1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650166780707,
+          "stop" : 1650166785287,
+          "duration" : 4580
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1362f41f92ab1120993835253dabfaa1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
