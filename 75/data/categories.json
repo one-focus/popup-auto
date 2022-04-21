@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "RuntimeError: Сообщение с текстом \"21.04.2022 07:24:02_test_automation_email_call_order\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "emkworld.com заказать звонок -- @1.1 ",
+        "uid" : "90f90d87cc6d41a2",
+        "parentUid" : "db042606dbad8c15faf963967755dbbb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650514118297,
+          "stop" : 1650515957017,
+          "duration" : 1838720
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "top request callback button" ]
+      } ],
+      "uid" : "db042606dbad8c15faf963967755dbbb"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Thank you for your message\n\n",
+      "children" : [ {
+        "name" : "emkworld.com оставить заявку -- @1.1 ",
+        "uid" : "35fff5df030d0ecc",
+        "parentUid" : "21210eb8faaf3db54253ab640c3b24f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650515957018,
+          "stop" : 1650515996631,
+          "duration" : 39613
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Заявка из главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12", "top section", "Thank you for your message" ]
+      } ],
+      "uid" : "21210eb8faaf3db54253ab640c3b24f5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
