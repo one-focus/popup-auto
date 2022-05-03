@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)\n",
+      "children" : [ {
+        "name" : "forging.emk24.su заказать звонок",
+        "uid" : "77d543debd3c021",
+        "parentUid" : "8e578198524c9682611b854748331f16",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651550977541,
+          "stop" : 1651552002143,
+          "duration" : 1024602
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e578198524c9682611b854748331f16"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
