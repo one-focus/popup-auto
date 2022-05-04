@@ -1,0 +1,488 @@
+{
+  "uid" : "bbc34f183802bb50",
+  "name" : "emkmet_ru секция 2",
+  "fullName" : "Проверка сайта emkmet.ru: emkmet_ru секция 2",
+  "historyId" : "f1758a50954e2cda7e546c137fa6eb98",
+  "time" : {
+    "start" : 1651636414071,
+    "stop" : 1651636518983,
+    "duration" : 104912
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emkmet.ru page",
+      "time" : {
+        "start" : 1651636414098,
+        "stop" : 1651636415298,
+        "duration" : 1200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on first metal button in \"2 section\"",
+      "time" : {
+        "start" : 1651636415298,
+        "stop" : 1651636415929,
+        "duration" : 631
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on third metal button in \"2 section\"",
+      "time" : {
+        "start" : 1651636415929,
+        "stop" : 1651636416487,
+        "duration" : 558
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on fourth metal button in \"2 section\"",
+      "time" : {
+        "start" : 1651636416487,
+        "stop" : 1651636417041,
+        "duration" : 554
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on fifths metal button in \"2 section\"",
+      "time" : {
+        "start" : 1651636417042,
+        "stop" : 1651636417594,
+        "duration" : 552
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on Черный: Балка двутавровая in \"2 section\"",
+      "time" : {
+        "start" : 1651636417594,
+        "stop" : 1651636418169,
+        "duration" : 575
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on Нержавейка: Балка двутавровая in \"2 section\"",
+      "time" : {
+        "start" : 1651636418170,
+        "stop" : 1651636418724,
+        "duration" : 554
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on Пищевая нержавейка: Фланцы пищевые in \"2 section\"",
+      "time" : {
+        "start" : 1651636418724,
+        "stop" : 1651636419282,
+        "duration" : 558
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on Никель: Фитинги in \"2 section\"",
+      "time" : {
+        "start" : 1651636419283,
+        "stop" : 1651636419842,
+        "duration" : 559
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on Алюминий: Рифленые листы in \"2 section\"",
+      "time" : {
+        "start" : 1651636419842,
+        "stop" : 1651636420401,
+        "duration" : 559
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter \"generated_comment\" in comment field in \"2 section\"",
+      "time" : {
+        "start" : 1651636420401,
+        "stop" : 1651636421060,
+        "duration" : 659
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field in \"2 section\"",
+      "time" : {
+        "start" : 1651636421060,
+        "stop" : 1651636421696,
+        "duration" : 636
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter \"70000000000\" in phone field in \"2 section\"",
+      "time" : {
+        "start" : 1651636421697,
+        "stop" : 1651636422321,
+        "duration" : 624
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on get price button in \"2 section\"",
+      "time" : {
+        "start" : 1651636422321,
+        "stop" : 1651636422885,
+        "duration" : 564
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then text \"СПАСИБО ЗА ЗАЯВКУ!\" is displayed",
+      "time" : {
+        "start" : 1651636422885,
+        "stop" : 1651636423696,
+        "duration" : 811
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then email with \"generated_comment\" contains \"Email : automation.emk@gmail.com;Телефон : +7000000000;Черный: Балка двутавровая;Нержавейка: Балка двутавровая;Пищевая нержавейка: Фланцы пищевые;Никель: Фитинги;Алюминий: Рифленые листы\" in 900 sec",
+      "time" : {
+        "start" : 1651636423696,
+        "stop" : 1651636518983,
+        "duration" : 95287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта emkmet.ru"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 56,
+        "unknown" : 0,
+        "total" : 61
+      },
+      "items" : [ {
+        "uid" : "9a616e9a00c07e82",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/87//#testresult/9a616e9a00c07e82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651550694362,
+          "stop" : 1651550710508,
+          "duration" : 16146
+        }
+      }, {
+        "uid" : "195b328f23db1b8d",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/86//#testresult/195b328f23db1b8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651464767510,
+          "stop" : 1651464783199,
+          "duration" : 15689
+        }
+      }, {
+        "uid" : "b2b64acccefc517",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/85//#testresult/b2b64acccefc517",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651378525334,
+          "stop" : 1651378540076,
+          "duration" : 14742
+        }
+      }, {
+        "uid" : "cfae24a891ed64bc",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/84//#testresult/cfae24a891ed64bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651291258048,
+          "stop" : 1651291272838,
+          "duration" : 14790
+        }
+      }, {
+        "uid" : "a80e443186bfeaab",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/83//#testresult/a80e443186bfeaab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651204604877,
+          "stop" : 1651204621108,
+          "duration" : 16231
+        }
+      }, {
+        "uid" : "6219ee617e0792cf",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/82//#testresult/6219ee617e0792cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651120055050,
+          "stop" : 1651120160672,
+          "duration" : 105622
+        }
+      }, {
+        "uid" : "e4032a8640377f22",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/81//#testresult/e4032a8640377f22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651032375480,
+          "stop" : 1651032391113,
+          "duration" : 15633
+        }
+      }, {
+        "uid" : "44623f9cc91f7325",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/80//#testresult/44623f9cc91f7325",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650944980840,
+          "stop" : 1650944996052,
+          "duration" : 15212
+        }
+      }, {
+        "uid" : "cd0fae69c021e31d",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/79//#testresult/cd0fae69c021e31d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650858606913,
+          "stop" : 1650858622840,
+          "duration" : 15927
+        }
+      }, {
+        "uid" : "be75dd24e8f79f7f",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/78//#testresult/be75dd24e8f79f7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650771057127,
+          "stop" : 1650771072923,
+          "duration" : 15796
+        }
+      }, {
+        "uid" : "1f59cbc2bbbeae40",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/77//#testresult/1f59cbc2bbbeae40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650685702137,
+          "stop" : 1650685717358,
+          "duration" : 15221
+        }
+      }, {
+        "uid" : "3f8df9cc2173eddd",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/76//#testresult/3f8df9cc2173eddd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650600413743,
+          "stop" : 1650600609736,
+          "duration" : 195993
+        }
+      }, {
+        "uid" : "5eaa3cd104053577",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/75//#testresult/5eaa3cd104053577",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650514000930,
+          "stop" : 1650514107390,
+          "duration" : 106460
+        }
+      }, {
+        "uid" : "99a9680a9827169c",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/74//#testresult/99a9680a9827169c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650427806933,
+          "stop" : 1650427822465,
+          "duration" : 15532
+        }
+      }, {
+        "uid" : "69763f4bba7264c7",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/73//#testresult/69763f4bba7264c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650340495652,
+          "stop" : 1650340510832,
+          "duration" : 15180
+        }
+      }, {
+        "uid" : "ffed8ae010a33be3",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/72//#testresult/ffed8ae010a33be3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650253586212,
+          "stop" : 1650253601662,
+          "duration" : 15450
+        }
+      }, {
+        "uid" : "a801721c02729d3a",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/71//#testresult/a801721c02729d3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650178108702,
+          "stop" : 1650178124224,
+          "duration" : 15522
+        }
+      }, {
+        "uid" : "dda87a6a323a9ade",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/70//#testresult/dda87a6a323a9ade",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650166741791,
+          "stop" : 1650166758386,
+          "duration" : 16595
+        }
+      }, {
+        "uid" : "ec8430046b5f9f8b",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/69//#testresult/ec8430046b5f9f8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650079798312,
+          "stop" : 1650079813878,
+          "duration" : 15566
+        }
+      }, {
+        "uid" : "ae59732f7fb3011b",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/68//#testresult/ae59732f7fb3011b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649996078417,
+          "stop" : 1649996186163,
+          "duration" : 107746
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "bbc34f183802bb50.json",
+  "parameterValues" : [ ]
+}
