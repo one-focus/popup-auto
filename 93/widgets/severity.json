@@ -1,0 +1,501 @@
+[ {
+  "uid" : "50d8fd1e6489fbe6",
+  "name" : "Скачать стандарт emk24 -- @1.1 ",
+  "time" : {
+    "start" : 1652071501163,
+    "stop" : 1652071606431,
+    "duration" : 105268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c767d874f1e69eb",
+  "name" : "forging.emk24.su заказать звонок",
+  "time" : {
+    "start" : 1652069415471,
+    "stop" : 1652069428885,
+    "duration" : 13414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e401f1ad2ff676e8",
+  "name" : "emkmet_ru секция 1 и 4 -- @1.1 ",
+  "time" : {
+    "start" : 1652068812760,
+    "stop" : 1652069279077,
+    "duration" : 466317
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fc91bf4b34b576d",
+  "name" : "Заказ сплава emk24 -- @1.1 ",
+  "time" : {
+    "start" : 1652071993540,
+    "stop" : 1652072008156,
+    "duration" : 14616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cd58dd443751f61",
+  "name" : "Заказ сплава emk24 -- @1.3 ",
+  "time" : {
+    "start" : 1652072942333,
+    "stop" : 1652072960603,
+    "duration" : 18270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee146b6f5bf682d5",
+  "name" : "корзина emk24 -- @1.2 ",
+  "time" : {
+    "start" : 1652069498088,
+    "stop" : 1652069524695,
+    "duration" : 26607
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e257ba78a525378",
+  "name" : "emk24 -- @1.1 ",
+  "time" : {
+    "start" : 1652071835995,
+    "stop" : 1652071851130,
+    "duration" : 15135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9b8d8f346884faf",
+  "name" : "emk24 -- @1.4 ",
+  "time" : {
+    "start" : 1652073391873,
+    "stop" : 1652073499520,
+    "duration" : 107647
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41e2ecba720a4e2c",
+  "name" : "railws.com заказать звонок",
+  "time" : {
+    "start" : 1652069428888,
+    "stop" : 1652069439158,
+    "duration" : 10270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7cb956084d00fac",
+  "name" : "контакты emk24 -- @1.1 ",
+  "time" : {
+    "start" : 1652070991106,
+    "stop" : 1652071005460,
+    "duration" : 14354
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c930e9d2e3bf490",
+  "name" : "a1-valves.com заказать звонок -- @1.2 ",
+  "time" : {
+    "start" : 1652068145775,
+    "stop" : 1652068425276,
+    "duration" : 279501
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be17ce12124a3820",
+  "name" : "корзина emk24 -- @1.1 ",
+  "time" : {
+    "start" : 1652069472263,
+    "stop" : 1652069498087,
+    "duration" : 25824
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5dc75f347399bfa",
+  "name" : "railws.com оставить заявку -- @1.2 ",
+  "time" : {
+    "start" : 1652069450148,
+    "stop" : 1652069461110,
+    "duration" : 10962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c62ad8ae925d2ccd",
+  "name" : "forging.emk24.su секция 1 и 2 -- @1.2 ",
+  "time" : {
+    "start" : 1652069387092,
+    "stop" : 1652069402457,
+    "duration" : 15365
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a63c6d53291b65cb",
+  "name" : "Заказать звонок emk24 -- @1.3 ",
+  "time" : {
+    "start" : 1652070785639,
+    "stop" : 1652070888565,
+    "duration" : 102926
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40f79ebf75ea2dea",
+  "name" : "контакты emk24 -- @1.3 ",
+  "time" : {
+    "start" : 1652071109770,
+    "stop" : 1652071215676,
+    "duration" : 105906
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea39c638c7040948",
+  "name" : "Купить в 1 клик emk24 -- @1.2 ",
+  "time" : {
+    "start" : 1652069700429,
+    "stop" : 1652069812950,
+    "duration" : 112521
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b49091000729c74",
+  "name" : "emk24 -- @1.3 ",
+  "time" : {
+    "start" : 1652071958203,
+    "stop" : 1652071977286,
+    "duration" : 19083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8adc9450fca99c7d",
+  "name" : "forging.emk24.su секция 3",
+  "time" : {
+    "start" : 1652069402458,
+    "stop" : 1652069415471,
+    "duration" : 13013
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e5c5a0c56daf4d8",
+  "name" : "Заказать звонок emk24 -- @1.1 ",
+  "time" : {
+    "start" : 1652069859061,
+    "stop" : 1652070682780,
+    "duration" : 823719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a82409a06ee6150f",
+  "name" : "emk24 -- @1.4 ",
+  "time" : {
+    "start" : 1652071977286,
+    "stop" : 1652071993536,
+    "duration" : 16250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e90623c197d950b6",
+  "name" : "a1-valves.com заказать звонок -- @1.1 ",
+  "time" : {
+    "start" : 1652068134844,
+    "stop" : 1652068145774,
+    "duration" : 10930
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5cfc59a9fec5911",
+  "name" : "emkmet_ru секция 2",
+  "time" : {
+    "start" : 1652069291455,
+    "stop" : 1652069307633,
+    "duration" : 16178
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cf5e1539bd9ab86",
+  "name" : "корзина emk24 -- @1.3 ",
+  "time" : {
+    "start" : 1652069524696,
+    "stop" : 1652069560557,
+    "duration" : 35861
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd253d42efb1c5ab",
+  "name" : "emk24 -- @1.2 ",
+  "time" : {
+    "start" : 1652071851131,
+    "stop" : 1652071958202,
+    "duration" : 107071
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f75e33415e90225",
+  "name" : "railws.com оставить заявку -- @1.1 ",
+  "time" : {
+    "start" : 1652069439158,
+    "stop" : 1652069450147,
+    "duration" : 10989
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24934f0e1ef5730d",
+  "name" : "Заказ сплава emk24 -- @1.2 ",
+  "time" : {
+    "start" : 1652072008157,
+    "stop" : 1652072942332,
+    "duration" : 934175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c630a2831b0552f",
+  "name" : "Скачать стандарт emk24 -- @1.3 ",
+  "time" : {
+    "start" : 1652071712493,
+    "stop" : 1652071730328,
+    "duration" : 17835
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e0fce4979b78c7a",
+  "name" : "Скачать стандарт emk24 -- @1.2 ",
+  "time" : {
+    "start" : 1652071606432,
+    "stop" : 1652071712493,
+    "duration" : 106061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c5d20340014d516",
+  "name" : "emk24 -- @1.3 ",
+  "time" : {
+    "start" : 1652073279659,
+    "stop" : 1652073391872,
+    "duration" : 112213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bdfc10bc88b231b",
+  "name" : "Заказать звонок emk24 -- @1.4 ",
+  "time" : {
+    "start" : 1652070888566,
+    "stop" : 1652070991103,
+    "duration" : 102537
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d60360df86511d48",
+  "name" : "emkmet_ru секция 1 и 4 -- @1.2 ",
+  "time" : {
+    "start" : 1652069279078,
+    "stop" : 1652069291454,
+    "duration" : 12376
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "484616fb641366c5",
+  "name" : "корзина emk24 -- @1.4 ",
+  "time" : {
+    "start" : 1652069560558,
+    "stop" : 1652069588360,
+    "duration" : 27802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d18413e44d5c3319",
+  "name" : "Заказ сплава emk24 -- @1.4 ",
+  "time" : {
+    "start" : 1652072960604,
+    "stop" : 1652072976060,
+    "duration" : 15456
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb39f43187917125",
+  "name" : "a1-valves.com оставить заявку -- @1.2 ",
+  "time" : {
+    "start" : 1652068709101,
+    "stop" : 1652068812758,
+    "duration" : 103657
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5c2daa681d8235f",
+  "name" : "emk24 -- @1.1 ",
+  "time" : {
+    "start" : 1652072976070,
+    "stop" : 1652073083159,
+    "duration" : 107089
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4eefc50d5e430f7",
+  "name" : "emkworld.com оставить заявку -- @1.1 ",
+  "time" : {
+    "start" : 1652069342933,
+    "stop" : 1652069369704,
+    "duration" : 26771
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f8955d391865388",
+  "name" : "контакты emk24 -- @1.4 ",
+  "time" : {
+    "start" : 1652071215677,
+    "stop" : 1652071501159,
+    "duration" : 285482
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7434114fe7e57b9",
+  "name" : "emkmet_ru секция 3",
+  "time" : {
+    "start" : 1652069307634,
+    "stop" : 1652069318380,
+    "duration" : 10746
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3383c77f741d311f",
+  "name" : "Заказать звонок emk24 -- @1.2 ",
+  "time" : {
+    "start" : 1652070682781,
+    "stop" : 1652070785638,
+    "duration" : 102857
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3764e344b7083e83",
+  "name" : "railws.com оставить заявку -- @1.3 ",
+  "time" : {
+    "start" : 1652069461110,
+    "stop" : 1652069472258,
+    "duration" : 11148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74508a00e31d1086",
+  "name" : "Скачать стандарт emk24 -- @1.4 ",
+  "time" : {
+    "start" : 1652071730329,
+    "stop" : 1652071835990,
+    "duration" : 105661
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c303400f0fbc82",
+  "name" : "forging.emk24.su секция 1 и 2 -- @1.1 ",
+  "time" : {
+    "start" : 1652069369708,
+    "stop" : 1652069387091,
+    "duration" : 17383
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9a0aad115223a23",
+  "name" : "emkworld.com заказать звонок -- @1.1 ",
+  "time" : {
+    "start" : 1652069318382,
+    "stop" : 1652069342932,
+    "duration" : 24550
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8e1cee0cb6c021d0",
+  "name" : "Купить в 1 клик emk24 -- @1.3 ",
+  "time" : {
+    "start" : 1652069812951,
+    "stop" : 1652069837155,
+    "duration" : 24204
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d52d319145a076f0",
+  "name" : "emk24 -- @1.2 ",
+  "time" : {
+    "start" : 1652073083160,
+    "stop" : 1652073279658,
+    "duration" : 196498
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a749ab253f455ea5",
+  "name" : "a1-valves.com оставить заявку -- @1.1 ",
+  "time" : {
+    "start" : 1652068425277,
+    "stop" : 1652068709100,
+    "duration" : 283823
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4602403e4514172",
+  "name" : "Купить в 1 клик emk24 -- @1.1 ",
+  "time" : {
+    "start" : 1652069588364,
+    "stop" : 1652069700428,
+    "duration" : 112064
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5091243c387dafff",
+  "name" : "контакты emk24 -- @1.2 ",
+  "time" : {
+    "start" : 1652071005461,
+    "stop" : 1652071109769,
+    "duration" : 104308
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dba19da8647de13a",
+  "name" : "Купить в 1 клик emk24 -- @1.4 ",
+  "time" : {
+    "start" : 1652069837156,
+    "stop" : 1652069859058,
+    "duration" : 21902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
