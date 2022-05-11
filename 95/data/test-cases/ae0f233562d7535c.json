@@ -1,0 +1,419 @@
+{
+  "uid" : "ae0f233562d7535c",
+  "name" : "emkworld.com заказать звонок -- @1.1 ",
+  "fullName" : "Проверка сайта emkworld.com: emkworld.com заказать звонок",
+  "historyId" : "bc50cef4bc5083d50e9af3498971bcb2",
+  "time" : {
+    "start" : 1652241565514,
+    "stop" : 1652241670897,
+    "duration" : 105383
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given open emkworld.com page",
+      "time" : {
+        "start" : 1652241565555,
+        "stop" : 1652241567459,
+        "duration" : 1904
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on top request callback button",
+      "time" : {
+        "start" : 1652241567459,
+        "stop" : 1652241568381,
+        "duration" : 922
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When wait 2 sec",
+      "time" : {
+        "start" : 1652241568381,
+        "stop" : 1652241570382,
+        "duration" : 2001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter \"generated_test_automation_email_call_order\" in name field in \"callback dialog section\"",
+      "time" : {
+        "start" : 1652241570382,
+        "stop" : 1652241571129,
+        "duration" : 747
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter \"test_automation_company_name\" in company field in \"callback dialog section\"",
+      "time" : {
+        "start" : 1652241571129,
+        "stop" : 1652241571825,
+        "duration" : 696
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on country flag button in \"callback dialog section\"",
+      "time" : {
+        "start" : 1652241571825,
+        "stop" : 1652241572451,
+        "duration" : 626
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on russia button in \"callback dialog section\"",
+      "time" : {
+        "start" : 1652241572451,
+        "stop" : 1652241573011,
+        "duration" : 560
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter \"1231231212\" in phone field in \"callback dialog section\"",
+      "time" : {
+        "start" : 1652241573011,
+        "stop" : 1652241573655,
+        "duration" : 644
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on submit button in \"callback dialog section\"",
+      "time" : {
+        "start" : 1652241573655,
+        "stop" : 1652241574233,
+        "duration" : 578
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then text \"Thank you for your message\" is displayed",
+      "time" : {
+        "start" : 1652241574233,
+        "stop" : 1652241575467,
+        "duration" : 1234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_call_order\" contains \"Заявка на обратный звонок с сайта https://emkworld.com/;Название компании : test_automation_company_name;Телефон : +7 (123) 123-12-12\" in 900 sec",
+      "time" : {
+        "start" : 1652241575468,
+        "stop" : 1652241670897,
+        "duration" : 95429
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка сайта emkworld.com"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "button",
+    "value" : "top request callback button"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 67,
+        "unknown" : 0,
+        "total" : 70
+      },
+      "items" : [ {
+        "uid" : "20abf2a65e20a00c",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/94//#testresult/20abf2a65e20a00c",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Не могу найти top request callback button в течение 5 сек\n\n",
+        "time" : {
+          "start" : 1652153399807,
+          "stop" : 1652153424033,
+          "duration" : 24226
+        }
+      }, {
+        "uid" : "b9a0aad115223a23",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/93//#testresult/b9a0aad115223a23",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Не могу найти top request callback button в течение 5 сек\n\n",
+        "time" : {
+          "start" : 1652069318382,
+          "stop" : 1652069342932,
+          "duration" : 24550
+        }
+      }, {
+        "uid" : "b590e875fbdfe80c",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/92//#testresult/b590e875fbdfe80c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651982191494,
+          "stop" : 1651982297871,
+          "duration" : 106377
+        }
+      }, {
+        "uid" : "b1363000204eba8d",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/91//#testresult/b1363000204eba8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651895357889,
+          "stop" : 1651895373001,
+          "duration" : 15112
+        }
+      }, {
+        "uid" : "871923b0d528870d",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/90//#testresult/871923b0d528870d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651808658066,
+          "stop" : 1651808765509,
+          "duration" : 107443
+        }
+      }, {
+        "uid" : "9be6c6aeba50bcfc",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/89//#testresult/9be6c6aeba50bcfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651723295835,
+          "stop" : 1651723400336,
+          "duration" : 104501
+        }
+      }, {
+        "uid" : "8edf5a1d59199331",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/88//#testresult/8edf5a1d59199331",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651636529803,
+          "stop" : 1651636544733,
+          "duration" : 14930
+        }
+      }, {
+        "uid" : "b7c3fca7428cb238",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/87//#testresult/b7c3fca7428cb238",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651550720839,
+          "stop" : 1651550826466,
+          "duration" : 105627
+        }
+      }, {
+        "uid" : "ed986d74fe830239",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/86//#testresult/ed986d74fe830239",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651464793391,
+          "stop" : 1651464899124,
+          "duration" : 105733
+        }
+      }, {
+        "uid" : "f6f0765d4dc1cc3f",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/85//#testresult/f6f0765d4dc1cc3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651378550043,
+          "stop" : 1651378565929,
+          "duration" : 15886
+        }
+      }, {
+        "uid" : "5411d3bccc733f16",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/84//#testresult/5411d3bccc733f16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651291463431,
+          "stop" : 1651291568659,
+          "duration" : 105228
+        }
+      }, {
+        "uid" : "d7703e6a8a144b99",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/83//#testresult/d7703e6a8a144b99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651204631715,
+          "stop" : 1651204738131,
+          "duration" : 106416
+        }
+      }, {
+        "uid" : "6304acc0fefd28d7",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/82//#testresult/6304acc0fefd28d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651120171355,
+          "stop" : 1651120186306,
+          "duration" : 14951
+        }
+      }, {
+        "uid" : "571ab3ab44c80cd2",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/81//#testresult/571ab3ab44c80cd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651032491659,
+          "stop" : 1651032597719,
+          "duration" : 106060
+        }
+      }, {
+        "uid" : "cbd38bb42c215f5c",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/80//#testresult/cbd38bb42c215f5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650945096281,
+          "stop" : 1650945110971,
+          "duration" : 14690
+        }
+      }, {
+        "uid" : "3f9ac2bbe534833e",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/79//#testresult/3f9ac2bbe534833e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650858724057,
+          "stop" : 1650858828974,
+          "duration" : 104917
+        }
+      }, {
+        "uid" : "ac338713d37e9d91",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/78//#testresult/ac338713d37e9d91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650771082867,
+          "stop" : 1650771187188,
+          "duration" : 104321
+        }
+      }, {
+        "uid" : "ab3c587ae1e6a0ef",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/77//#testresult/ab3c587ae1e6a0ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650685727369,
+          "stop" : 1650685832567,
+          "duration" : 105198
+        }
+      }, {
+        "uid" : "207384a2bf66e92f",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/76//#testresult/207384a2bf66e92f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650600710934,
+          "stop" : 1650600816137,
+          "duration" : 105203
+        }
+      }, {
+        "uid" : "90f90d87cc6d41a2",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/75//#testresult/90f90d87cc6d41a2",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: Сообщение с текстом \"21.04.2022 07:24:02_test_automation_email_call_order\" не пришло на почту в течение 900 секунд\n",
+        "time" : {
+          "start" : 1650514118297,
+          "stop" : 1650515957017,
+          "duration" : 1838720
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "ae0f233562d7535c.json",
+  "parameterValues" : [ "top request callback button" ]
+}
