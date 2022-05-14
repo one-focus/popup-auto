@@ -1,0 +1,247 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "RuntimeError: Сообщение с текстом \"14.05.2022 07:53:48_test_automation_email_call_a1\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "a1-valves.com заказать звонок -- @1.1 ",
+        "uid" : "ee70f2039f81983d",
+        "parentUid" : "cad7ed3b2093dc18edf8175e422b4881",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652503104655,
+          "stop" : 1652504941997,
+          "duration" : 1837342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "top menu section" ]
+      } ],
+      "uid" : "cad7ed3b2093dc18edf8175e422b4881"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"14.05.2022 08:24:21_test_automation_email_call_a1\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "a1-valves.com заказать звонок -- @1.2 ",
+        "uid" : "47b2cea211760efe",
+        "parentUid" : "3527b30e53d6c18b9a6cd219cbd6ae76",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652504941999,
+          "stop" : 1652506772733,
+          "duration" : 1830734
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "catalog section" ]
+      } ],
+      "uid" : "3527b30e53d6c18b9a6cd219cbd6ae76"
+    }, {
+      "name" : "RuntimeError: ['\"Компания : 14.05.2022 08:46:54_company_name\" не найден в \"[DATE]: 14.05.2022 08:46:58 [NAME]: [EMAIL]: automation.emk@gmail.com [PHONE]: +70000000000 [COMPANY]: 14.05.2022 08:46:54_company_name [BODY]: Продукты : test_automation_product[FILE]: [LINK]: emkmet.ru [TYPE]: Заявка с сайта [FORM]: Расчёт стоимости и сроков [ROISTATID]: 115569  \"', '\"Email : automation.emk@gmail.com\" не найден в \"[DATE]: 14.05.2022 08:46:58 [NAME]: [EMAIL]: automation.emk@gmail.com [PHONE]: +70000000000 [COMPANY]: 14.05.2022 08:46:54_company_name [BODY]: Продукты : test_automation_product[FILE]: [LINK]: emkmet.ru [TYPE]: Заявка с сайта [FORM]: Расчёт стоимости и сроков [ROISTATID]: 115569  \"', '\"Телефон : +7000000000\" не найден в \"[DATE]: 14.05.2022 08:46:58 [NAME]: [EMAIL]: automation.emk@gmail.com [PHONE]: +70000000000 [COMPANY]: 14.05.2022 08:46:54_company_name [BODY]: Продукты : test_automation_product[FILE]: [LINK]: emkmet.ru [TYPE]: Заявка с сайта [FORM]: Расчёт стоимости и сроков [ROISTATID]: 115569  \"']\n",
+      "children" : [ {
+        "name" : "emkmet_ru секция 1 и 4 -- @1.1 ",
+        "uid" : "22855f180de321e",
+        "parentUid" : "93457a2a529384b91fcbb270a4339b46",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652507162445,
+          "stop" : 1652507225604,
+          "duration" : 63159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1 section" ]
+      } ],
+      "uid" : "93457a2a529384b91fcbb270a4339b46"
+    }, {
+      "name" : "RuntimeError: ['\"Компания : 14.05.2022 08:47:20_company_name\" не найден в \"[DATE]: 14.05.2022 08:47:24 [NAME]: [EMAIL]: automation.emk@gmail.com [PHONE]: +70000000000 [COMPANY]: 14.05.2022 08:47:20_company_name [BODY]: Продукты : test_automation_product[FILE]: [LINK]: emkmet.ru [TYPE]: Заявка с сайта [FORM]: Расчёт стоимости и сроков [ROISTATID]: 115576  \"', '\"Email : automation.emk@gmail.com\" не найден в \"[DATE]: 14.05.2022 08:47:24 [NAME]: [EMAIL]: automation.emk@gmail.com [PHONE]: +70000000000 [COMPANY]: 14.05.2022 08:47:20_company_name [BODY]: Продукты : test_automation_product[FILE]: [LINK]: emkmet.ru [TYPE]: Заявка с сайта [FORM]: Расчёт стоимости и сроков [ROISTATID]: 115576  \"', '\"Телефон : +7000000000\" не найден в \"[DATE]: 14.05.2022 08:47:24 [NAME]: [EMAIL]: automation.emk@gmail.com [PHONE]: +70000000000 [COMPANY]: 14.05.2022 08:47:20_company_name [BODY]: Продукты : test_automation_product[FILE]: [LINK]: emkmet.ru [TYPE]: Заявка с сайта [FORM]: Расчёт стоимости и сроков [ROISTATID]: 115576  \"']\n",
+      "children" : [ {
+        "name" : "emkmet_ru секция 1 и 4 -- @1.2 ",
+        "uid" : "de39d9f9394f267a",
+        "parentUid" : "f0f9736b27748e571bf9e962b7cb9ee7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652507225605,
+          "stop" : 1652507524630,
+          "duration" : 299025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4 section" ]
+      } ],
+      "uid" : "f0f9736b27748e571bf9e962b7cb9ee7"
+    }, {
+      "name" : "RuntimeError: ['\"Email : automation.emk@gmail.com\" не найден в \"[DATE]: 14.05.2022 08:52:33 [NAME]: [EMAIL]: automation.emk@gmail.com [PHONE]: +70000000000 [COMPANY]: [BODY]: Позиции : Черный: Балка двутавровая, Нержавейка: Балка двутавровая, Пищевая нержавейка: Фланцы пищевые, Никель: Фитинги, Алюминий: Рифленые листыКомментарий : 14.05.2022 08:52:30_comment[FILE]: [LINK]: emkmet.ru [TYPE]: Заявка с сайта [FORM]: Позиции [ROISTATID]: 115583  \"', '\"Телефон : +7000000000\" не найден в \"[DATE]: 14.05.2022 08:52:33 [NAME]: [EMAIL]: automation.emk@gmail.com [PHONE]: +70000000000 [COMPANY]: [BODY]: Позиции : Черный: Балка двутавровая, Нержавейка: Балка двутавровая, Пищевая нержавейка: Фланцы пищевые, Никель: Фитинги, Алюминий: Рифленые листыКомментарий : 14.05.2022 08:52:30_comment[FILE]: [LINK]: emkmet.ru [TYPE]: Заявка с сайта [FORM]: Позиции [ROISTATID]: 115583  \"']\n",
+      "children" : [ {
+        "name" : "emkmet_ru секция 2",
+        "uid" : "d7eebf38ce5e1cf6",
+        "parentUid" : "0395f268370249c4daf18ac1c5e70edc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652507524631,
+          "stop" : 1652507743290,
+          "duration" : 218659
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0395f268370249c4daf18ac1c5e70edc"
+    }, {
+      "name" : "RuntimeError: ['\"Email : automation.emk@gmail.com\" не найден в \"[DATE]: 14.05.2022 09:11:07 [NAME]: [EMAIL]: automation.emk@gmail.com [PHONE]: +70000000000 [COMPANY]: [BODY]: Услуги : Услуги по металлообработке, Услуги по испытанию продукции, Услуги испытания продукции[FILE]: [LINK]: emkmet.ru [TYPE]: Заявка с сайта [FORM]: Услуги [ROISTATID]: 115583  \"', '\"Телефон : +7000000000\" не найден в \"[DATE]: 14.05.2022 09:11:07 [NAME]: [EMAIL]: automation.emk@gmail.com [PHONE]: +70000000000 [COMPANY]: [BODY]: Услуги : Услуги по металлообработке, Услуги по испытанию продукции, Услуги испытания продукции[FILE]: [LINK]: emkmet.ru [TYPE]: Заявка с сайта [FORM]: Услуги [ROISTATID]: 115583  \"']\n",
+      "children" : [ {
+        "name" : "emkmet_ru секция 3",
+        "uid" : "57c18ea7a023b827",
+        "parentUid" : "397a5de1750bfc975e83780ab5637c2f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652507743292,
+          "stop" : 1652508673892,
+          "duration" : 930600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "397a5de1750bfc975e83780ab5637c2f"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"[BODY]: Обратный звонок (заявка) emk24.ru\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "Заказать звонок emk24 -- @1.1 ",
+        "uid" : "712345696cdb75ea",
+        "parentUid" : "6529e57d3d807457409b7fd0869c1293",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652509952039,
+          "stop" : 1652511788914,
+          "duration" : 1836875
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.ru" ]
+      } ],
+      "uid" : "6529e57d3d807457409b7fd0869c1293"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"[BODY]: Обратный звонок (заявка) emk24.by\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "Заказать звонок emk24 -- @1.2 ",
+        "uid" : "6a88ad8ebede2ac3",
+        "parentUid" : "bb7c9bf7418b0a5327128c6ae0044da5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652511788915,
+          "stop" : 1652513627678,
+          "duration" : 1838763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.by" ]
+      } ],
+      "uid" : "bb7c9bf7418b0a5327128c6ae0044da5"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"[BODY]: Обратный звонок (заявка) emk24.kz\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "Заказать звонок emk24 -- @1.3 ",
+        "uid" : "c8c50a685e33e2a8",
+        "parentUid" : "a7ffbfc7ea511a79ea618583dfd36a37",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652513627679,
+          "stop" : 1652515472750,
+          "duration" : 1845071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.kz" ]
+      } ],
+      "uid" : "a7ffbfc7ea511a79ea618583dfd36a37"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"[BODY]: Обратный звонок (заявка) emk24.com.ua\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "Заказать звонок emk24 -- @1.4 ",
+        "uid" : "8b3d2c2e40894350",
+        "parentUid" : "0c4e9eaa95acd5b0ff33e4a70e19f594",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652515472752,
+          "stop" : 1652517311161,
+          "duration" : 1838409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.com.ua" ]
+      } ],
+      "uid" : "0c4e9eaa95acd5b0ff33e4a70e19f594"
+    }, {
+      "name" : "RuntimeError: ['\"emk24.ru\" не найден в \"[DATE]: 14.05.2022 11:57:29  [NAME]: 14.05.2022 11:57:26_test_automation_email_order_splav  [PHONE]: +70000000000  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]:  [ROISTATID] 115907  \"', '\"Обратный звонок (заявка) wiki\" не найден в \"[DATE]: 14.05.2022 11:57:29  [NAME]: 14.05.2022 11:57:26_test_automation_email_order_splav  [PHONE]: +70000000000  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]:  [ROISTATID] 115907  \"', '\"[EMAIL]: automation.emk@gmail.com\" не найден в \"[DATE]: 14.05.2022 11:57:29  [NAME]: 14.05.2022 11:57:26_test_automation_email_order_splav  [PHONE]: +70000000000  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]:  [ROISTATID] 115907  \"']\n",
+      "children" : [ {
+        "name" : "Заказ сплава emk24 -- @1.1 ",
+        "uid" : "7a8164c8c580fcb0",
+        "parentUid" : "a9f97b82c549e293c355e00dbe6067cf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652518624609,
+          "stop" : 1652518657881,
+          "duration" : 33272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.ru" ]
+      } ],
+      "uid" : "a9f97b82c549e293c355e00dbe6067cf"
+    }, {
+      "name" : "RuntimeError: ['\"emk24.by\" не найден в \"[DATE]: 14.05.2022 11:58:05  [NAME]: 14.05.2022 11:58:01_test_automation_email_order_splav  [PHONE]: +70000000000  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]:  [ROISTATID] 115910  \"', '\"Обратный звонок (заявка) wiki\" не найден в \"[DATE]: 14.05.2022 11:58:05  [NAME]: 14.05.2022 11:58:01_test_automation_email_order_splav  [PHONE]: +70000000000  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]:  [ROISTATID] 115910  \"', '\"[EMAIL]: automation.emk@gmail.com\" не найден в \"[DATE]: 14.05.2022 11:58:05  [NAME]: 14.05.2022 11:58:01_test_automation_email_order_splav  [PHONE]: +70000000000  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]:  [ROISTATID] 115910  \"']\n",
+      "children" : [ {
+        "name" : "Заказ сплава emk24 -- @1.2 ",
+        "uid" : "a4efdb2333c116e",
+        "parentUid" : "1fe5b544dbd9230fb2cae1218167a3c2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652518657883,
+          "stop" : 1652518693602,
+          "duration" : 35719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.by" ]
+      } ],
+      "uid" : "1fe5b544dbd9230fb2cae1218167a3c2"
+    }, {
+      "name" : "RuntimeError: ['\"emk24.kz\" не найден в \"[DATE]: 14.05.2022 11:58:47  [NAME]: 14.05.2022 11:58:43_test_automation_email_order_splav  [PHONE]: +70000000000  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]:  [ROISTATID] 115912  \"', '\"Обратный звонок (заявка) wiki\" не найден в \"[DATE]: 14.05.2022 11:58:47  [NAME]: 14.05.2022 11:58:43_test_automation_email_order_splav  [PHONE]: +70000000000  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]:  [ROISTATID] 115912  \"', '\"[EMAIL]: automation.emk@gmail.com\" не найден в \"[DATE]: 14.05.2022 11:58:47  [NAME]: 14.05.2022 11:58:43_test_automation_email_order_splav  [PHONE]: +70000000000  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]:  [ROISTATID] 115912  \"']\n",
+      "children" : [ {
+        "name" : "Заказ сплава emk24 -- @1.3 ",
+        "uid" : "8caba5f5d5278c87",
+        "parentUid" : "a265f76dce3a48320d9135473e8b3497",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652518693603,
+          "stop" : 1652518735087,
+          "duration" : 41484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.kz" ]
+      } ],
+      "uid" : "a265f76dce3a48320d9135473e8b3497"
+    }, {
+      "name" : "RuntimeError: ['\"emk24.com.ua\" не найден в \"[DATE]: 14.05.2022 11:59:22  [NAME]: 14.05.2022 11:59:18_test_automation_email_order_splav  [PHONE]: +70000000000  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]:  [ROISTATID] 115917  \"', '\"Обратный звонок (заявка) wiki\" не найден в \"[DATE]: 14.05.2022 11:59:22  [NAME]: 14.05.2022 11:59:18_test_automation_email_order_splav  [PHONE]: +70000000000  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]:  [ROISTATID] 115917  \"', '\"[EMAIL]: automation.emk@gmail.com\" не найден в \"[DATE]: 14.05.2022 11:59:22  [NAME]: 14.05.2022 11:59:18_test_automation_email_order_splav  [PHONE]: +70000000000  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]:  [ROISTATID] 115917  \"']\n",
+      "children" : [ {
+        "name" : "Заказ сплава emk24 -- @1.4 ",
+        "uid" : "46279c4d234e7204",
+        "parentUid" : "b894e1777cde3c544ece3897d5f0c7c9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652518735119,
+          "stop" : 1652518770584,
+          "duration" : 35465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.com.ua" ]
+      } ],
+      "uid" : "b894e1777cde3c544ece3897d5f0c7c9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
