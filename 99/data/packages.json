@@ -1,0 +1,655 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "a1-valves.com заказать звонок -- @1.1 ",
+    "uid" : "7e50568c4f6f4017",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652586047365,
+      "stop" : 1652586058073,
+      "duration" : 10708
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "top menu section" ]
+  }, {
+    "name" : "a1-valves.com заказать звонок -- @1.2 ",
+    "uid" : "5f16b2e1d2eb527f",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652586058074,
+      "stop" : 1652586066985,
+      "duration" : 8911
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "catalog section" ]
+  }, {
+    "name" : "a1-valves.com оставить заявку -- @1.1 ",
+    "uid" : "5728e6130b52bc77",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652586066986,
+      "stop" : 1652586079835,
+      "duration" : 12849
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "catalog section" ]
+  }, {
+    "name" : "a1-valves.com оставить заявку -- @1.2 ",
+    "uid" : "9f4837644f463f68",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652586079836,
+      "stop" : 1652586182842,
+      "duration" : 103006
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "product section" ]
+  }, {
+    "name" : "emkmet_ru секция 1 и 4 -- @1.1 ",
+    "uid" : "d8879b5abd34e49a",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "broken",
+    "time" : {
+      "start" : 1652586182845,
+      "stop" : 1652586303464,
+      "duration" : 120619
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1 section" ]
+  }, {
+    "name" : "emkmet_ru секция 1 и 4 -- @1.2 ",
+    "uid" : "f995ee7ebe5c4a75",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "broken",
+    "time" : {
+      "start" : 1652586303465,
+      "stop" : 1652586327066,
+      "duration" : 23601
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "4 section" ]
+  }, {
+    "name" : "emkmet_ru секция 2",
+    "uid" : "f98cd0831c6df715",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "broken",
+    "time" : {
+      "start" : 1652586327067,
+      "stop" : 1652586359097,
+      "duration" : 32030
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "emkmet_ru секция 3",
+    "uid" : "7d6ca964c75b9ed3",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "broken",
+    "time" : {
+      "start" : 1652586359098,
+      "stop" : 1652586383488,
+      "duration" : 24390
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "emkworld.com заказать звонок -- @1.1 ",
+    "uid" : "c895a615ff74eb43",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652586383491,
+      "stop" : 1652586488427,
+      "duration" : 104936
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "top request callback button" ]
+  }, {
+    "name" : "emkworld.com оставить заявку -- @1.1 ",
+    "uid" : "79f4ce724a15e0ff",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652586488428,
+      "stop" : 1652586592041,
+      "duration" : 103613
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Заявка из главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12", "top section", "Thank you for your message" ]
+  }, {
+    "name" : "forging.emk24.su секция 1 и 2 -- @1.1 ",
+    "uid" : "a288f13396687833",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652586592043,
+      "stop" : 1652586608535,
+      "duration" : 16492
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "leave order button", "1 section" ]
+  }, {
+    "name" : "forging.emk24.su секция 1 и 2 -- @1.2 ",
+    "uid" : "4e71ac4743d249d0",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652586608536,
+      "stop" : 1652586713075,
+      "duration" : 104539
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "basket button", "2 section" ]
+  }, {
+    "name" : "forging.emk24.su секция 3",
+    "uid" : "e2a41bf3a26b6d5d",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652586713076,
+      "stop" : 1652586726693,
+      "duration" : 13617
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "forging.emk24.su заказать звонок",
+    "uid" : "ef6b6989f227963a",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652586726694,
+      "stop" : 1652586739239,
+      "duration" : 12545
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "railws.com заказать звонок",
+    "uid" : "8d9d3263bd97fb67",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652586739242,
+      "stop" : 1652586749387,
+      "duration" : 10145
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "railws.com оставить заявку -- @1.1 ",
+    "uid" : "d30aaa81b257f996",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652586749388,
+      "stop" : 1652586760237,
+      "duration" : 10849
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "top banner section" ]
+  }, {
+    "name" : "railws.com оставить заявку -- @1.2 ",
+    "uid" : "5ecf1aaf5ddae074",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652586760237,
+      "stop" : 1652587041556,
+      "duration" : 281319
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "catalog section" ]
+  }, {
+    "name" : "railws.com оставить заявку -- @1.3 ",
+    "uid" : "8c906da291bef308",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652587041557,
+      "stop" : 1652587052967,
+      "duration" : 11410
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "contact section" ]
+  }, {
+    "name" : "корзина emk24 -- @1.1 ",
+    "uid" : "369d52295aab13b7",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652587052972,
+      "stop" : 1652587076754,
+      "duration" : 23782
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.ru" ]
+  }, {
+    "name" : "корзина emk24 -- @1.2 ",
+    "uid" : "96b66349bab3c8cb",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652587076755,
+      "stop" : 1652587103322,
+      "duration" : 26567
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.by" ]
+  }, {
+    "name" : "корзина emk24 -- @1.3 ",
+    "uid" : "2007b3a618f8d998",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652587103323,
+      "stop" : 1652587138398,
+      "duration" : 35075
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.kz" ]
+  }, {
+    "name" : "корзина emk24 -- @1.4 ",
+    "uid" : "a7428209ff5869bb",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652587138399,
+      "stop" : 1652587165493,
+      "duration" : 27094
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.com.ua" ]
+  }, {
+    "name" : "Купить в 1 клик emk24 -- @1.1 ",
+    "uid" : "7a56cde4e76099b7",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652587165497,
+      "stop" : 1652587185262,
+      "duration" : 19765
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.ru" ]
+  }, {
+    "name" : "Купить в 1 клик emk24 -- @1.2 ",
+    "uid" : "4d420143ca0c713a",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652587185263,
+      "stop" : 1652587205425,
+      "duration" : 20162
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.by" ]
+  }, {
+    "name" : "Купить в 1 клик emk24 -- @1.3 ",
+    "uid" : "9115bdc813d6f203",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652587205426,
+      "stop" : 1652587228725,
+      "duration" : 23299
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.kz" ]
+  }, {
+    "name" : "Купить в 1 клик emk24 -- @1.4 ",
+    "uid" : "e2270452cf5cfb00",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652587228726,
+      "stop" : 1652587248987,
+      "duration" : 20261
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.com.ua" ]
+  }, {
+    "name" : "Заказать звонок emk24 -- @1.1 ",
+    "uid" : "d73f729480211318",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652587248990,
+      "stop" : 1652587260051,
+      "duration" : 11061
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.ru" ]
+  }, {
+    "name" : "Заказать звонок emk24 -- @1.2 ",
+    "uid" : "d3f8acf5b963bfe",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652587260051,
+      "stop" : 1652587361469,
+      "duration" : 101418
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.by" ]
+  }, {
+    "name" : "Заказать звонок emk24 -- @1.3 ",
+    "uid" : "7f8d459d18995234",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652587361470,
+      "stop" : 1652587464411,
+      "duration" : 102941
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.kz" ]
+  }, {
+    "name" : "Заказать звонок emk24 -- @1.4 ",
+    "uid" : "b9c41acc00128e5c",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "broken",
+    "time" : {
+      "start" : 1652587464412,
+      "stop" : 1652588695195,
+      "duration" : 1230783
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.com.ua" ]
+  }, {
+    "name" : "контакты emk24 -- @1.1 ",
+    "uid" : "794b129a08a4a01f",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652588695205,
+      "stop" : 1652588708175,
+      "duration" : 12970
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.ru" ]
+  }, {
+    "name" : "контакты emk24 -- @1.2 ",
+    "uid" : "c63d4c2ff55088ab",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652588708175,
+      "stop" : 1652588812156,
+      "duration" : 103981
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.by" ]
+  }, {
+    "name" : "контакты emk24 -- @1.3 ",
+    "uid" : "14d03c3d5e1af9a9",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652588812156,
+      "stop" : 1652588918612,
+      "duration" : 106456
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.kz" ]
+  }, {
+    "name" : "контакты emk24 -- @1.4 ",
+    "uid" : "9eb44733b7db6b97",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652588918612,
+      "stop" : 1652589023053,
+      "duration" : 104441
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.com.ua" ]
+  }, {
+    "name" : "Скачать стандарт emk24 -- @1.1 ",
+    "uid" : "ae14397d6cec9b08",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652589023056,
+      "stop" : 1652589126966,
+      "duration" : 103910
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "013456789", "emk24.ru" ]
+  }, {
+    "name" : "Скачать стандарт emk24 -- @1.2 ",
+    "uid" : "c1b4f92ba6bb25df",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652589126966,
+      "stop" : 1652589231884,
+      "duration" : 104918
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "023456789", "emk24.by" ]
+  }, {
+    "name" : "Скачать стандарт emk24 -- @1.3 ",
+    "uid" : "e1205ed71b3967f8",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652589231885,
+      "stop" : 1652589339070,
+      "duration" : 107185
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "033456789", "emk24.kz" ]
+  }, {
+    "name" : "Скачать стандарт emk24 -- @1.4 ",
+    "uid" : "53408b0a39d5cee4",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652589339071,
+      "stop" : 1652589444001,
+      "duration" : 104930
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "043456789", "emk24.com.ua" ]
+  }, {
+    "name" : "emk24 -- @1.1 ",
+    "uid" : "f5995beaba5b5b68",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652589444004,
+      "stop" : 1652589459045,
+      "duration" : 15041
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.ru" ]
+  }, {
+    "name" : "emk24 -- @1.2 ",
+    "uid" : "6a8787ef60d61a78",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652589459046,
+      "stop" : 1652589475318,
+      "duration" : 16272
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.by" ]
+  }, {
+    "name" : "emk24 -- @1.3 ",
+    "uid" : "6d65abc63d1bbcaa",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652589475319,
+      "stop" : 1652589494687,
+      "duration" : 19368
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.kz" ]
+  }, {
+    "name" : "emk24 -- @1.4 ",
+    "uid" : "787303157d87cd74",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652589494688,
+      "stop" : 1652589510583,
+      "duration" : 15895
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.com.ua" ]
+  }, {
+    "name" : "Заказ сплава emk24 -- @1.1 ",
+    "uid" : "daa022dda55ccbf5",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "broken",
+    "time" : {
+      "start" : 1652589510587,
+      "stop" : 1652589811665,
+      "duration" : 301078
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.ru" ]
+  }, {
+    "name" : "Заказ сплава emk24 -- @1.2 ",
+    "uid" : "79e2697786ea2aa1",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "broken",
+    "time" : {
+      "start" : 1652589811666,
+      "stop" : 1652590143905,
+      "duration" : 332239
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.by" ]
+  }, {
+    "name" : "Заказ сплава emk24 -- @1.3 ",
+    "uid" : "cf0e80926352a784",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "broken",
+    "time" : {
+      "start" : 1652590143907,
+      "stop" : 1652590178918,
+      "duration" : 35011
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.kz" ]
+  }, {
+    "name" : "Заказ сплава emk24 -- @1.4 ",
+    "uid" : "da731e780590d1b3",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "broken",
+    "time" : {
+      "start" : 1652590178919,
+      "stop" : 1652590209715,
+      "duration" : 30796
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.com.ua" ]
+  }, {
+    "name" : "emk24 -- @1.1 ",
+    "uid" : "d80b1794f457092d",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652590209719,
+      "stop" : 1652590225635,
+      "duration" : 15916
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.ru" ]
+  }, {
+    "name" : "emk24 -- @1.2 ",
+    "uid" : "913c46847e4e5115",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652590225636,
+      "stop" : 1652590331400,
+      "duration" : 105764
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.by" ]
+  }, {
+    "name" : "emk24 -- @1.3 ",
+    "uid" : "160d3be266f2c33a",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652590331401,
+      "stop" : 1652590439458,
+      "duration" : 108057
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.kz" ]
+  }, {
+    "name" : "emk24 -- @1.4 ",
+    "uid" : "6d5430215947c68d",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652590439459,
+      "stop" : 1652590545756,
+      "duration" : 106297
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emk24.com.ua" ]
+  } ],
+  "name" : "packages"
+}
