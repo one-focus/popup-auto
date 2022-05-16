@@ -1,0 +1,547 @@
+{
+  "uid" : "27e25ec634c057fb",
+  "name" : "Заказ сплава emk24 -- @1.2 ",
+  "fullName" : "Проверка Заказ сплава emk24: Заказ сплава emk24",
+  "historyId" : "1e77663226e730f0a4dd8707034d1b5a",
+  "time" : {
+    "start" : 1652675267468,
+    "stop" : 1652675299637,
+    "duration" : 32169
+  },
+  "status" : "broken",
+  "statusMessage" : "RuntimeError: ['\"Обратный звонок (заявка) wiki\" не найден в \"[DATE]: 16.05.2022 07:28:12  [NAME]: 16.05.2022 07:28:08_test_automation_email_order_splav  [PHONE]: +70000000000  [EMAIL]: automation.emk@gmail.com  [BODY]: wiki баннер Титан Grade 2 / Ti Grade 2 / R50400  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]: https://emk24.by/wiki/titan_i_ego_splavy/titan_grade_2_ti_grade_2_r50400_4338794/  [ROISTATID] 118113  \"']\n",
+  "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 118, in step_impl\n    raise RuntimeError(errors)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "RuntimeError: ['\"Обратный звонок (заявка) wiki\" не найден в \"[DATE]: 16.05.2022 07:28:12  [NAME]: 16.05.2022 07:28:08_test_automation_email_order_splav  [PHONE]: +70000000000  [EMAIL]: automation.emk@gmail.com  [BODY]: wiki баннер Титан Grade 2 / Ti Grade 2 / R50400  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]: https://emk24.by/wiki/titan_i_ego_splavy/titan_grade_2_ti_grade_2_r50400_4338794/  [ROISTATID] 118113  \"']\n",
+    "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 118, in step_impl\n    raise RuntimeError(errors)\n",
+    "steps" : [ {
+      "name" : "Given open emk24.by page",
+      "time" : {
+        "start" : 1652675267557,
+        "stop" : 1652675269246,
+        "duration" : 1689
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When open url: \"emk24.by/wiki/tsvetnye_metally_i_splavy/\"",
+      "time" : {
+        "start" : 1652675269247,
+        "stop" : 1652675270522,
+        "duration" : 1275
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on first splav button",
+      "time" : {
+        "start" : 1652675270522,
+        "stop" : 1652675272503,
+        "duration" : 1981
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter \"generated_test_automation_email_order_splav\" in name field",
+      "time" : {
+        "start" : 1652675272503,
+        "stop" : 1652675273919,
+        "duration" : 1416
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field",
+      "time" : {
+        "start" : 1652675273919,
+        "stop" : 1652675274612,
+        "duration" : 693
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field",
+      "time" : {
+        "start" : 1652675274612,
+        "stop" : 1652675275414,
+        "duration" : 802
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on Send button",
+      "time" : {
+        "start" : 1652675275414,
+        "stop" : 1652675276356,
+        "duration" : 942
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then text \"Ваше сообщение отравлено\" is displayed",
+      "time" : {
+        "start" : 1652675276356,
+        "stop" : 1652675277502,
+        "duration" : 1146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_order_splav\" contains \"emk24.by;Обратный звонок (заявка) wiki;[PHONE]: +70000000000;[EMAIL]: automation.emk@gmail.com\" in 900 sec",
+      "time" : {
+        "start" : 1652675277502,
+        "stop" : 1652675283799,
+        "duration" : 6297
+      },
+      "status" : "broken",
+      "statusMessage" : "RuntimeError: ['\"Обратный звонок (заявка) wiki\" не найден в \"[DATE]: 16.05.2022 07:27:56  [NAME]: 16.05.2022 07:27:53_test_automation_email_order_splav  [PHONE]: +70000000000  [EMAIL]: automation.emk@gmail.com  [BODY]: wiki баннер Титан Grade 2 / Ti Grade 2 / R50400  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]: https://emk24.by/wiki/titan_i_ego_splavy/titan_grade_2_ti_grade_2_r50400_4338794/  [ROISTATID] 118109  \"']\n",
+      "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 118, in step_impl\n    raise RuntimeError(errors)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8008b955df5dfbc6",
+        "name" : "screenshot",
+        "source" : "8008b955df5dfbc6.png",
+        "type" : "image/png",
+        "size" : 246506
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Given open emk24.by page",
+      "time" : {
+        "start" : 1652675283873,
+        "stop" : 1652675285417,
+        "duration" : 1544
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When open url: \"emk24.by/wiki/tsvetnye_metally_i_splavy/\"",
+      "time" : {
+        "start" : 1652675285417,
+        "stop" : 1652675286235,
+        "duration" : 818
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on first splav button",
+      "time" : {
+        "start" : 1652675286235,
+        "stop" : 1652675287988,
+        "duration" : 1753
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter \"generated_test_automation_email_order_splav\" in name field",
+      "time" : {
+        "start" : 1652675287988,
+        "stop" : 1652675289382,
+        "duration" : 1394
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter \"+70000000000\" in phone field",
+      "time" : {
+        "start" : 1652675289382,
+        "stop" : 1652675290117,
+        "duration" : 735
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When enter \"automation.emk@gmail.com\" in email field",
+      "time" : {
+        "start" : 1652675290117,
+        "stop" : 1652675290966,
+        "duration" : 849
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When click on Send button",
+      "time" : {
+        "start" : 1652675290966,
+        "stop" : 1652675291957,
+        "duration" : 991
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then text \"Ваше сообщение отравлено\" is displayed",
+      "time" : {
+        "start" : 1652675291957,
+        "stop" : 1652675293234,
+        "duration" : 1277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then email with \"generated_test_automation_email_order_splav\" contains \"emk24.by;Обратный звонок (заявка) wiki;[PHONE]: +70000000000;[EMAIL]: automation.emk@gmail.com\" in 900 sec",
+      "time" : {
+        "start" : 1652675293234,
+        "stop" : 1652675299636,
+        "duration" : 6402
+      },
+      "status" : "broken",
+      "statusMessage" : "RuntimeError: ['\"Обратный звонок (заявка) wiki\" не найден в \"[DATE]: 16.05.2022 07:28:12  [NAME]: 16.05.2022 07:28:08_test_automation_email_order_splav  [PHONE]: +70000000000  [EMAIL]: automation.emk@gmail.com  [BODY]: wiki баннер Титан Grade 2 / Ti Grade 2 / R50400  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]: https://emk24.by/wiki/titan_i_ego_splavy/titan_grade_2_ti_grade_2_r50400_4338794/  [ROISTATID] 118113  \"']\n",
+      "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/model.py\", line 1806, in run\n    match.run(runner.context)\n  File \"/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/matchers.py\", line 97, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/basic_steps.py\", line 118, in step_impl\n    raise RuntimeError(errors)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aaa95351f6dca0ce",
+        "name" : "screenshot",
+        "source" : "aaa95351f6dca0ce.png",
+        "type" : "image/png",
+        "size" : 246312
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка Заказ сплава emk24"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "url",
+    "value" : "emk24.by"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 70,
+        "unknown" : 0,
+        "total" : 73
+      },
+      "items" : [ {
+        "uid" : "79e2697786ea2aa1",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/99//#testresult/79e2697786ea2aa1",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: ['\"Обратный звонок (заявка) wiki\" не найден в \"[DATE]: 15.05.2022 07:48:56  [NAME]: 15.05.2022 07:48:53_test_automation_email_order_splav  [PHONE]: +70000000000  [EMAIL]: automation.emk@gmail.com  [BODY]: wiki баннер Титан Grade 2 / Ti Grade 2 / R50400  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]: https://emk24.by/wiki/titan_i_ego_splavy/titan_grade_2_ti_grade_2_r50400_4338794/  [ROISTATID] 116825  \"']\n",
+        "time" : {
+          "start" : 1652589811666,
+          "stop" : 1652590143905,
+          "duration" : 332239
+        }
+      }, {
+        "uid" : "a4efdb2333c116e",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/98//#testresult/a4efdb2333c116e",
+        "status" : "broken",
+        "statusDetails" : "RuntimeError: ['\"emk24.by\" не найден в \"[DATE]: 14.05.2022 11:58:05  [NAME]: 14.05.2022 11:58:01_test_automation_email_order_splav  [PHONE]: +70000000000  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]:  [ROISTATID] 115910  \"', '\"Обратный звонок (заявка) wiki\" не найден в \"[DATE]: 14.05.2022 11:58:05  [NAME]: 14.05.2022 11:58:01_test_automation_email_order_splav  [PHONE]: +70000000000  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]:  [ROISTATID] 115910  \"', '\"[EMAIL]: automation.emk@gmail.com\" не найден в \"[DATE]: 14.05.2022 11:58:05  [NAME]: 14.05.2022 11:58:01_test_automation_email_order_splav  [PHONE]: +70000000000  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]:  [ROISTATID] 115910  \"']\n",
+        "time" : {
+          "start" : 1652518657883,
+          "stop" : 1652518693602,
+          "duration" : 35719
+        }
+      }, {
+        "uid" : "17545d2ef641a852",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/97//#testresult/17545d2ef641a852",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652417266181,
+          "stop" : 1652417281307,
+          "duration" : 15126
+        }
+      }, {
+        "uid" : "92f93c117d60c5dc",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/96//#testresult/92f93c117d60c5dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652331485503,
+          "stop" : 1652331500988,
+          "duration" : 15485
+        }
+      }, {
+        "uid" : "1cc0a0c81b46e906",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/95//#testresult/1cc0a0c81b46e906",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652243866913,
+          "stop" : 1652243881259,
+          "duration" : 14346
+        }
+      }, {
+        "uid" : "860401fd7e7282f2",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/94//#testresult/860401fd7e7282f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652155451045,
+          "stop" : 1652155465765,
+          "duration" : 14720
+        }
+      }, {
+        "uid" : "24934f0e1ef5730d",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/93//#testresult/24934f0e1ef5730d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652072008157,
+          "stop" : 1652072942332,
+          "duration" : 934175
+        }
+      }, {
+        "uid" : "56ef6ca3fd1ba0df",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/92//#testresult/56ef6ca3fd1ba0df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651984308524,
+          "stop" : 1651984323064,
+          "duration" : 14540
+        }
+      }, {
+        "uid" : "4701cff01c9b9d42",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/91//#testresult/4701cff01c9b9d42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651897547059,
+          "stop" : 1651897560739,
+          "duration" : 13680
+        }
+      }, {
+        "uid" : "a1825a1425fd7eb2",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/90//#testresult/a1825a1425fd7eb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651810446314,
+          "stop" : 1651810551957,
+          "duration" : 105643
+        }
+      }, {
+        "uid" : "bffcfbec974e2b98",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/89//#testresult/bffcfbec974e2b98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651725119285,
+          "stop" : 1651725404212,
+          "duration" : 284927
+        }
+      }, {
+        "uid" : "3a467181e67cfe7e",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/88//#testresult/3a467181e67cfe7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651638538188,
+          "stop" : 1651638552260,
+          "duration" : 14072
+        }
+      }, {
+        "uid" : "255cd2d6c8515fc0",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/87//#testresult/255cd2d6c8515fc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651553853807,
+          "stop" : 1651553868613,
+          "duration" : 14806
+        }
+      }, {
+        "uid" : "3357547286284b00",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/86//#testresult/3357547286284b00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651466735785,
+          "stop" : 1651466750582,
+          "duration" : 14797
+        }
+      }, {
+        "uid" : "9ff65563b20925d9",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/85//#testresult/9ff65563b20925d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651380289093,
+          "stop" : 1651380393218,
+          "duration" : 104125
+        }
+      }, {
+        "uid" : "996f8365809cbc62",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/84//#testresult/996f8365809cbc62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651294006963,
+          "stop" : 1651294021321,
+          "duration" : 14358
+        }
+      }, {
+        "uid" : "53d3cf2a8f86be0d",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/83//#testresult/53d3cf2a8f86be0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651206502788,
+          "stop" : 1651206518191,
+          "duration" : 15403
+        }
+      }, {
+        "uid" : "91657528e0abadd6",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/82//#testresult/91657528e0abadd6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651122468418,
+          "stop" : 1651122483165,
+          "duration" : 14747
+        }
+      }, {
+        "uid" : "a9283d12a583c3a4",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/81//#testresult/a9283d12a583c3a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651034530007,
+          "stop" : 1651034725230,
+          "duration" : 195223
+        }
+      }, {
+        "uid" : "86f3dd9a15324044",
+        "reportUrl" : "https://one-focus.github.io/popup-auto/80//#testresult/86f3dd9a15324044",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650947214827,
+          "stop" : 1650947229143,
+          "duration" : 14316
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "27e25ec634c057fb.json",
+  "parameterValues" : [ "emk24.by" ]
+}
