@@ -1,0 +1,311 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: MEDIA_CAPTION_TOO_LONG\n",
+      "children" : [ {
+        "name" : "emkmet_ru секция 1 и 4 -- @1.1 ",
+        "uid" : "b6322e2f6807300f",
+        "parentUid" : "3ed738e6251ad59dfbebcb9c2c0b370d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652760391144,
+          "stop" : 1652760422824,
+          "duration" : 31680
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1 section" ]
+      }, {
+        "name" : "emkmet_ru секция 1 и 4 -- @1.2 ",
+        "uid" : "991defbd70ca2ccf",
+        "parentUid" : "3ed738e6251ad59dfbebcb9c2c0b370d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652760422824,
+          "stop" : 1652760450647,
+          "duration" : 27823
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4 section" ]
+      } ],
+      "uid" : "3ed738e6251ad59dfbebcb9c2c0b370d"
+    }, {
+      "name" : "RuntimeError: ['\"Email : automation.emk@gmail.com\" не найден в \"[DATE]: 17.05.2022 07:07:58 [NAME]: [EMAIL]: automation.emk@gmail.com [PHONE]: +70000000000 [COMPANY]: [BODY]: Позиции : Черный: Балка двутавровая, Нержавейка: Балка двутавровая, Пищевая нержавейка: Фланцы пищевые, Никель: Фитинги, Алюминий: Рифленые листыКомментарий : 17.05.2022 07:07:56_comment[FILE]: [LINK]: emkmet.ru [TYPE]: Заявка с сайта [FORM]: Позиции [ROISTATID]: 123346 [PSESSION_ID]: emk110520 [USER_ID]: 6377806  \"', '\"Телефон : +7000000000\" не найден в \"[DATE]: 17.05.2022 07:07:58 [NAME]: [EMAIL]: automation.emk@gmail.com [PHONE]: +70000000000 [COMPANY]: [BODY]: Позиции : Черный: Балка двутавровая, Нержавейка: Балка двутавровая, Пищевая нержавейка: Фланцы пищевые, Никель: Фитинги, Алюминий: Рифленые листыКомментарий : 17.05.2022 07:07:56_comment[FILE]: [LINK]: emkmet.ru [TYPE]: Заявка с сайта [FORM]: Позиции [ROISTATID]: 123346 [PSESSION_ID]: emk110520 [USER_ID]: 6377806  \"']\n",
+      "children" : [ {
+        "name" : "emkmet_ru секция 2",
+        "uid" : "624551c84786b4b5",
+        "parentUid" : "4ae29be8f3b4ee9ba324a16ae36c307c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652760450648,
+          "stop" : 1652760486438,
+          "duration" : 35790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ae29be8f3b4ee9ba324a16ae36c307c"
+    }, {
+      "name" : "RuntimeError: Сообщение с текстом \"Услуги по металлообработке, Услуги по испытанию продукции, Услуги испытания продукции\" не пришло на почту в течение 900 секунд\n",
+      "children" : [ {
+        "name" : "emkmet_ru секция 3",
+        "uid" : "8200d72adf4c0037",
+        "parentUid" : "52ab0d12f1894076361525c19069f5d3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652760486439,
+          "stop" : 1652760514532,
+          "duration" : 28093
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "52ab0d12f1894076361525c19069f5d3"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: Не могу найти top request callback button в течение 5 сек\n\n",
+      "children" : [ {
+        "name" : "emkworld.com заказать звонок -- @1.1 ",
+        "uid" : "8ab0a0104f544702",
+        "parentUid" : "4248c3759c8c91be9b8a6032671323ff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652760514535,
+          "stop" : 1652760538902,
+          "duration" : 24367
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "top request callback button" ]
+      } ],
+      "uid" : "4248c3759c8c91be9b8a6032671323ff"
+    }, {
+      "name" : "RuntimeError: Не могу найти company field в top section. With xpath (//div[contains(@class, \"r t-rec t-rec_pt_0\")])[2]//input[@name=\"company_name\"]\n",
+      "children" : [ {
+        "name" : "emkworld.com оставить заявку -- @1.1 ",
+        "uid" : "414d85d87eb6e7fa",
+        "parentUid" : "2cf9331a9e1b7a22a099fa4a81ae54b9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652760538904,
+          "stop" : 1652760565619,
+          "duration" : 26715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Заявка из главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12", "top section", "Thank you for your message" ]
+      } ],
+      "uid" : "2cf9331a9e1b7a22a099fa4a81ae54b9"
+    }, {
+      "name" : "RuntimeError: ['\"Заказ в 1 клик!\" не найден в \"[DATE]: 17.05.2022 07:18:23  [NAME]: test_automation_contact_name  [EMAIL]: automation.emk@gmail.com  [PHONE]: +70000000000  [BODY]:  Товар: Задвижка клиновая / Gate Valve 1/2\" CL150 RTJ BB-OS&Y SOW HW API 600 (A216 Gr. WCB / Trim #1) 4 кг  Комментарий: 17.05.2022 07:18:22_comment_1_click  [FILE]:  [LINK]: https://emk24.ru/catalog/gate-valve/: https://emk24.by/bitrix/admin/message_edit.php?ID=40https://emk24.ru/catalog/gate-valve/  [TYPE]: Заказ в 1 клик  [FORM]: Заказ в 1 клик  [ROISTATID] 123385  [PSESSION_ID]: e5200340  [SESSION_ID]: 8393792  [USER_ID]: 6377806  \"']\n",
+      "children" : [ {
+        "name" : "Купить в 1 клик emk24 -- @1.1 ",
+        "uid" : "79b2fb18d4bb98c",
+        "parentUid" : "8495abc2d6f2fd4f332de92580cd77e6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652761069123,
+          "stop" : 1652761113752,
+          "duration" : 44629
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.ru" ]
+      } ],
+      "uid" : "8495abc2d6f2fd4f332de92580cd77e6"
+    }, {
+      "name" : "RuntimeError: ['\"Заказ в 1 клик!\" не найден в \"[DATE]: 17.05.2022 07:19:08  [NAME]: test_automation_contact_name  [EMAIL]: automation.emk@gmail.com  [PHONE]: +70000000000  [BODY]:  Товар: Задвижка клиновая / Gate Valve 1/2\" CL150 RTJ BB-OS&Y SOW HW API 600 (A216 Gr. WCB / Trim #1) 4 кг  Комментарий: 17.05.2022 07:19:06_comment_1_click  [FILE]:  [LINK]: https://emk24.by/catalog/gate-valve/: https://emk24.by/bitrix/admin/message_edit.php?ID=40https://emk24.by/catalog/gate-valve/  [TYPE]: Заказ в 1 клик  [FORM]: Заказ в 1 клик  [ROISTATID] 123389  [PSESSION_ID]: k208710  [SESSION_ID]: 8393792  [USER_ID]: 6377806  \"']\n",
+      "children" : [ {
+        "name" : "Купить в 1 клик emk24 -- @1.2 ",
+        "uid" : "2b4735ad718b0752",
+        "parentUid" : "b3bda6ede8fcf40b6622e072374f46a6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652761113753,
+          "stop" : 1652761158318,
+          "duration" : 44565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.by" ]
+      } ],
+      "uid" : "b3bda6ede8fcf40b6622e072374f46a6"
+    }, {
+      "name" : "RuntimeError: ['\"Заказ в 1 клик!\" не найден в \"[DATE]: 17.05.2022 07:19:58  [NAME]: test_automation_contact_name  [EMAIL]: automation.emk@gmail.com  [PHONE]: +70000000000  [BODY]:  Товар: Задвижка клиновая / Gate Valve 1/2\" CL150 RTJ BB-OS&Y SOW HW API 600 (A216 Gr. WCB / Trim #1) 4 кг  Комментарий: 17.05.2022 07:19:57_comment_1_click  [FILE]:  [LINK]: https://emk24.kz/catalog/gate-valve/: https://emk24.by/bitrix/admin/message_edit.php?ID=40https://emk24.kz/catalog/gate-valve/  [TYPE]: Заказ в 1 клик  [FORM]: Заказ в 1 клик  [ROISTATID] 123391  [PSESSION_ID]: m147391  [SESSION_ID]: 8393792  [USER_ID]: 6377806  \"']\n",
+      "children" : [ {
+        "name" : "Купить в 1 клик emk24 -- @1.3 ",
+        "uid" : "b2a096b4fed28263",
+        "parentUid" : "81f3828caaf5c331c246663e91b7f99d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652761158319,
+          "stop" : 1652761208978,
+          "duration" : 50659
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.kz" ]
+      } ],
+      "uid" : "81f3828caaf5c331c246663e91b7f99d"
+    }, {
+      "name" : "RuntimeError: ['\"Заказ в 1 клик!\" не найден в \"[DATE]: 17.05.2022 07:25:43  [NAME]: test_automation_contact_name  [EMAIL]: automation.emk@gmail.com  [PHONE]: +70000000000  [BODY]:  Товар: Задвижка клиновая / Gate Valve 1/2\" CL150 RTJ BB-OS&Y SOW HW API 600 (A216 Gr. WCB / Trim #1) 4 кг  Комментарий: 17.05.2022 07:25:42_comment_1_click  [FILE]:  [LINK]: https://emk24.com.ua/catalog/gate-valve/: https://emk24.by/bitrix/admin/message_edit.php?ID=40https://emk24.com.ua/catalog/gate-valve/  [TYPE]: Заказ в 1 клик  [FORM]: Заказ в 1 клик  [ROISTATID] 123411  [PSESSION_ID]: ua7248  [SESSION_ID]: 8393792  [USER_ID]: 6377806  \"']\n",
+      "children" : [ {
+        "name" : "Купить в 1 клик emk24 -- @1.4 ",
+        "uid" : "9cb24718e780cdcf",
+        "parentUid" : "794220e98963607a3aa9af086817ee1c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652761208979,
+          "stop" : 1652761554804,
+          "duration" : 345825
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.com.ua" ]
+      } ],
+      "uid" : "794220e98963607a3aa9af086817ee1c"
+    }, {
+      "name" : "RuntimeError: ['\"Заказ в 1 клик!\" не найден в \"[DATE]: 17.05.2022 07:44:19  [NAME]: test_automation_user_name  [EMAIL]: automation.emk@gmail.com  [PHONE]: +70000000000  [COMPANY]: test_company_name  [BODY]: 17.05.2022 07:44:13_test_automation_email_order_1_click  [FILE]:   [LINK]: https://emk24.ru/order-in-1-click/  [TYPE]: Заказ в 1 клик (сквозная форма)  [FORM]: Заказ в 1 клик (сквозная форма)  [ROISTATID] 123507  [PSESSION_ID]: e5200340  [SESSION_ID]: 8393792  [USER_ID]:  \"']\n",
+      "children" : [ {
+        "name" : "emk24 -- @1.1 ",
+        "uid" : "ff39c1af991ffcbc",
+        "parentUid" : "28bc11df9f647751ae5a69e37b64d2a7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652762633109,
+          "stop" : 1652762757356,
+          "duration" : 124247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.ru" ]
+      } ],
+      "uid" : "28bc11df9f647751ae5a69e37b64d2a7"
+    }, {
+      "name" : "RuntimeError: ['\"Заказ в 1 клик!\" не найден в \"[DATE]: 17.05.2022 07:46:25  [NAME]: test_automation_user_name  [EMAIL]: automation.emk@gmail.com  [PHONE]: +70000000000  [COMPANY]: test_company_name  [BODY]: 17.05.2022 07:46:20_test_automation_email_order_1_click  [FILE]:   [LINK]: https://emk24.by/order-in-1-click/  [TYPE]: Заказ в 1 клик (сквозная форма)  [FORM]: Заказ в 1 клик (сквозная форма)  [ROISTATID] 123519  [PSESSION_ID]: k208710  [SESSION_ID]: 8393792  [USER_ID]:  \"']\n",
+      "children" : [ {
+        "name" : "emk24 -- @1.2 ",
+        "uid" : "79e8f6241e579b54",
+        "parentUid" : "a616c63fb0dd039b88bd486895b9e2dc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652762757357,
+          "stop" : 1652762794376,
+          "duration" : 37019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.by" ]
+      } ],
+      "uid" : "a616c63fb0dd039b88bd486895b9e2dc"
+    }, {
+      "name" : "RuntimeError: ['\"Заказ в 1 клик!\" не найден в \"[DATE]: 17.05.2022 07:47:07  [NAME]: test_automation_user_name  [EMAIL]: automation.emk@gmail.com  [PHONE]: +70000000000  [COMPANY]: test_company_name  [BODY]: 17.05.2022 07:47:01_test_automation_email_order_1_click  [FILE]:   [LINK]: https://emk24.kz/order-in-1-click/  [TYPE]: Заказ в 1 клик (сквозная форма)  [FORM]: Заказ в 1 клик (сквозная форма)  [ROISTATID] 123521  [PSESSION_ID]: m147391  [SESSION_ID]: 8393792  [USER_ID]:  \"']\n",
+      "children" : [ {
+        "name" : "emk24 -- @1.3 ",
+        "uid" : "a980fcbb8130a840",
+        "parentUid" : "04d6b001257d28bb19cbd9efb812ac1e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652762794377,
+          "stop" : 1652762836572,
+          "duration" : 42195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.kz" ]
+      } ],
+      "uid" : "04d6b001257d28bb19cbd9efb812ac1e"
+    }, {
+      "name" : "RuntimeError: ['\"Заказ в 1 клик!\" не найден в \"[DATE]: 17.05.2022 07:47:43  [NAME]: test_automation_user_name  [EMAIL]: automation.emk@gmail.com  [PHONE]: +70000000000  [COMPANY]: test_company_name  [BODY]: 17.05.2022 07:47:38_test_automation_email_order_1_click  [FILE]:   [LINK]: https://emk24.com.ua/order-in-1-click/  [TYPE]: Заказ в 1 клик (сквозная форма)  [FORM]: Заказ в 1 клик (сквозная форма)  [ROISTATID] 123524  [PSESSION_ID]: ua7248  [SESSION_ID]: 8393792  [USER_ID]:  \"']\n",
+      "children" : [ {
+        "name" : "emk24 -- @1.4 ",
+        "uid" : "e4da0f966df61654",
+        "parentUid" : "e13a37471c54db55181e381d0f2c8a55",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652762836573,
+          "stop" : 1652762871940,
+          "duration" : 35367
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.com.ua" ]
+      } ],
+      "uid" : "e13a37471c54db55181e381d0f2c8a55"
+    }, {
+      "name" : "RuntimeError: ['\"Обратный звонок (заявка) wiki\" не найден в \"[DATE]: 17.05.2022 07:48:14  [NAME]: 17.05.2022 07:48:11_test_automation_email_order_splav  [PHONE]: +70000000000  [EMAIL]: automation.emk@gmail.com  [BODY]: wiki баннер Титан Grade 2 / Ti Grade 2 / R50400  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]: https://emk24.ru/wiki/titan_i_ego_splavy/titan_grade_2_ti_grade_2_r50400_4338794/  [ROISTATID] 123528  [PSESSION_ID]: e5200340  [SESSION_ID]: 8393792  [USER_ID]: 6377806  \"']\n",
+      "children" : [ {
+        "name" : "Заказ сплава emk24 -- @1.1 ",
+        "uid" : "9e586185c0ca4455",
+        "parentUid" : "54cbf37c316f4cfeb149811c5b0c8c72",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652762871948,
+          "stop" : 1652762902507,
+          "duration" : 30559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.ru" ]
+      } ],
+      "uid" : "54cbf37c316f4cfeb149811c5b0c8c72"
+    }, {
+      "name" : "RuntimeError: ['\"Обратный звонок (заявка) wiki\" не найден в \"[DATE]: 17.05.2022 07:48:47  [NAME]: 17.05.2022 07:48:44_test_automation_email_order_splav  [PHONE]: +70000000000  [EMAIL]: automation.emk@gmail.com  [BODY]: wiki баннер Титан Grade 2 / Ti Grade 2 / R50400  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]: https://emk24.by/wiki/titan_i_ego_splavy/titan_grade_2_ti_grade_2_r50400_4338794/  [ROISTATID] 123530  [PSESSION_ID]: k208710  [SESSION_ID]: 8393792  [USER_ID]: 6377806  \"']\n",
+      "children" : [ {
+        "name" : "Заказ сплава emk24 -- @1.2 ",
+        "uid" : "1694a4b0c1970079",
+        "parentUid" : "6804041eb7305f46dc196997fab9358d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652762902508,
+          "stop" : 1652763115925,
+          "duration" : 213417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.by" ]
+      } ],
+      "uid" : "6804041eb7305f46dc196997fab9358d"
+    }, {
+      "name" : "RuntimeError: ['\"Обратный звонок (заявка) wiki\" не найден в \"[DATE]: 17.05.2022 07:53:58  [NAME]: 17.05.2022 07:53:54_test_automation_email_order_splav  [PHONE]: +70000000000  [EMAIL]: automation.emk@gmail.com  [BODY]: wiki баннер Титан Grade 2 / Ti Grade 2 / R50400  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]: https://emk24.kz/wiki/titan_i_ego_splavy/titan_grade_2_ti_grade_2_r50400_4338794/  [ROISTATID] 123547  [PSESSION_ID]: m147391  [SESSION_ID]: 8393792  [USER_ID]: 6377806  \"']\n",
+      "children" : [ {
+        "name" : "Заказ сплава emk24 -- @1.3 ",
+        "uid" : "6f72ce08714c6fa",
+        "parentUid" : "ce09ae4636ba5d2a219d49aeb770e0b0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652763115926,
+          "stop" : 1652763336471,
+          "duration" : 220545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.kz" ]
+      } ],
+      "uid" : "ce09ae4636ba5d2a219d49aeb770e0b0"
+    }, {
+      "name" : "RuntimeError: ['\"Обратный звонок (заявка) wiki\" не найден в \"[DATE]: 17.05.2022 07:56:01  [NAME]: 17.05.2022 07:55:57_test_automation_email_order_splav  [PHONE]: +70000000000  [EMAIL]: automation.emk@gmail.com  [BODY]: wiki баннер Титан Grade 2 / Ti Grade 2 / R50400  [TYPE]: Заказ обратного звонка  [FORM]: Обратный звонок (заявка)  [LINK]: https://emk24.com.ua/wiki/titan_i_ego_splavy/titan_grade_2_ti_grade_2_r50400_4338794/  [ROISTATID] 123559  [PSESSION_ID]: ua7248  [SESSION_ID]: 8393792  [USER_ID]: 6377806  \"']\n",
+      "children" : [ {
+        "name" : "Заказ сплава emk24 -- @1.4 ",
+        "uid" : "e2db4288da4e8c54",
+        "parentUid" : "9d0045d2f8eeca564e0de905303151b4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652763336472,
+          "stop" : 1652763368385,
+          "duration" : 31913
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "emk24.com.ua" ]
+      } ],
+      "uid" : "9d0045d2f8eeca564e0de905303151b4"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
