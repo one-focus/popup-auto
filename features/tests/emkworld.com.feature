@@ -13,11 +13,11 @@ Feature: Проверка сайта emkworld.com
     When enter "1231231212" in phone field in "callback dialog section"
     When click on submit button in "callback dialog section"
     Then text "Thank you for your message" is displayed
-    Then email with "generated_test_automation_email_call_order" contains "Заявка на обратный звонок с сайта https://emkworld.com/;Название компании : test_automation_company_name;Телефон : +7 (123) 123-12-12" in 900 sec
+    Then email with "generated_test_automation_email_call_order" contains "[COMPANY]: test_automation_company_name;Телефон : +7 (123) 123-12-12" in 900 sec
 
     Examples:
-      | button                         |
-      | top request callback button    |
+      | button                      |
+      | top request callback button |
 #      | bottom request callback button |
 
   Scenario Outline: emkworld.com оставить заявку
@@ -34,6 +34,6 @@ Feature: Проверка сайта emkworld.com
     Then email with "generated_test_automation_company_name" contains "<email_text>" in 900 sec
 
     Examples:
-      | section        | thank_you_message          | email_text                                                                                                                                                                       |
-      | top section    | Thank you for your message | Заявка из главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12         |
-#      | bottom section | Спасибо!                   | Заявка из повтора главной формы со страницы https://emkworld.com/;Наименование товаров : test_automation_good_name;Почта : automation.emk@gmail.com;Телефон : +7 (123) 123-12-12 |
+      | section     | thank_you_message          | email_text                                                                                                     |
+      | top section | Thank you for your message | Наименование товаров : test_automation_good_name;[EMAIL]: automation.emk@gmail.com;[PHONE]: +7 (123) 123-12-12 |
+#      | bottom section | Спасибо!                   | Наименование товаров : test_automation_good_name;[EMAIL]: automation.emk@gmail.com;[PHONE]: +7 (123) 123-12-12 |

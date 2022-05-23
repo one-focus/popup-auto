@@ -18,7 +18,7 @@ class Emk24Page(BasePage):
     FIELD_PHONE = By.XPATH, '//*[@name="phone"]|//*[@name="FIELDS[WORK_PHONE]"]|//input[@name="PROPERTY_VALUES[PHONE]"]|//input[@placeholder="Телефон"]'
     FIELD_EMAIL = By.XPATH, '//input[@name="email"]|//*[@name="mail"]|//input[@name="FIELDS[EMAIL]"]|//input[@name="PROPERTY_VALUES[EMAIL]"]|//input[@placeholder="Email"]'
     BUTTON_UPLOAD_FILE = By.ID, 'file_input_mfifiles_send'
-    BUTTON_CONTINUE = By.XPATH, '//div[@class="step1"]//span[@class="but_big_card js-continue"]'
+    BUTTON_CONTINUE = By.XPATH, '//div[@class="step1"]//input[@class="but_big_card"]|//div[@class="step1"]//span[@class="but_big_card js-continue"]'
     BUTTON_SEND = By.XPATH, '//div[@class="step2"]//span[@class="but_big_card js-continue"]|//button[contains(@data-event,"USER_SEND_FORM_")]|//input[@type="submit"]'
     FORM_MODAL = By.XPATH, '//div[@role="dialog" and contains(@style,"display: block;")]'
     # order item page
