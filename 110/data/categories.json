@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: MEDIA_CAPTION_TOO_LONG\n",
+      "children" : [ {
+        "name" : "emkworld.com заказать звонок -- @1.1 ",
+        "uid" : "62155be970cf1a72",
+        "parentUid" : "3ed738e6251ad59dfbebcb9c2c0b370d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653364703926,
+          "stop" : 1653364917376,
+          "duration" : 213450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "top request callback button" ]
+      } ],
+      "uid" : "3ed738e6251ad59dfbebcb9c2c0b370d"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: Unable to find text: Thank you for your message\n\n",
+      "children" : [ {
+        "name" : "emkworld.com оставить заявку -- @1.1 ",
+        "uid" : "f62199473b66f1b6",
+        "parentUid" : "21210eb8faaf3db54253ab640c3b24f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653364917378,
+          "stop" : 1653364955715,
+          "duration" : 38337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Наименование товаров : test_automation_good_name;[EMAIL]: automation.emk@gmail.com;[PHONE]: +7 (123) 123-12-12", "top section", "Thank you for your message" ]
+      } ],
+      "uid" : "21210eb8faaf3db54253ab640c3b24f5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
