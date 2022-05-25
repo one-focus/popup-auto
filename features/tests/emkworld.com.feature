@@ -35,5 +35,5 @@ Feature: Проверка сайта emkworld.com
 
     Examples:
       | section     | thank_you_message          | email_text                                                                                                     |
-      | top section | Thank you for your message | Наименование товаров : test_automation_good_name;[EMAIL]: automation.emk@gmail.com;[PHONE]: +7 (123) 123-12-12 |
-#      | bottom section | Спасибо!                   | Наименование товаров : test_automation_good_name;[EMAIL]: automation.emk@gmail.com;[PHONE]: +7 (123) 123-12-12 |
+      | top section | Thank you for your message | [COMPANY]: test_automation_company_name;[EMAIL]: automation.emk@gmail.com;[PHONE]: +7 (123) 123-12-12 |
+#      | bottom section | Спасибо!                   | [COMPANY]: test_automation_company_name;[EMAIL]: automation.emk@gmail.com;[PHONE]: +7 (123) 123-12-12 |
