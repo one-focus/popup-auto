@@ -13,7 +13,7 @@ Feature: Проверка сайта emkworld.com
     When enter "1231231212" in phone field in "callback dialog section"
     When click on submit button in "callback dialog section"
     Then text "Thank you for your message" is displayed
-    Then email with "generated_test_automation_email_call_order" contains "[COMPANY]: test_automation_company_name;Телефон : +7 (123) 123-12-12" in 900 sec
+    Then email with "generated_test_automation_email_call_order" contains "[COMPANY]: test_automation_company_name;[PHONE]:  +7 (123) 123-12-12" in 900 sec
 
     Examples:
       | button                      |
