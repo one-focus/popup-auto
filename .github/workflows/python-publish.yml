@@ -75,6 +75,9 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: allure-history
+    - name: Public IP
+      id: ip
+      uses: haythem/public-ip@v1.2
     - name: send custom message
       if: always()
       uses: appleboy/telegram-action@master
@@ -83,5 +86,6 @@ jobs:
         token: ${{ secrets.TELEGRAM_TOKEN }}
         message: |
           ${{ env.DATE }} Результат проверки форм на сайтах EMK24
+          IP: ${{ steps.ip.outputs.ipv6 }}
           - https://one-focus.github.io/popup-auto/${{ env.RUN_NUMBER }}/
           - 🟢 ${{ env.PASS_TC }} | 🔴 ${{ env.BROKEN_TC }}
