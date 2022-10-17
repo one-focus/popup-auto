@@ -86,6 +86,7 @@ jobs:
         token: ${{ secrets.TELEGRAM_TOKEN }}
         message: |
           ${{ env.DATE }} Результат проверки форм на сайтах EMK24
-          IP: ${{ steps.ip.outputs.ipv6 }}
+          IP6: ${{ steps.ip.outputs.ipv6 }}
+          IP4: ${{ steps.ip.outputs.ipv4 }}
           - https://one-focus.github.io/popup-auto/${{ env.RUN_NUMBER }}/
           - 🟢 ${{ env.PASS_TC }} | 🔴 ${{ env.BROKEN_TC }}
