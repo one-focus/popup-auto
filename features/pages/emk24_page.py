@@ -27,6 +27,10 @@ class Emk24Page(BasePage):
     FIELD_VACANCY_EMAIL = By.XPATH, '//input[@name="PROPERTY_VALUES[EMAIL]"]'
     FIELD_VACANCY_MESSAGE = By.XPATH, '//textarea[@name="FIELD[PREVIEW_TEXT]"]'
     BUTTON_VACANCY_SEND = By.XPATH, '//button[contains(@data-event,"USER_SEND_FORM_")]'
+    # ansi standard
+    FIELD_STANDARD_PHONE = By.XPATH, '//input[@name="PROPERTY_VALUES[PHONE]"]'
+    FIELD_STANDARD_EMAIL = By.XPATH, '//input[@name="PROPERTY_VALUES[EMAIL]"]'
+    BUTTON_STANDARD_SEND = By.XPATH, '//button[contains(@data-event,"USER_SEND_FORM_")]'
     # order item page
     FIELD_FIRST_COUNT = By.NAME, 'count1'
     BUTTON_FIRST_BASKET = By.CLASS_NAME, 'add-to-basket'

@@ -142,3 +142,11 @@ def step_impl(context):
 @when("open last tab")
 def step_impl(context):
     context.driver.switch_to_window(context.driver.window_handles[-1])
+
+
+@when("debug")
+def step_impl(context):
+    """
+    :type context: behave.runner.Context
+    """
+    pass

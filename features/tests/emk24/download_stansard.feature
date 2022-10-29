@@ -8,9 +8,9 @@ Feature: Проверка кнопки скачать снандарт emk24
     When click on first standard button
     When click on download pdf button
     When enter "<inn>" in inn field
-    When enter "+70000000000" in phone field
-    When enter "automation.emk@gmail.com" in email field
-    When click on Send button
+    When enter "+70000000000" in standard phone field
+    When enter "automation.emk@gmail.com" in standard email field
+    When click on standard send button
     Then text "Проверьте, пожалуйста" is displayed
     Then email with "<inn>" contains "<url>;Запрос на скачивание стандарта;[PHONE]: +70000000000;[EMAIL]: automation.emk@gmail.com" in 900 sec
 
