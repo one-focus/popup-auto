@@ -7,10 +7,10 @@ Feature: Проверка формы на странце контактов emk2
     When open url: "<url>/about/contacts/"
     When enter "generated_test_automation_email_contacts" in company field
     When enter "test_automation_user_name" in name field
-    When enter "+70000000000" in phone field
-    When enter "automation.emk@gmail.com" in email field
-    When enter "automation_message" in message field
-    When click on Send button
+    When enter "+70000000000" in standard phone field
+    When enter "automation.emk@gmail.com" in standard email field
+    When enter "automation_message" in standard message field
+    When click on standard send button
     Then text "Ваше сообщение отравлено" is displayed
     Then email with "generated_test_automation_email_contacts" contains "<url>;[NAME]: test_automation_user_name;[PHONE]: +70000000000;[EMAIL]: automation.emk@gmail.com" in 900 sec
 

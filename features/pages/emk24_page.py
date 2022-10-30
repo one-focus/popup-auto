@@ -30,6 +30,7 @@ class Emk24Page(BasePage):
     # ansi standard
     FIELD_STANDARD_PHONE = By.XPATH, '//input[@name="PROPERTY_VALUES[PHONE]"]'
     FIELD_STANDARD_EMAIL = By.XPATH, '//input[@name="PROPERTY_VALUES[EMAIL]"]'
+    FIELD_STANDARD_MESSAGE = By.XPATH, '//textarea[@name="FIELD[PREVIEW_TEXT]"]'
     BUTTON_STANDARD_SEND = By.XPATH, '//button[contains(@data-event,"USER_SEND_FORM_")]'
     # order item page
     FIELD_FIRST_COUNT = By.NAME, 'count1'
